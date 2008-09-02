@@ -2,8 +2,10 @@ import logging
 from lxml import etree
 import time
 import datetime
+from pylons import config
 
 from yap.lib.base import *
+from atomisator.main.config import AtomisatorConfig
 
 log = logging.getLogger(__name__)
 
@@ -11,9 +13,10 @@ class FrontController(BaseController):
 
     def index(self):
         
+        parser = AtomisatorConfig(config.get('atomisator.file'))
+         
         # to export as configuration
-        xml = '/Volumes/MacDev/svn.afpy.org/atomisator.afpy.org/buildout/afpy.xml'
-        
+        xml = parser.file
         doc = etree.XML(open(xml).read())
         items = doc.xpath('/rss/channel/item')
        
