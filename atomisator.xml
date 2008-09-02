@@ -1,0 +1,3177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<channel>
+<title><![CDATA[Planet Afpy]]></title>
+<description><![CDATA[Le planet de l'Association Python Francophone]]></description>
+<link>http://www.afpy.org/planet/</link>
+<language>en</language>
+<copyright>Copyright 2008, Atomisator</copyright>
+<pubDate>Sat, 15 Mar 2008 00:15:05 +0200</pubDate>
+<lastBuildDate>Sat, 15 Mar 2008 00:15:05 +0200</lastBuildDate>
+  <item>
+    <title><![CDATA[[No] Mange-fric solaire]]></title>
+    <description><![CDATA[<p>À Bayonne, depuis peu, on a vu apparaître de nouveaux horodateurs. Et attention, pas de la daube, hein ? La même couleur vert-forêt que les précédents, mais d'une minceur à toute épreuve. Fins, élancés...
+</p>
+<p> <img src="http://farm4.static.flickr.com/3192/2806477420_20f34e4390.jpg" alt="Mange-fric sous le soleil" /> 
+</p>
+<p>Bon, l'ingénieur en charge de l'ergonomie et du design a dû se faire mal aux cheveux en fabriquant cette interface...
+</p>
+<p> <img src="http://farm3.static.flickr.com/2180/2805622139_ff09e3fa6b.jpg" alt="Ergonomie" /> 
+</p>
+<p>C'est simple et compliqué à la fois. Y'a des icônes dont on ne comprend pas ce que ça veut dire et y'a aucun texte explicatif. Évidemment qu'on peut pas expliquer en texte. Parce que si on commence avec le français, on est obligé de rajouter le basque, l'espagnol, l'anglais, et le gascon, par dessus-le marché. Et là, ça rentre pas. Les icônes ont bien l'air de parler de piécettes, puis d'un bouton machin-chose, et après, y'a l'icône qui dit rien à personne. Ah. Bon. Ben en demandant des explications, il s'agit du ticket qu'on se doit de remettre en évidence sous le pare-brise.
+</p>
+<p>C'est beau la technique. Moi j'étais fier d'expliquer aux vacanciers que non, ils n'avaient pas besoin de retourner à leur voiture. L'ancien système, c'était : je tape mon immatriculation, je mets les sous, et terminé. Pas besoin de refaire à pinces le chemin en sens inverse pour re-repartir ensuite vers sa destination finale... M'enfin maintenant, puisque c'est le progrès, on revient à la bonne vieille méthode du ticket qui s'imprime et qui se glisse en évidence cent mètres plus loin.
+</p>
+<p>À part ça, il paraît que c'est écolo, cet horodateur... Si si... Solaire, qu'il est. J'entends déjà les moqueries. Un horodateur <em>solaire</em>. Au Pays Basque... Une vraie provocation pour les nuages, qui s'en donnent à coeur joie depuis le début de l'été pour masquer le machin jaune supposé réchauffer le sol qui réchaufferait l'air bien gentiment par la suite. Ben non. Solaire, je te dis. Et en plus, ça marche... Enfin, quand ça plante pas. Parce que j'ai entendu pas mal de gens se plaindre que le système a des ratées. On ne peut pas trop le blâmer. C'est normal, on a toujours une période de débogage avant de balancer les prunes à tour de bras.
+</p>
+<p>N'empêche qu'on notera un petit paradoxe : c'est écolo parce que ça fonctionne au solaire, et en même temps, on t'oblige à imprimer un petit ticket <em>indispensable</em> et à durée de vie très limitée. Donc, l'écologie, mouaif. Si on avait gardé le principe du &quot;je rentre mon immatriculation et pas besoin de ticket&quot;, on aurait gagné à ne pas progresser.
+</p>
+<p>En revanche, il y a une manoeuvre qui ne trompe pas. L'arrivée de ces nouveaux horodateurs &quot;plus modernes tu meurs&quot; coïncide très exactement avec la disparition de la sacro-sainte &quot;demi-heure gratuite&quot;. Quand j'ai emménagé sur Bayonne, je me réjouissais de voir autant de parcs de stationnement gratuits ou à tarif relativement modique. Et je me réjouissais encore plus qu'on puisse obtenir une demi-heure gratuite de stationnement à tout moment de la journée, pour une course, un saut, une commission vite-faite-bien-faite. Je me réjouissais derechef en sachant qu'entre midi et 14h, le stationnement était gratuit, et qu'on pouvait se garer tranquillement à proximité d'un restaurant du centre, déguster la bonne cuisine bayonnaise en prenant son temps, et repartir sans se faire trop mal au portefeuille.
+</p>
+<p>Aujourd'hui, l'addition devient de plus en plus salée. Les plats coûtent 2 ou 3 EUR de plus, et si tu fais longue table, tu peux prendre une prune de 11 EUR. Plus de stationnement gratuit le midi. Plus de demi-heure gratuite en journée. Plus ou <a href="http://jehaisleprintemps.net/blog/fr/2005/01/07/lettre-ouverte-au-maire-de-bayonne/">presque plus de parc de stationnement gratuit</a>. La vache à lait est rentrée à l'étable. On alimente les caisses au solaire.
+</p>
+<p>C'est marrant, ça. Le fait que ces nouveaux parcmètres coïncident justement avec les nouveaux tarifs.
+</p>
+<p>C'est marrant, ça. Le fait que ces nouveaux mange-fric solaires aient été installés <strong>après</strong> l'élection de M. Jean Grenet, et pas avant.
+</p>
+<p>C'est marrant, hein ?
+</p>]]></description>
+    <link><![CDATA[http://jehaisleprintemps.net/blog/fr/2008/08/28/mange-fric-solaire/]]></link>
+    <pubDate>2008-08-28 16:41:40</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[[Gawel] Upload de fichiers et WSGI]]></title>
+    <description><![CDATA[<p>Je viens de releaser <a class="reference" href="http://pypi.python.org/pypi/gp.fileupload/">gp.fileupload</a> 0.5 qui fournis un ensemble de middlewares
+<a class="reference" href="http://wsgi.org/wsgi/">WSGI</a> pour gérer l'upload de fichiers.</p>
+<div class="section">
+<h1><a id="premi-re-utilit-afficher-une-barre-de-progression" name="premi-re-utilit-afficher-une-barre-de-progression">Première utilité: afficher une barre de progression</a></h1>
+<p>Et ceci de manière quasi transparente. On colle le <cite>gp.fileupload.FileUpload</cite>
+dans sa pile d'application et zou; les formulaire pourvu d'un
+<cite>enctype=multipart/form-data</cite> sont attraper au vol par du javascript et une
+barre de progression s'affiche à la soumission du formulaire. Il y a une petite
+<a class="reference" href="http://www.gawel.org/docs/gp.fileupload/demo.html">démo</a> (et une belle doc Sphinx) disponible pour les curieux.</p>
+</div>
+<div class="section">
+<h1><a id="deuxi-me-utilit-limiter-le-temps-des-transactions" name="deuxi-me-utilit-limiter-le-temps-des-transactions">Deuxième utilité: limiter le temps des transactions</a></h1>
+<p>En général, on ouvre une transaction, on attends 3 heures qu'un  fichier de
+300Mo arrive, on se choppe 40 conflits au vol, et avec un peu de chance, la
+transaction aboutit.</p>
+<p><cite>gp.fileupload.Storage</cite> catch les requêtes <cite>POST</cite> et attends d'avoir lu tout
+son contenu.</p>
+<p>Le contenu de la requête est parsé pour en extraire les fichiers qui sont écrit
+sur le système de fichier dans un répertoire défini.</p>
+<p>La requête originale est récrite en remplaçant le contenu original de chaque
+fichier trouvé par son chemin sur le système de fichier.</p>
+<p>C'est seulement ensuite que l'application à la main, avec un <cite>POST</cite> qui ne
+dépassera pas le kilo octet. Ainsi le fichier est déjà stocké et la durée de la
+transaction minimale.</p>
+<p>Une option encore pas trop testée permet de desservir toutes les requêtes non
+<cite>text/html</cite> depuis le middleware. Une fois que j'aurais un peu mieux testé ce
+machin, l'utilisation de ce middleware pourra devenir totalement transparente
+pour l'application.</p>
+<p>Je n'ai rien inventé. C'est un système similaire à <a class="reference" href="http://pypi.python.org/pypi/tramline">tramline</a>. Peut être moins
+optimal car <a class="reference" href="http://pypi.python.org/pypi/tramline">tramline</a> utilise <a class="reference" href="http://www.modpython.org/">mod_python</a> et est donc totalement indépendant du
+processus de l'application. Mais bon, je penses que c'est à la fois plus
+simple d'utilisation (car cela ne nécessite pas Apache et mod_python,
+justement) et plus transparent pour l'application.</p>
+<!-- Links -->
+<!-- - - - - - -->
+</div>]]></description>
+    <link><![CDATA[http://www.gawel.org/weblog/2008/08/wsgi-file-upload]]></link>
+    <pubDate>2008-08-28 13:36:00</pubDate>
+    <category>wsgi</category>
+    <category>python</category>
+  </item>
+  <item>
+    <title><![CDATA[[No] Cahier de rentrée 2008-2009]]></title>
+    <description><![CDATA[<p>Cahiers, stylos, claviers, souris, navigateurs, gommes, règles... Tout est prêt ? Alors je te prie de noter dans la marge la date et l'heure du devoir surveillé destiné à évaluer ton niveau en blogs et blogueries :
+</p>
+<p> <strong>jeudi 28 août 2008, vers les 19h30, en la Taverne de l'Atalante</strong> 
+</p>
+<p>Et sachez qu'à moins d'un mot dûment signé, la réservation est <strong>OBLIGATOIRE</strong>, sous peine de recevoir un avertissement et deux heures de colles. Pour réserver, il suffit d'appeler (le jour même) le cinéma au : <em>05 59 55 76 63</em> et de bien spécifier que c'est pour le &quot;rendez-vous des blogueurs&quot;.
+</p>
+<p>A tes carnets !
+</p>]]></description>
+    <link><![CDATA[http://jehaisleprintemps.net/blog/fr/2008/08/25/cahier-de-rentree-2008-2009/]]></link>
+    <pubDate>2008-08-25 16:42:49</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[[Haypo] Déboguer un programme Python avec gdb]]></title>
+    <description><![CDATA[Python est un langage interprété par une machine virtuelle appelée CPython. Dumoins, CPython est l'implémentation de référence, il en existe d'autres moins répendues (PyPy, Jython, IronPython, etc.). Pour ceux qui ne le savent pas encore, CPython est écrit en langage C. Lorsque CPython plante (« Fatal error: ... », erreur de segmentation ou autre), il est difficile de connaître les raisons du plantage. Ce billet devrait vous éclairer un peu si vous en êtes arrivé à passer par gdb pour déboguer Python.]]></description>
+    <link><![CDATA[http://www.haypocalc.com/blog/index.php/2008/08/22/160-deboguer-programme-python-avec-gdb]]></link>
+    <pubDate>2008-08-21 23:08:10</pubDate>
+    <category>Python</category>
+  </item>
+  <item>
+    <title><![CDATA[[Delicious] Django Book (FR)]]></title>
+    <description><![CDATA[<div>Extract from link :</div> <p>...Django 
+
+7 Août 2008
+ Chapitre 2: Prise en main 
+
+7 Août 2008
+ Chapitre 3: Les bases des pages web dynamiques 
+
+7 Août 2008
+ Chapitre 4: Le système de gabarit de Django 
+
+7 Août 2008
+ Chapitre 5: Interagir avec une base de données: les modèles 
+
+7 Août 2008
+ Chapitre 6: Le site d ' administration de Django 
+
+7 Août 2008
+ Chapitre 7: Utilisation des formulaires 
+
+7 Août 2008
+ Chapitre 8: Vues et URLconfs avancés 
+
+7 Août 2008
+ Chapitre 9: Vues génériques 
+
+5 Août 2008
+ Chapitre 10:...</p><br/>.]]></description>
+    <link><![CDATA[http://djangobook.zindep.com/1.0/]]></link>
+    <pubDate>2008-08-21 19:30:08</pubDate>
+    <category>django python fr</category>
+  </item>
+  <item>
+    <title><![CDATA[[Delicious] Conférence Pycon Fr 2008 - Apprenez d'abord le python]]></title>
+    <description><![CDATA[<div>Extract from link :</div> <p>... 
+ 
+
+
+
+
+
+
+
+
+ Connexion 
+
+
+
+
+
+
+
+ConfÃ©rence Pycon Fr 2008 - Apprenez d ' abord le python
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DÃ©tails
+
+Commentaires
+
+D'autres vidÃ©os de cet utilisateur
+
+
+
+
+ 
+ConfÃ©rence Pycon Fr 2008 - Apprenez d ' abord le python
+
+- 29 mn
+ - 26 mai 2008
+ 
+ 
+ 
+
+() 
+
+NoteÂ :
+
+
+ 
+ 
+ConfÃ©rence Pycon Fr 2008 - Apprenez d ' abord le python
+ 
+ 
+
+
+ 
+ 
+ TÃ©lÃ©charger - iPod/PSP | 
+ IntÃ©grer dans un site 
+ 
+Lancement du tÃ©lÃ©chargement.  Enregistrez  le fichier sur votre ordinateur. Si le tÃ©lÃ©chargement n...</p><br/>.]]></description>
+    <link><![CDATA[http://video.google.com/videoplay?docid=-2884501541077753488&hl=fr]]></link>
+    <pubDate>2008-08-19 23:33:48</pubDate>
+    <category>learning python fr</category>
+  </item>
+  <item>
+    <title><![CDATA[[Afpy News] Réunion mensuelle Paris 30 aout 2008]]></title>
+    <description><![CDATA[Comme chaque mois, la réunion mensuelle AFPy sur Paris.]]></description>
+    <link><![CDATA[http://www.afpy.org/Members/sdouche/rm-200808]]></link>
+    <pubDate>2008-08-17 05:21:18</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[[No] Ouverture de BeerOverIp]]></title>
+    <description><![CDATA[<p>Matthew Walster, alias dotwaffle avait <a href="http://twitter.com/dotwaffle/statuses/886306622">touité ceci</a>:
+</p>
+<blockquote><p>Opsview_IRC++ Big help guys, thanks! Now, there ought to be a site for BeerOverIP - Scred? 
+</p>
+</blockquote><p>Il était apparemment content de l'aide apportée par le channel IRC <code>opsview</code>, et il se demande <q>ne devrait-il pas y avoir un site pour le protocole BeerOverIP (Bière sur IP) ?</q> 
+</p>
+<p>Ce qui m'a fait bondir sur mon clavier et créer en un temps record (c'est donc très sale au point de vue HTML) : <a href="http://beeroverip.org">Beer Over IP</a>.
+</p>
+<p>À présent, si tu veux offrir une bière via le web, tu peux.
+</p>
+<p>TODO:
+</p>
+<ul>
+ <li>
+     pouvoir choisir le type de bière (beeroverip.org/stout, beeroverip.org/lager, beeroverip.org/blonde). Pour la marque de bière, j'y crois pas trop, je pense pas pouvoir disposer d'images libres de droit.
+ </li>
+
+ <li>
+     ajouter une forme d'internationalisation qui change la langue d'affichage en fonction du navigateur.
+ </li>
+
+ <li>
+     vérifier que tout ceci est conforme à la loi Évin (hem... je doute).
+ </li>
+</ul>]]></description>
+    <link><![CDATA[http://jehaisleprintemps.net/blog/fr/2008/08/13/ouverture-de-beeroverip/]]></link>
+    <pubDate>2008-08-13 17:36:48</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[[No] Annonce : ch. dév. web django]]></title>
+    <description><![CDATA[<p>On pensait que la saison avait un fort <em>impact</em> sur le recrutement, mais il arrive qu'on soit détrompé.
+</p>
+<p>La société pour laquelle je travaille, <a href="http://www.interfaceip.com/">Interface IP</a>, cherche à recruter un développeur web &quot;agile&quot;. Nous travaillons quasi-exclusivement en utilisant le framework web Django, et c'est en priorité ce type de profil que nous recherchons, mais nous n'excluons pas d'étudier les candidatures de développeurs ayant suffisamment de curiosité intellectuelle pour avoir envie de découvrir de nouvelles technologies...
+</p>
+<p>La curiosité c'est bien, mais l'expérience, c'est encore mieux : évidemment, il faut posséder une bonne culture Web et maîtriser au moins un framework web de type MVC (rails, symfony, turbogears, <strong>DJANGO</strong>) mettra ton CV sur le dessus de la pile. Si en plus tu es familier d'un gestionnaire de révisions (mercurial, bzr, git, svn...) et que tu pratiques le développement dirigé par les tests (TDD), alors c'est le summum.
+</p>
+<p>Notre société est basée à Bayonne, France, et si nous acceptons une dose de télétravail,
+   il est plus facile pour nous d'avoir quelqu'un sur place.
+</p>
+<p>Contacter Sébastien Guibert, en adressant CV + petit mot gentil à <strong>recrutement arobase interfaceip point fr</strong> 
+</p>
+<p> <small>(il n'est pas nécessaire de parler basque pour répondre à l'annonce)</small> 
+</p>]]></description>
+    <link><![CDATA[http://jehaisleprintemps.net/blog/fr/2008/08/12/annonce-ch-dv-web-django/]]></link>
+    <pubDate>2008-08-12 09:26:39</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[[Afpy News] Le manuel d'utilisation Plone 3 en français !]]></title>
+    <description><![CDATA[Plone 3 est disponible depuis 1 an. Aujourd'hui, c'est son manuel utilisateur qui est disponible... en français !]]></description>
+    <link><![CDATA[http://www.afpy.org/Members/pilotsystems/manuel-utilisateur-plone3]]></link>
+    <pubDate>2008-08-12 03:02:18</pubDate>
+    <category>A la une</category>
+  </item>
+  <item>
+    <title><![CDATA[[Delicious] La liste des applications/lib utiles pour un nouveau projet Django - Keep Da Link]]></title>
+    <description><![CDATA[<div>Extract from link :</div> <p>...nouveau projet Django 
+ By AkH    on Tuesday, December  4 2007, 15:02        -  Dev 
+        -  Permalink 
+ 
+  django 
+
+ Beaucoup d'outils facilitent la création d'un nouveau site web codé en Django: 
+
+
+
+ django-tagging  Vous permet d'appliquer des tags à tous les objets de votre  application. Exemples 
+ django-voting  permet de comptabiliser des votes sur n'importe quel objet de votre model,  fournit des template tags 
+ django-openid  Ajoute l'authentification Openid à votre site 
+ django-r...</p><br/>.]]></description>
+    <link><![CDATA[http://kdl.nobugware.com/post/2007/12/04/La-liste-des-applications/lib-utiles-pour-un-nouveau-projet-Django]]></link>
+    <pubDate>2008-08-11 11:23:48</pubDate>
+    <category>apps django fr libs python</category>
+  </item>
+  <item>
+    <title><![CDATA[[No] Back from Dax]]></title>
+    <description><![CDATA[<p>Je suis donc allé hier soir à l'observatoire de Dax, sous un ciel splendide, d'une stabilité tout à fait correcte compte tenu des conditions qui avaient précédé.
+</p>
+<p>Une bonne soixantaine de visiteurs ce soir-là, avec deux télescopes en batterie pour une jolie petite séance d'observation. Les étoiles filantes ont évidemment donné lieu à des &quot;OH !&quot; et des &quot;AH !&quot; (ainsi que des &quot;oh, zût, je l'ai encore loupée&quot;). Note aux gens : les étoiles filantes, on en voit toute l'année. Des fois, c'est même des vraies pluies qui peuvent éclairer &quot;comme en plein jour&quot;. Pour ma part, je n'ai jamais fait de sortie astronomique sans en voir. Il suffit donc de sortir des villes à la pollution lumineuse suffocante et de regarder sans se faire mal au cou la partie ouest-nord-ouest du ciel. Bref.
+</p>
+<p>Ai revu avec plaisir l'ami HFOSAF. C'est étrange, on se voit une fois l'an, et c'est comme si on s'était quittés la veille... à part que le temps de se dire &quot;bonjour&quot;, et on a déjà passé 7 heures à raconter des conneries. C'est d'ailleurs à cause de cette étrange distortion spatio-temporelle que je me suis retrouvé au lit vers 8h du mat', et debout trop tôt.
+</p>
+<p>Là, dodo.
+</p>
+<p> <em>Note :</em> 
+</p>
+<p>J'avais pris le D70, comme pour voir ce que ça pouvait donner de faire des photos de nuit sans utiliser de flash. Mouais bon... Ça bouge, c'est flou, sombre, sans détail. Mais des fois, on a des belles surprises. La prochaine fois, je viens avec un trépied.
+</p>
+<p> <img src="http://farm4.static.flickr.com/3157/2747085561_56b62b8acd.jpg" alt="Lunes et feuillages" /> 
+</p>
+<p> <a href="http://www.flickr.com/photos/brunobord/sets/72157606633636570/">Album &quot;Nuit des étoiles 2008 - Dax&quot;</a> 
+</p>]]></description>
+    <link><![CDATA[http://jehaisleprintemps.net/blog/fr/2008/08/10/back-from-dax/]]></link>
+    <pubDate>2008-08-09 22:22:45</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[[No] Dax is back]]></title>
+    <description><![CDATA[<p>Ce soir, j'irai à Dax.... non non non non, je ne suis pas subitement devenu amateur des fêtes de Dax ou autres machins en blanc et rouge. Il se trouve que c'est la Nuit de Étoiles, et connaissant bien la bonne réputation de l'observatoire, et avec la quasi certitude d'y retrouver <a href="http://www.astrosurf.com/hfosaf/">de vieux copains</a>, c'est certainement le lieu idéal.
+</p>
+<p>Même si le temps est incertain. Y'a toujours des totoches au frais et du café au chaud, alors...
+</p>]]></description>
+    <link><![CDATA[http://jehaisleprintemps.net/blog/fr/2008/08/08/dax-back/]]></link>
+    <pubDate>2008-08-08 17:02:44</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[[No] Pyroom 0.3]]></title>
+    <description><![CDATA[<p>Ce n'est pas pour que j'y sois pour grand-chose, en fait tout le mérite vient essentiellement à Florian Heinle (<a href="https://edge.launchpad.net/~tiax">alias tiax</a>), ainsi que d'autres membres de l'équipe de développement de PyRoom, qui ont consciencieusement travaillé à faire progresser cet outil libre.
+</p>
+<p>PyRoom est disponible en version 0.3 depuis <a href="http://pyroom.org/">le (tout nouveau tout beau) site internet pyroom.org</a>. Le paquetage pour Debian / Ubuntu devrait bientôt être disponible.
+</p>
+<p>PyRoom est un éditeur de texte plein-écran, monochrome. Comme l'application prend tout l'écran, et qu'elle dispose des &quot;gadgets&quot; minimum, elle élimine les distractions et l'utilisateur peut se concentrer sur son travail essentiel, écrire.
+</p>
+<p>PyRoom est entièrement conçu en Python / GTK et est distribué selon les termes de la licence GPL v3.
+</p>]]></description>
+    <link><![CDATA[http://jehaisleprintemps.net/blog/fr/2008/08/08/pyroom-03/]]></link>
+    <pubDate>2008-08-08 16:15:16</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[[Delicious] Le langage de template Django : Pour les auteurs de templates " Django, Traduction, Web Frameworks " Journal " Biologeek, l'avis d'un freelance passionné par le web et son évolution.]]></title>
+    <description><![CDATA[<div>Extract from link :</div> <p>... Si vous avez déjà utilisé un autre
+langage de template, comme  Smarty  ou  CheetahTemplate , vous n'aurez aucune
+difficulté à adopter les templates Django....</p><br/>.]]></description>
+    <link><![CDATA[http://www.biologeek.com/django,traduction,web-frameworks/le-langage-de-template-django-pour-les-auteurs-de-templates/]]></link>
+    <pubDate>2008-08-08 12:55:11</pubDate>
+    <category>django python web web-frameworks didacticiels fr templates</category>
+  </item>
+  <item>
+    <title><![CDATA[[Delicious] Rédaction de votre première appli Django, partie 4 : Conception d'un formulaire et vues génériques " Django, Traduction, Web Frameworks " Journal " Biologeek, l'avis d'un freelance passionné par le web et son évolution.]]></title>
+    <description><![CDATA[<div>Extract from link :</div> <p>... Nous continuons notre
+application de sondage en ligne et allons nous intéresser à la génération d'un
+formulaire simple et au ré-arrangement de notre code....</p><br/>.]]></description>
+    <link><![CDATA[http://www.biologeek.com/django,traduction,web-frameworks/redaction-de-votre-premiere-appli-django-partie-4-conception-d-un-formulaire-et-vues-generiques/]]></link>
+    <pubDate>2008-08-08 12:55:03</pubDate>
+    <category>django python web web-frameworks didacticiels fr</category>
+  </item>
+  <item>
+    <title><![CDATA[[Delicious] Rédaction de votre première appli Django, partie 3 : Création des vues de l'interface publique " Django, Traduction, Web Frameworks " Journal " Biologeek, l'avis d'un freelance passionné par le web et son évolution.]]></title>
+    <description><![CDATA[<div>Extract from link :</div> <p>... Nous continuons
+l'application Web de sondage et allons nous focaliser sur la création
+d'interfaces publiques -- les « vues »....</p><br/>.]]></description>
+    <link><![CDATA[http://www.biologeek.com/django,traduction,web-frameworks/redaction-de-votre-premiere-appli-django-partie-3-creation-des-vues-de-l-interface-publique/]]></link>
+    <pubDate>2008-08-08 12:54:58</pubDate>
+    <category>django python web web-frameworks didacticiels fr</category>
+  </item>
+  <item>
+    <title><![CDATA[[Delicious] Rédaction de votre première appli Django, partie 2 : Exploration de l'interface d'admin auto-générée " Django, Traduction, Web Frameworks " Journal " Biologeek, l'avis d'un freelance passionné par le web et son évolution.]]></title>
+    <description><![CDATA[<div>Extract from link :</div> <p>... Nous continuons
+l'application de sondage Web et allons nous focaliser sur le site
+d'administration généré automatiquement par Django....</p><br/>.]]></description>
+    <link><![CDATA[http://www.biologeek.com/django,traduction,web-frameworks/redaction-de-votre-premiere-appli-django-partie-2-exploration-de-l-interface-d-admin-auto-generee/]]></link>
+    <pubDate>2008-08-08 12:54:54</pubDate>
+    <category>django python web web-frameworks didacticiels fr</category>
+  </item>
+  <item>
+    <title><![CDATA[[Delicious] Rédaction de votre première appli Django, partie 1 : Initialisation, création des modèles et API de la base de données " Django, Traduction, Web Frameworks " Journal " Biologeek, l'avis d'un freelance passionné par le web et son évolution.]]></title>
+    <description><![CDATA[<div>Extract from link :</div> <p>... 
+ Cela consistera en deux parties: 
+
+
+Un site public qui permet aux internautes de voir les sondages et de
+voter.
+Un site d'administration qui vous permet d'ajouter, modifier et supprimer
+un sondage.
+
+
+ Nous considèrerons que vous avez déjà  Django d'installé . Vous pouvez tester
+si Django est installé en lançant l'interpréteur interactif Python et en tapant
+import django. Si cette commande s'exécute sans erreur, c'est que Django est
+bien installé....</p><br/>.]]></description>
+    <link><![CDATA[http://www.biologeek.com/django,traduction,web-frameworks/redaction-de-votre-premiere-appli-django-partie-1-initialisation-creation-des-modeles-et-api-de-la-base-de-donnees/]]></link>
+    <pubDate>2008-08-08 12:54:50</pubDate>
+    <category>django python web web-frameworks didacticiels fr</category>
+  </item>
+  <item>
+    <title><![CDATA[[Delicious] Python ou rien - Haypo]]></title>
+    <description><![CDATA[<div>Extract from link :</div> <p>...Python ou rien 
+
+ Un article de Haypo. 
+
+Aller à :  Navigation ,  Rechercher  
+   Retour aux langages de programmation 
+ Ce document se veut être un document concis expliquant pourquoi  Python  est un langage surpuissant :-) (rien que ça !)
+ 
+ Sommaire 
+
+ 1 Structures de données 
+ 2 Générateur et boucle « pour chaque » 
+ 3 Langage dynamique 
+
+ 3.1 Introspection 
+ 3.2 Typage dynamique 
+
+
+ 4 Surchage d'opérateur 
+ 5 Comparatif avec d'autres langages 
+
+ 5.1 Comparatif avec le C++ 
+ 5.2 Com...</p><br/>.]]></description>
+    <link><![CDATA[http://www.haypocalc.com/wiki/Python_ou_rien]]></link>
+    <pubDate>2008-08-07 08:11:17</pubDate>
+    <category>python haypo fr</category>
+  </item>
+  <item>
+    <title><![CDATA[[Delicious] ★ Bonnes pratiques de la programmation en Python " Bonnes Pratiques, Python " Journal " Biologeek, l'avis d'un freelance passionné par le web et son évolution.]]></title>
+    <description><![CDATA[<div>Extract from link :</div> <p>... bref je viens de tomber sur  deux   billets  qui m'ont motivé, apparemment je suis pas le seul à vouloir apprendre/faire partager sur Python. Coïncidence pas si pure que ça, la sortie du livre  Programmation Python  que j'attends depuis quelques semaines et que je compte acheter à Solutions Linux  ou gagner  :)...</p><br/>.]]></description>
+    <link><![CDATA[http://www.biologeek.com/bonnes-pratiques,python/bonnes-pratiques-de-la-programmation-en-python/]]></link>
+    <pubDate>2008-08-06 23:35:16</pubDate>
+    <category>python programmation advices fr</category>
+  </item>
+  <item>
+    <title><![CDATA[[Delicious] Optimisation des chaînes de caractères en Python " Bonnes Pratiques, Python " Journal " Biologeek, l'avis d'un freelance passionné par le web et son évolution.]]></title>
+    <description><![CDATA[<div>Extract from link :</div> <p>...des listes ? Et les list-comprehension dans tout ça ? Réponses en tests, c'est plein de strings mais ne vous inquiétez pas, rien de sexuel ;)...</p><br/>.]]></description>
+    <link><![CDATA[http://www.biologeek.com/bonnes-pratiques,python/optimisation-des-chaines-de-caracteres-en-python/]]></link>
+    <pubDate>2008-08-06 23:35:09</pubDate>
+    <category>python programmation advices fr</category>
+  </item>
+  <item>
+    <title><![CDATA[[Delicious] Formatage des chaînes de caractères en Python " Bonnes Pratiques, Python " Journal " Biologeek, l'avis d'un freelance passionné par le web et son évolution.]]></title>
+    <description><![CDATA[<div>Extract from link :</div> <p>...Python ? Privillégier la lisibilité ou l'optimisation ? Les deux mon capitaine !...</p><br/>.]]></description>
+    <link><![CDATA[http://www.biologeek.com/bonnes-pratiques,python/formatage-des-chaines-de-caracteres-en-python/]]></link>
+    <pubDate>2008-08-06 23:35:02</pubDate>
+    <category>python programmation advices fr</category>
+  </item>
+  <item>
+    <title><![CDATA[[Delicious] Optimisation des chaînes de caractères en Python : le retour ! " Bonnes Pratiques, Python " Journal " Biologeek, l'avis d'un freelance passionné par le web et son évolution.]]></title>
+    <description><![CDATA[<div>Extract from link :</div> <p>... Depuis je cogite car il est indiqué un peu partout qu'il faut privillégier les listes. Et j'ai fini par trouver une réponse :-)....</p><br/>.]]></description>
+    <link><![CDATA[http://www.biologeek.com/bonnes-pratiques,python/optimisation-des-chaines-de-caracteres-en-python-le-retour/]]></link>
+    <pubDate>2008-08-06 23:34:56</pubDate>
+    <category>python programmation advices fr</category>
+  </item>
+  <item>
+    <title><![CDATA[[Delicious] Python : lisibilité vs simplicité " Bonnes Pratiques, Python " Journal " Biologeek, l'avis d'un freelance passionné par le web et son évolution.]]></title>
+    <description><![CDATA[<div>Extract from link :</div> <p>... Mais la simplification peut mener à un manque de lisibilité dans certains cas. Un cas intéressant est celui de l'underscore....</p><br/>.]]></description>
+    <link><![CDATA[http://www.biologeek.com/bonnes-pratiques,python/python-et-underscore/]]></link>
+    <pubDate>2008-08-06 23:34:28</pubDate>
+    <category>python programmation fr advices</category>
+  </item>
+  <item>
+    <title><![CDATA[[Delicious] ★ Pourquoi programmer en Python ? " Python " Journal " Biologeek, l'avis d'un freelance passionné par le web et son évolution.]]></title>
+    <description><![CDATA[<div>Extract from link :</div> <p>...Python souffre un peu du manque de promotion. La nouvelle version du site est un premier pas, de  « nouvelles » initiatives  voient le jour (à quand une telle ressource en français ?!) mais peut-être que les blogs sont un des meilleurs moyen de promotion d'un produit actuellement. Voila donc ma participation, ce ne sont pas forcément les arguments que vous pourrez lire ailleurs, nous n'aimons pas forcément tous les mêmes choses pour les mêmes raisons mais ce sont ceux qui me font appré...</p><br/>.]]></description>
+    <link><![CDATA[http://www.biologeek.com/python/pourquoi-programmer-en-python/]]></link>
+    <pubDate>2008-08-06 23:29:06</pubDate>
+    <category>python programmation fr</category>
+  </item>
+  <item>
+    <title><![CDATA[[No] Diversion]]></title>
+    <description><![CDATA[<p>Quand j'entends (ce matin sur I-télé) :
+</p>
+<blockquote><p>le problème numéro 1 de ces Jeux est la pollution
+</p>
+</blockquote><p>pourquoi ai-je l'impression d'y voir un rideau de fumée (huh huh, jeux de mots) ? Le problème numéro 1 des Jeux, ce n'est pas tout à fait autre chose ?
+</p>
+<p>(<a href="http://afp.google.com/article/ALeqM5iozmV4bqll0lvfWU6IYQsr7wzZ6Q">par exemple</a>)
+</p>]]></description>
+    <link><![CDATA[http://jehaisleprintemps.net/blog/fr/2008/08/06/diversion/]]></link>
+    <pubDate>2008-08-06 11:16:12</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[[No] Loin de la fureur]]></title>
+    <description><![CDATA[<p>Samedi, loin de la fureur, en compagnie d'un ami de passage, nous sommes allés faire une petite promenade en altitude, vers un belvédère indiqué dans un de nos guide : celui de Béhorléguy.
+</p>
+<p> <img src="http://farm4.static.flickr.com/3105/2728205686_ece178780d.jpg" alt="La beauté est dans l'oeil du spectateur" />  <br />
+   <a href="http://www.flickr.com/photos/brunobord/sets/72157606515240302/">La suite en images</a> 
+</p>]]></description>
+    <link><![CDATA[http://jehaisleprintemps.net/blog/fr/2008/08/04/loin-de-la-fureur/]]></link>
+    <pubDate>2008-08-04 19:00:38</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[[No] J'ai mauvaise réputation]]></title>
+    <description><![CDATA[<p>Bon, la plaisanterie a assez duré. Après une demi-douzaine de jours de colère et de déchaînements, après avoir été tantôt soutenu, tantôt insulté, je pense qu'il est temps de fermer les commentaires de l'article concernant les fêtes de Bayonne 2008.
+</p>
+<p>J'avais préparé quelques mots rageurs pour enfoncer dans la gorge des trolleurs leur haine et leur intolérance. Je ne les publierai pas. Je préfère me souvenir des commentaires construits, éduqués et équilibrés. Le reste, peuh.
+</p>
+<p>Restent les mots du poète :
+</p>
+<blockquote><p>Non les brav's gens n'aiment pas que  <br />
+   L'on suive une autre route qu'eux,
+</p>
+</blockquote>]]></description>
+    <link><![CDATA[http://jehaisleprintemps.net/blog/fr/2008/08/04/j-ai-mauvaise-reputation/]]></link>
+    <pubDate>2008-08-04 14:47:55</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[[Gawel] Faire du virtualhosting avec zope façon wsgi]]></title>
+    <description><![CDATA[<p>J'en avais ras le bol que <a class="reference" href="http://wiki.zope.org/zope3/Zope3Wiki">Zope</a> nécessite des url complètement tordues pour
+faire du virtual hosting.  Ça m'empêchais entre autre d'utiliser <a class="reference" href="http://pythonpaste.org/modules/urlmap.html">Paste#urlmap</a>
+pour dispatcher certaines url sur d'autres applis que <a class="reference" href="http://wiki.zope.org/zope3/Zope3Wiki">Zope</a>.</p>
+<p>Du coup, j'ai tenté un truc tout con: plutôt que d'utiliser les <cite>RewriteRule</cite>
+d'<a class="reference" href="http://httpd.apache.org/">Apache</a>, récrire le <cite>PATH_INFO</cite> en englobant l'application <a class="reference" href="http://wiki.zope.org/zope3/Zope3Wiki">Zope</a> dans une
+autre. Et ça marche. Fiesta !</p>
+<p>Voilà donc à quoi ça ressemble. J'utilise <a class="reference" href="http://pypi.python.org/pypi/zopeproject">zopeproject</a>. J'ai donc modifier le
+machin qui créer l'application <a class="reference" href="http://wiki.zope.org/zope3/Zope3Wiki">Zope</a>. A savoir le fichier <cite>startup.py</cite> comme
+ceci:</p>
+<div class="highlight"><pre><span class="k">def</span> <span class="nf">application_factory</span><span class="p">(</span><span class="n">global_conf</span><span class="p">,</span> <span class="n">conf</span><span class="o">=</span><span class="s">'zope.conf'</span><span class="p">,</span> <span class="n">vhost</span><span class="o">=</span><span class="s">'www.gawel.org'</span><span class="p">):</span>
+    <span class="n">vhost</span> <span class="o">=</span> <span class="s">'/++vh++http:</span><span class="si">%s</span><span class="s">:80/++'</span> <span class="o">%</span> <span class="n">vhost</span>
+    <span class="n">zopeapp</span> <span class="o">=</span> <span class="n">zope</span><span class="o">.</span><span class="n">app</span><span class="o">.</span><span class="n">wsgi</span><span class="o">.</span><span class="n">getWSGIApplication</span><span class="p">(</span><span class="n">zope_conf</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">zopewrapper</span><span class="p">(</span><span class="n">environ</span><span class="p">,</span> <span class="n">start_response</span><span class="p">):</span>
+        <span class="n">environ</span><span class="p">[</span><span class="s">'PATH_INFO'</span><span class="p">]</span> <span class="o">=</span> <span class="n">vhost</span> <span class="o">+</span> <span class="n">environ</span><span class="p">[</span><span class="s">'PATH_INFO'</span><span class="p">]</span>
+        <span class="k">return</span> <span class="n">zopeapp</span><span class="p">(</span><span class="n">environ</span><span class="p">,</span> <span class="n">start_response</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">zopewrapper</span>
+</pre></div>
+<p>Et hop, ça roule. L'avantage, en plus d'avoir une url propre en entrée, c'est
+que vu que je développe aussi derrière <a class="reference" href="http://httpd.apache.org/">Apache</a>, j'ai juste eu à changer mon
+fichier <cite>debug.ini</cite> pour prendre en compte mon virtual host de développement.</p>
+<p>En fait j'ai fais un peu mieux que tout ça, car comme dit au début, le but
+était d'utiliser <a class="reference" href="http://pythonpaste.org/modules/urlmap.html">Paste#urlmap</a>. La source de la bidouille en question est
+<a class="reference" href="http://www.gawel.org/projects/browser/www.gawel.org/trunk/src/wwwgawelorg/startup.py">ici</a>.</p>
+<p>Aller, pendant que j'y suis, j'en chiais aussi pas mal pour déterminer vers
+quel backend rediriger les requêtes dans <a class="reference" href="http://varnish.projects.linpro.no/">varnish</a>. Tester des <cite>++</cite> dans l'url,
+ça lui plaisait pas du tout. Vu que j'utilise <a class="reference" href="http://httpd.apache.org/">Apache</a> devant (surtout pour
+subversion), j'ai trouvé le truc. Il suffit d'activer le module <cite>headers</cite>:</p>
+<pre class="literal-block">
+# a2enmod headers
+</pre>
+<p>Puis rajouter un truc du genre dans votre virtualhost <a class="reference" href="http://httpd.apache.org/">Apache</a>:</p>
+<pre class="literal-block">
+RequestHeader set VARNISH_BACKEND gawel_org
+</pre>
+<p>Vous l'aurez compris, ceci ajoute un header à la requête. Ensuite, dans
+<a class="reference" href="http://varnish.projects.linpro.no/">varnish</a>, on test ce header:</p>
+<pre class="literal-block">
+if (req.http.VARNISH_BACKEND ~ &quot;gawel_org&quot;) {
+    set req.backend = gawel_org;
+}
+</pre>
+<p>Et le tour est joué. Il faut bien sur que toutes les requêtes entrantes aient
+ce header. Pour moi ce n'est pas un problème vu que tout passe par apache.</p>
+<!-- Links -->
+<!-- - - - - - --><br/><br/>
+<div>
+  <strong>Related</strong>
+  <ul>
+         <li><a href="http://www.gawel.org/weblog/2008/04/svn-le-futur-du-cms">[Gawel] svn: le futur du CMS !!!</a></li>
+
+  </ul>
+</div>
+]]></description>
+    <link><![CDATA[http://www.gawel.org/weblog/2008/07/zope-virtualhosting-the-wsgi-way]]></link>
+    <pubDate>2008-07-25 11:39:00</pubDate>
+    <category>zope3</category>
+    <category>wsgi</category>
+  </item>
+  <item>
+    <title><![CDATA[[Gawel] nose doctest plugin sucks]]></title>
+    <description><![CDATA[<p>En ce moment je bosse sur une application en <a class="reference" href="http://pylonshq.com/">Pylons</a>. J'adore ce petit
+framework, mais y a un truc que je pouvais pas encadrer, c'est de faire des
+tests avec des <cite>TestCase</cite>. Je préfère de loin les <a class="reference" href="http://docs.python.org/lib/module-doctest.html">doctests</a>.</p>
+<p>Me voilà donc partit à la recherche de docs pour pouvoir écrire mes tests comme
+j'aime les écrire. <a class="reference" href="http://pylonshq.com/">Pylons</a> utilise <a class="reference" href="http://pypi.python.org/pypi/nose">nose</a> comme framework de test.  Je découvre
+alors avec joie que <a class="reference" href="http://pypi.python.org/pypi/nose">nose</a> fournit un plugin pour parcourir les <a class="reference" href="http://docs.python.org/lib/module-doctest.html">doctests</a>.
+Chouet !</p>
+<p>Le problème, c'est que ce plugin est carrément rudimentaire. En gros, il choppe
+vos <a class="reference" href="http://docs.python.org/lib/module-doctest.html">doctest</a> et les initialise <strong>ultra</strong> basiquement. Comprendre: impossible de
+passer des options telles que <cite>optionflag</cite>,  <cite>setUp</cite> ou <cite>tearDown</cite>. En bref, ça
+pu. Comment je fais pour initialiser mon framework <a class="reference" href="http://pylonshq.com/">Pylons</a> pour mes tests moi ?
+Hein ?</p>
+<p>J'ai finalement trouvé une solution en surclassant la classe
+<cite>doctest.DocFileCase</cite> afin de faire ce que je veux. Voici le code en question.
+Il suffit de le placer dans le fichier <cite>tests/functional/test_docs.py</cite> de votre
+application <a class="reference" href="http://pylonshq.com/">Pylons</a>:</p>
+<div class="highlight"><pre><span class="c"># -*- coding: utf-8 -*-</span>
+<span class="k">import</span> <span class="nn">os</span>
+<span class="k">import</span> <span class="nn">doctest</span>
+<span class="k">import</span> <span class="nn">mypylonsapp</span>
+<span class="k">from</span> <span class="nn">mypylonsapp.tests</span> <span class="k">import</span> <span class="o">*</span>
+
+<span class="n">optionflags</span> <span class="o">=</span> <span class="p">(</span><span class="n">doctest</span><span class="o">.</span><span class="n">ELLIPSIS</span> <span class="o">|</span>
+               <span class="n">doctest</span><span class="o">.</span><span class="n">NORMALIZE_WHITESPACE</span> <span class="o">|</span>
+               <span class="n">doctest</span><span class="o">.</span><span class="n">REPORT_ONLY_FIRST_FAILURE</span><span class="p">)</span>
+
+<span class="n">dirname</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">mypylonsapp</span><span class="o">.</span><span class="n">__file__</span><span class="p">),</span> <span class="s">'docs'</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">build_testcase</span><span class="p">(</span><span class="n">filename</span><span class="p">):</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">splitext</span><span class="p">(</span><span class="n">filename</span><span class="p">)[</span><span class="mf">0</span><span class="p">]</span>
+    <span class="n">path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">dirname</span><span class="p">,</span> <span class="n">filename</span><span class="p">)</span>
+
+    <span class="k">class</span> <span class="nc">Dummy</span><span class="p">(</span><span class="n">doctest</span><span class="o">.</span><span class="n">DocFileCase</span><span class="p">,</span> <span class="n">TestController</span><span class="p">):</span>
+        <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+            <span class="c"># init pylons stuff</span>
+            <span class="n">TestController</span><span class="o">.</span><span class="n">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+
+            <span class="c"># get tests from file</span>
+            <span class="n">parser</span> <span class="o">=</span> <span class="n">doctest</span><span class="o">.</span><span class="n">DocTestParser</span><span class="p">()</span>
+            <span class="n">doc</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">path</span><span class="p">)</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+            <span class="n">test</span> <span class="o">=</span> <span class="n">parser</span><span class="o">.</span><span class="n">get_doctest</span><span class="p">(</span><span class="n">doc</span><span class="p">,</span> <span class="nb">globals</span><span class="p">(),</span> <span class="n">name</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">path</span><span class="p">,</span> <span class="mf">0</span><span class="p">)</span>
+
+            <span class="c"># init doc test case</span>
+            <span class="n">doctest</span><span class="o">.</span><span class="n">DocFileCase</span><span class="o">.</span><span class="n">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">test</span><span class="p">,</span> <span class="n">optionflags</span><span class="o">=</span><span class="n">optionflags</span><span class="p">)</span>
+
+        <span class="k">def</span> <span class="nf">setUp</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+            <span class="sd">&quot;&quot;&quot;init pylons stuff and make app available in doctest</span>
+<span class="sd">            &quot;&quot;&quot;</span>
+            <span class="n">TestController</span><span class="o">.</span><span class="n">setUp</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+            <span class="n">test</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dt_test</span>
+            <span class="n">test</span><span class="o">.</span><span class="n">globs</span><span class="p">[</span><span class="s">'app'</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">app</span>
+
+        <span class="k">def</span> <span class="nf">tearDown</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+            <span class="sd">&quot;&quot;&quot;cleaning</span>
+<span class="sd">            &quot;&quot;&quot;</span>
+            <span class="n">TestController</span><span class="o">.</span><span class="n">tearDown</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+            <span class="n">test</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dt_test</span>
+            <span class="n">test</span><span class="o">.</span><span class="n">globs</span><span class="o">.</span><span class="n">clear</span><span class="p">()</span>
+
+    <span class="c"># generate a new class for the file</span>
+    <span class="k">return</span> <span class="p">(</span><span class="s">&quot;Test</span><span class="si">%s</span><span class="s">&quot;</span> <span class="o">%</span> <span class="n">name</span><span class="o">.</span><span class="n">title</span><span class="p">(),</span>
+            <span class="nb">type</span><span class="p">(</span><span class="s">'Test</span><span class="si">%s</span><span class="s">Class'</span> <span class="o">%</span> <span class="n">name</span><span class="o">.</span><span class="n">title</span><span class="p">(),</span> <span class="p">(</span><span class="n">Dummy</span><span class="p">,),</span> <span class="nb">dict</span><span class="p">(</span><span class="n">path</span><span class="o">=</span><span class="n">path</span><span class="p">)))</span>
+
+<span class="k">for</span> <span class="n">filename</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">dirname</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">filename</span> <span class="o">==</span> <span class="s">'.svn'</span><span class="p">:</span>
+        <span class="k">continue</span>
+    <span class="n">name</span><span class="p">,</span> <span class="n">klass</span> <span class="o">=</span> <span class="n">build_testcase</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
+    <span class="k">exec</span> <span class="s">&quot;</span><span class="si">%s</span><span class="s"> =  klass&quot;</span> <span class="o">%</span> <span class="n">name</span>
+
+<span class="c"># clean namespace to avoid test duplication</span>
+<span class="k">del</span> <span class="n">build_testcase</span><span class="p">,</span> <span class="n">filename</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">klass</span>
+</pre></div>
+<p>Vous admirerez la ruse qui est de générer une nouvelle classe pour chaque
+fichier trouvé dans le répertoire contenant les <cite>doctests</cite>.</p>
+<p>On peut ensuite créer un fichier texte dans <cite>docs/</cite> et y écrire des tests du
+genre:</p>
+<div class="highlight"><pre><span class="o">&gt;&gt;&gt;</span> <span class="n">response</span> <span class="o">=</span> <span class="n">app</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url_for</span><span class="p">(</span><span class="n">controller</span><span class="o">=</span><span class="s">'main'</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s">&quot;index&quot;</span><span class="p">))</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">print</span> <span class="n">response</span>
+<span class="n">Response</span><span class="p">:</span> <span class="mf">200</span>
+<span class="o">...</span>
+</pre></div>
+<p>Ce qui est tout de même vachement plus convi qu'un test classique.</p>
+<!-- Links -->
+<!-- - - - - - --><br/><br/>
+<div>
+  <strong>Related</strong>
+  <ul>
+         <li><a href="http://www.gawel.org/weblog/2008/06/la-vie-apres-pycon">[Gawel] Il y a de la vie après PyCON !!!</a></li>
+
+     <li><a href="http://www.biologeek.com/python,web-frameworks/developpement-web-python-et-frameworks-tour-d-horizon-debut-2007/">[Biologeek] Développement web python et frameworks, tour d'horizon début 2007</a></li>
+
+  </ul>
+</div>
+]]></description>
+    <link><![CDATA[http://www.gawel.org/weblog/2008/07/nose-doctest-plugin-sucks]]></link>
+    <pubDate>2008-07-17 08:00:00</pubDate>
+    <category>python</category>
+    <category>pylons</category>
+  </item>
+  <item>
+    <title><![CDATA[[Afpy News] RMLL 2008 - On y était !!!]]></title>
+    <description><![CDATA[L'AFPy était présent aux Rencontres Mondiales du Logiciel Libre à Mont-de-Marsan.]]></description>
+    <link><![CDATA[http://www.afpy.org/Members/gawel/news/rmll_2008]]></link>
+    <pubDate>2008-07-13 09:32:57</pubDate>
+    <category>A la une</category>
+  </item>
+  <item>
+    <title><![CDATA[[Haypo] Publication de Fusil le fuzzer version 0.9, fuzzing de CPython et de PyPy]]></title>
+    <description><![CDATA[Fuzzer Python
+
+
+Suite à ma conférence sur l'assurance qualité et fuzzing aux RMLL, je me suis remis à jouer avec mon fuzzer Fusil. Dans le TGV retour, 8h quand même pour rentrer à Strasbourg, j'ai écrit un fuzzer pour le langage Python. L'idée est de récupérer la liste des fonctions,...]]></description>
+    <link><![CDATA[http://www.haypocalc.com/blog/index.php/2008/07/09/155-fusil-fuzzer-version-09-fuzzing-python-pypy]]></link>
+    <pubDate>2008-07-09 11:18:28</pubDate>
+    <category>Python</category>
+  </item>
+  <item>
+    <title><![CDATA[[Afpy News] Sun se rapproche de Python]]></title>
+    <description><![CDATA[Ceci n'est pas un poisson d'avril.]]></description>
+    <link><![CDATA[http://www.afpy.org/Members/lunatik/afpynews.2008-07-09.2934635160]]></link>
+    <pubDate>2008-07-09 02:39:38</pubDate>
+    <category>A la une</category>
+  </item>
+  <item>
+    <title><![CDATA[[Gawel] Packager ses scripts Python]]></title>
+    <description><![CDATA[<p>Bon nombre de gens utilise python pour faire de petits scripts.
+Le problème c'est que pour les distribuer, ensuite, c'est pas le top.</p>
+<p>Heureusement il y a <a class="reference" href="http://docs.python.org/lib/module-distutils.html">distutils</a> !!</p>
+<p><a class="reference" href="http://docs.python.org/lib/module-distutils.html">distutils</a> est un paquet inclus dans les distributions <a class="reference" href="http://python.org">python</a> permettant de
+créer des paquet <a class="reference" href="http://python.org">python</a>.</p>
+<p>Le principe est simple. On englobe un module <a class="reference" href="http://python.org">python</a> dans un paquet contenant
+un fichier <cite>setup.py</cite></p>
+<p>Le plus simple est d'utiliser <a class="reference" href="http://pythonpaste.org/">paste</a> pour créer son paquet. Renseignez bien les information demandées. Elles seront visible si vous décidez de distribuer votre paquet par la suite. Donc:</p>
+<pre class="literal-block">
+$ easy_install -U Paste
+$ paster create monscript
+$ cd monscript
+$ ls
+monscript/ monscript.egg-info/ setup.cfg setup.py
+</pre>
+<p>Ceci nous créer un répertoire <cite>monscript</cite> contenant un <cite>setup.py</cite> et un sous
+répertoire destiné à recevoir le code <a class="reference" href="http://python.org">python</a>.</p>
+<p>Nous devons maintenant créer un point d'entrée pour notre script. Pour cela,
+nous allons modifier <cite>monscript/__init__.py</cite> pour qu'il ressemble à ça:</p>
+<div class="highlight"><pre><span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="k">print</span> <span class="s">'Yeah !'</span>
+</pre></div>
+<p>Ensuite, en modifiant le fichier <cite>setup.py</cite>, nous pouvons associer ce point
+d'entrée à un véritable script qui sera installé à l'installation du paquet.
+Modifiez la section <cite>entry_points</cite> du <cite>setup.py</cite> pour qu'il ressemble à quelque
+chose du  du genre:</p>
+<div class="highlight"><pre><span class="n">entry_points</span><span class="o">=</span><span class="s">&quot;&quot;&quot;</span>
+<span class="s"># -*- Entry points: -*-</span>
+<span class="s">[console_scripts]</span>
+<span class="s">mon_super_script = monscript:main</span>
+<span class="s">&quot;&quot;&quot;</span><span class="p">,</span>
+</pre></div>
+<p>Voilà, le tour est joué. Alors, pourquoi tout cela pour un simple script ?
+C'est simple. Vous pouvez maintenant aisément le distribuer.</p>
+<p>Voici les principales commandes qui vous serons utiles:</p>
+<ul>
+<li><p class="first">créer un tarball:</p>
+<pre class="literal-block">
+$ python setup.py sdist
+</pre>
+</li>
+<li><p class="first">créer un egg:</p>
+<pre class="literal-block">
+$ python setup.py bdist_egg
+</pre>
+</li>
+<li><p class="first">rendre le paquet disponible sur pypi:</p>
+<pre class="literal-block">
+$ python setup.py sdist bdist_egg register upload
+</pre>
+</li>
+</ul>
+<p>Un utilisateur lambda pourra ensuite l'installer simplement:</p>
+<ul>
+<li><p class="first">via le tarball:</p>
+<pre class="literal-block">
+$ wget http://exemple.com/monscript-0.1.tar.gz
+$ tar monscript-0.1.tar.gz
+$ cd monscript
+$ python setup.py install
+</pre>
+</li>
+<li><p class="first">via pypi:</p>
+<pre class="literal-block">
+$ easy_install -U monscript
+</pre>
+</li>
+</ul>
+<p>Moralité, <a class="reference" href="http://docs.python.org/lib/module-distutils.html">distutils</a> rends la vie plus facile.</p>
+<!-- Links -->
+<!-- - - - - - --><br/><br/>
+<div>
+  <strong>Related</strong>
+  <ul>
+         <li><a href="http://www.gawel.org/weblog/2008/06/django-le-wsgi-et-paste">[Gawel] Django, le wsgi et paste: status</a></li>
+
+  </ul>
+</div>
+]]></description>
+    <link><![CDATA[http://www.gawel.org/weblog/2008/07/packager-ses-scripts-python]]></link>
+    <pubDate>2008-07-08 12:08:00</pubDate>
+    <category>python</category>
+    <category>unix</category>
+  </item>
+  <item>
+    <title><![CDATA[[Afpy News] Compte-rendu AFPyro Breizh - Volume 01]]></title>
+    <description><![CDATA[]]></description>
+    <link><![CDATA[http://www.afpy.org/Members/Nightlybuild/Compte-renduAFPyroBreizhvolume01]]></link>
+    <pubDate>2008-06-27 07:35:54</pubDate>
+    <category>A la une</category>
+  </item>
+  <item>
+    <title><![CDATA[[Afpy News] AFPyro de Juin]]></title>
+    <description><![CDATA[Oh chéri(e) chéri(e) !]]></description>
+    <link><![CDATA[http://www.afpy.org/Members/gawel/news/juin_2008]]></link>
+    <pubDate>2008-06-24 06:13:35</pubDate>
+    <category>A la une</category>
+  </item>
+  <item>
+    <title><![CDATA[[Afpy News] bpython - ton nouvel ami le shell]]></title>
+    <description><![CDATA[bpython est un interpréteur python interactif avec complétion automatique, suggestion d'arguments et coloration syntaxique le tout en curses.]]></description>
+    <link><![CDATA[http://www.afpy.org/Members/ogrisel/bpython]]></link>
+    <pubDate>2008-06-16 16:25:26</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[[Gawel] Django, le wsgi et paste: status]]></title>
+    <description><![CDATA[<p>Cette après-midi, j'ai retrouvé mon collègue de geekerie, <a class="reference" href="http://oliviergrisel.name/">Olivier</a>. Pendant que
+lui tentait de faire apprendre à rêver à son cher <a class="reference" href="http://www.dailymotion.com/video/x27vnx_dr-gumby-ia-avec-scientific-python">Dr Gumby</a>,
+je me suis atteler à faire fonctionner <a class="reference" href="http://www.djangoproject.com/">django</a> avec <a class="reference" href="http://pythonpaste.org/">paste</a>. Pas une mince
+affaire à priori. J'avais vu une tentative pour faire un <a class="reference" href="http://pythonpaste.org/djangopaste/">paste.django</a> qui
+semblait évoluer péniblement. Mais bon, je suis plein de courage.</p>
+<p>J'ai finalement été assez surpris. Déjà, on trouve dans le trunk de <a class="reference" href="http://www.djangoproject.com/">django</a> un
+<a class="reference" href="http://code.djangoproject.com/browser/django/trunk/django/core/handlers/wsgi.py">WSGIHandler</a>. C'est la fête ! Il ne reste plus qu'as l'associer à <a class="reference" href="http://pythonpaste.org/">paste</a>. Bon,
+je me lance.</p>
+<p>La première chose que j'ai faites a été de transformer l'application en egg. Je comprends pas que ce ne soit pas fait de fait dans la template <a class="reference" href="http://www.djangoproject.com/">django</a>... Soit, un simple <a class="reference" href="https://svn.afpy.org/misc/jobs.afpy.org/trunk/setup.py">setup.py</a> et mon application peut-être intégrée dans mon <a class="reference" href="https://svn.afpy.org/misc/wsgi.afpy.org/">buidlout</a>.</p>
+<p>Ensuite, première tentative pour utiliser ce précieux handler: créer une usine qui renvois le <a class="reference" href="http://code.djangoproject.com/browser/django/trunk/django/core/handlers/wsgi.py">WSGIHandler</a> tel quel. Échec.
+Forcément, <a class="reference" href="http://www.djangoproject.com/">django</a> attends son fameux module de <cite>settings</cite>. Soit, avec un peu de
+chance, en le plaçant dans l'environ utilisé par l'usine, on vas y arriver.
+Re-échec.</p>
+<p>Pourquoi ? Tout bêtement parce que <a class="reference" href="http://www.djangoproject.com/">django</a> vas chercher cette valeur dans
+os.environ. Et là, c'est le drame. Enfin non, c'est à moitié le drame. En
+effet, en initialisant correctement la variable qui vas bien, on arrive
+finalement à utiliser ce handler.</p>
+<p>Second problème, les url générées par l'application sont toutes erronées. En
+effet, un <a class="reference" href="http://code.djangoproject.com/ticket/1516">bug</a> fait que <a class="reference" href="http://www.djangoproject.com/">django</a> ne tiens pas compte de la variable
+<cite>SCRIPT_NAME</cite>. C'est bien dommage, mais un bon vieux hack permet de fixer le
+problème relativement facilement. Il suffit d'initialiser le <cite>PATH_INFO</cite> en le
+précédent du <cite>SCRIPT_NAME</cite> et le tour est joué.</p>
+<p>Voici le résultat:</p>
+<div class="highlight"><pre><span class="c"># -*- coding: utf-8 -*-</span>
+<span class="k">import</span> <span class="nn">os</span>
+<span class="k">from</span> <span class="nn">paste.deploy.config</span> <span class="k">import</span> <span class="n">ConfigMiddleware</span>
+<span class="k">from</span> <span class="nn">django.core.handlers.wsgi</span> <span class="k">import</span> <span class="n">WSGIHandler</span>
+
+<span class="k">def</span> <span class="nf">factory</span><span class="p">(</span><span class="n">global_config</span><span class="p">,</span> <span class="o">**</span><span class="n">local_config</span><span class="p">):</span>
+  <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s">'DJANGO_SETTINGS_MODULE'</span><span class="p">]</span> <span class="o">=</span> <span class="s">'jobsafpyorg.settings'</span>
+  <span class="n">conf</span> <span class="o">=</span> <span class="n">global_config</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+  <span class="n">conf</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="o">**</span><span class="n">local_config</span><span class="p">)</span>
+  <span class="n">app</span> <span class="o">=</span> <span class="n">ConfigMiddleware</span><span class="p">(</span><span class="n">WSGIHandler</span><span class="p">(),</span> <span class="n">conf</span><span class="p">)</span>
+  <span class="k">def</span> <span class="nf">django_app</span><span class="p">(</span><span class="n">environ</span><span class="p">,</span> <span class="n">start_response</span><span class="p">):</span>
+    <span class="n">environ</span><span class="p">[</span><span class="s">'PATH_INFO'</span><span class="p">]</span> <span class="o">=</span> <span class="n">environ</span><span class="p">[</span><span class="s">'SCRIPT_NAME'</span><span class="p">]</span> <span class="o">+</span> <span class="n">environ</span><span class="p">[</span><span class="s">'PATH_INFO'</span><span class="p">]</span>
+    <span class="k">return</span> <span class="n">app</span><span class="p">(</span><span class="n">environ</span><span class="p">,</span> <span class="n">start_response</span><span class="p">)</span>
+  <span class="k">return</span> <span class="n">django_app</span>
+</pre></div>
+<p>On peut ensuite se servir de cette usine comme point d'entrée et l'utiliser
+dans un fichier de configuration <a class="reference" href="http://pythonpaste.org/">paste</a>.      Notez que le <cite>ConfigMiddleware</cite>
+est indipensable. Le handler de <a class="reference" href="http://www.djangoproject.com/">django</a> semble renvoyer des choses peu
+ordinaire de type <cite>class</cite>, parfois. Le <cite>middleware</cite> permet de corriger tout
+cela.</p>
+<p>Problème, si on veut plusieurs instance <a class="reference" href="http://www.djangoproject.com/">django</a> dans un seul environnement wsgi,
+ça devient problématique. Comment initialiser plusieurs configuration avec une
+seul clé du dictionnaire environ... Je me le demande.</p>
+<p>Cela dit, c'est un problème auquel je vais être confronter car j'aimerais fair
+cohabiter les deux applications <a class="reference" href="http://www.djangoproject.com/">django</a> qui ont été faites pout l'<a class="reference" href="http://www.afpy.org">AFPy</a>. Donc,
+la suite au prochaine épisode.</p>
+<!-- Links -->
+<!-- - - - - - --><br/><br/>
+<div>
+  <strong>Related</strong>
+  <ul>
+         <li><a href="http://www.gawel.org/weblog/2008/04/django-monte-en-puissance">[Gawel] django monte en puissance</a></li>
+
+     <li><a href="http://www.biologeek.com/python,web-frameworks/developpement-web-python-et-frameworks-tour-d-horizon-debut-2007/">[Biologeek] Développement web python et frameworks, tour d'horizon début 2007</a></li>
+
+     <li><a href="http://www.gawel.org/weblog/2008/06/la-vie-apres-pycon">[Gawel] Il y a de la vie après PyCON !!!</a></li>
+
+     <li><a href="http://www.gawel.org/weblog/2008/07/packager-ses-scripts-python">[Gawel] Packager ses scripts Python</a></li>
+
+     <li><a href="http://www.biologeek.com/conferences,django,python/conferences-django-pour-pycon-fr/">[Biologeek] ★ Conférences Django pour PyCon fr</a></li>
+
+  </ul>
+</div>
+]]></description>
+    <link><![CDATA[http://www.gawel.org/weblog/2008/06/django-le-wsgi-et-paste]]></link>
+    <pubDate>2008-06-15 14:44:00</pubDate>
+    <category>django</category>
+    <category>python</category>
+    <category>afpy</category>
+  </item>
+  <item>
+    <title><![CDATA[[Afpy News] Réunion mensuelle juin 2008]]></title>
+    <description><![CDATA[Nous relançons les rencontres mensuelles pour permettre aux membres de l'AFPy de se voir (non pas autour d'une bière comme à l'afpyro mais) devant des ordinateurs. Le but étant de coder, de présenter des technos et plus généralement d'échanger techniquement autour du langage Python.]]></description>
+    <link><![CDATA[http://www.afpy.org/Members/Nightlybuild/rm-200806]]></link>
+    <pubDate>2008-06-15 05:35:16</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[[Gawel] Il y a de la vie après PyCON !!!]]></title>
+    <description><![CDATA[<p>Il y a peu, c'était <a class="reference" href="http://fr.pycon.org">Pycon FR</a>, la récompense annuelle
+des efforts fournit dans cette belle association qu'est l'<a class="reference" href="http://www.afpy.org">AFPy</a>. Grande
+réussite de mon point de vue. La richesse et la diversité des conférences
+s'améliore, le public est plus nombreux. <a class="reference" href="http://www.python.org">Python</a> a de beaux jours devant lui.</p>
+<p>J'y ai fait une <a class="reference" href="http://fr.pycon.org/programme/wsgi-par-lexemple-avec-paste">conférence</a> sur le <a class="reference" href="http://www.wsgi.org/FrontPage">WSGI</a>.
+Ça à au moin eu le mérite de me faire réaliser que j'étais un bien piètre
+orateur. Probablement que l'AFPYro de la veille n'as rien fait pour arranger les
+choses, hin hin. En tout cas, j'espère que ça suscitera quelque vocations.</p>
+<p>Je suis personnellement convaincu de l'intérêt de cette norme. Et j'ai
+maintenant un exemple concret à fournir. En effet, je bosse depuis plusieurs
+mois sur la nouvelle interface de gestion des membres de l'<a class="reference" href="http://www.afpy.org">AFPy</a>. Une petite
+application en <a class="reference" href="http://pylonshq.com/">Pylons</a> qui permet d'administrer les utilisateurs de notre
+annuaire ldap et les inscription dans le <a class="reference" href="http://www.zope.org">Zope</a> et les <a class="reference" href="http://lists.afpy.org/">listes de diffusions</a>. Elle est <a class="reference" href="https://svn.afpy.org/misc/members.afpy.org/">ici</a>, pour ceux que ça intéresse. J'avais
+aussi fait une petite application compatible <a class="reference" href="http://www.wsgi.org/FrontPage">WSGI</a> pour pouvoir afficher les
+photos avec un tag <a class="reference" href="http://www.afpy.org">AFPy</a> que les gens posent sur flickr. On avait aussi besoin
+d'un nouveau WIKI dans le cadre de la refonte du site. Le but était donc de
+brancher tout ce petit monde dans le site actuel. Heureusement, il y a
+findus^WWSGI.</p>
+<p>Le paquet <a class="reference" href="https://svn.afpy.org/misc/wsgi.afpy.org/">wsgi.afpy.org</a> était né. Ça donne un petit fichier de <a class="reference" href="https://svn.afpy.org/misc/wsgi.afpy.org/deploy.ini">configuration</a>
+sympa qui dessers ces trois applications via un urlmap. Bien sur, le tout est
+géré avec <a class="reference" href="http://pypi.python.org/pypi/zc.buildout">zc.buildout</a>, ce qui
+permet d'avoir un environnement python avec les paquets qui vont bien et de
+faire de l'administration ldap dans un shell python. Un exemple:</p>
+<div class="highlight"><pre><span class="o">&gt;&gt;&gt;</span> <span class="k">from</span> <span class="nn">afpy.core</span> <span class="k">import</span> <span class="n">ldap</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">user</span> <span class="o">=</span> <span class="n">ldap</span><span class="o">.</span><span class="n">getUser</span><span class="p">(</span><span class="s">'gawel'</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">user</span>
+<span class="o">&lt;</span><span class="n">User</span> <span class="n">dn</span><span class="p">:</span><span class="n">uid</span><span class="o">=</span><span class="n">gawel</span><span class="p">,</span><span class="n">ou</span><span class="o">=</span><span class="n">members</span><span class="p">,</span><span class="n">dc</span><span class="o">=</span><span class="n">afpy</span><span class="p">,</span><span class="n">dc</span><span class="o">=</span><span class="n">org</span><span class="o">&gt;</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">user</span><span class="o">.</span><span class="n">email</span>
+<span class="s">'gawel@afpy.org'</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">ldap</span><span class="o">.</span><span class="n">getMembersOf</span><span class="p">(</span><span class="s">'bureau'</span><span class="p">)</span>
+<span class="p">[</span><span class="s">u'tarek'</span><span class="p">,</span> <span class="s">u'ogrisel'</span><span class="p">,</span> <span class="s">u'gwen'</span><span class="p">,</span> <span class="s">u'gawel'</span><span class="p">,</span> <span class="s">u'jpcw2002'</span><span class="p">,</span> <span class="s">u'ccomb'</span><span class="p">]</span>
+</pre></div>
+<p>C'est quand même super fun !!!</p>
+<!-- Links -->
+<!-- - - - - - --><br/><br/>
+<div>
+  <strong>Related</strong>
+  <ul>
+         <li><a href="http://www.gawel.org/weblog/2008/07/nose-doctest-plugin-sucks">[Gawel] nose doctest plugin sucks</a></li>
+
+     <li><a href="http://www.biologeek.com/python,web-frameworks/developpement-web-python-et-frameworks-tour-d-horizon-debut-2007/">[Biologeek] Développement web python et frameworks, tour d'horizon début 2007</a></li>
+
+     <li><a href="http://www.biologeek.com/conferences,django,python/conferences-django-pour-pycon-fr/">[Biologeek] ★ Conférences Django pour PyCon fr</a></li>
+
+     <li><a href="http://www.gawel.org/weblog/2007/10/utiliser-zope-avec-virtualenv">[Gawel] Utiliser zope avec virtualenv</a></li>
+
+     <li><a href="http://www.gawel.org/weblog/2008/06/django-le-wsgi-et-paste">[Gawel] Django, le wsgi et paste: status</a></li>
+
+     <li><a href="http://www.gawel.org/weblog/2008/03/environnement-python-avec-zc.buildout">[Gawel] Monter un environnement python avec zc.buildout</a></li>
+
+  </ul>
+</div>
+]]></description>
+    <link><![CDATA[http://www.gawel.org/weblog/2008/06/la-vie-apres-pycon]]></link>
+    <pubDate>2008-06-07 08:42:00</pubDate>
+    <category>afpy</category>
+    <category>pycon</category>
+    <category>python</category>
+  </item>
+  <item>
+    <title><![CDATA[[Afpy News] AFPyro de juin - Rennes]]></title>
+    <description><![CDATA[AFPyro Breizh flavoured.]]></description>
+    <link><![CDATA[http://www.afpy.org/Members/Nightlybuild/afpyro-rennes]]></link>
+    <pubDate>2008-06-02 07:10:26</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[[Afpy News] Questionnaire, Slides et Video sur PyCon FR 2008]]></title>
+    <description><![CDATA[N'hésitez pas à répondre à notre questionnaire pour nous aider à améliorer l'édition 2009 de PyCon FR, et à revoir les conférences !]]></description>
+    <link><![CDATA[http://www.afpy.org/Members/ccomb/questionnaire-pycon-08]]></link>
+    <pubDate>2008-06-01 20:34:47</pubDate>
+    <category>A la une</category>
+  </item>
+  <item>
+    <title><![CDATA[[Blogmarks] How to broadcast a live video stream - Digged !]]></title>
+    <description><![CDATA[<div><strong>1</strong> Diggs</div><br/>Technical notes on how the live video broadcast of the 2008 edition of Pycon FR.]]></description>
+    <link><![CDATA[http://oliviergrisel.name/2008-05-24-howto-broadcast-live-video-stream.og]]></link>
+    <pubDate>2008-06-01 16:48:49</pubDate>
+    <category>video, live, pyconfr, python, fr, ogg, theora, vorbis, streaming, audio, icecast, ffmpeg2theora</category>
+  </item>
+  <item>
+    <title><![CDATA[[Biologeek] ★ Conférences Django pour PyCon fr]]></title>
+    <description><![CDATA[<p>J'ai eu le privilège de présenter Django lors des <a href="http://fr.pycon.org">journées</a> organisées par l'<a href="http://www.afpy.org">afpy</a>. C'était vraiment un weekend exceptionnel, une organisation exemplaire, des conférences de qualité, des discussions de geek, que du bon. Je me suis enfin décidé à mettre les slides en ligne, en attendant les vidéos.</p>
+
+<h2>Historique</h2>
+
+<p>J'avais déjà <a href="http://media.larlet.fr/david/conferences/django/">présenté Django l'année dernière</a> et j'avais vraiment eu l'impression de passer à côté de ma conf. Outre le fait que j'étais bien crevé <a href="http://www.biologeek.com/conferences,django,web-frameworks/django-fr-enfin-en-ligne/">d'avoir mis en ligne django-fr</a>, j'ai relevé 3 gros défauts :</p>
+
+<ul>
+<li>je voulais que la présentation serve aussi pour les personnes souhaitant la consulter en ligne, au final c'est beaucoup trop verbeux et le code distrait à mon avis l'auditoire qui vient à une conférence pour s'enrichir d'une expérience et non pour une lecture de code ;</li>
+<li>je voulais faire plaisir à tout le monde en partant de la base pour aller vers des techniques plus avancées et au final personne n'y trouve vraiment son compte ;</li>
+<li>je voulais garder le public connecté et j'ai le sentiment d'avoir été plutôt ennuyeux : c'était long et ça manquait tout simplement de vitalité (sans compter quelques soucis avec S5).</li>
+</ul>
+
+<p>Partant de ce constat, j'ai essayé cette année de :</p>
+
+<ul>
+<li>faire des slides minimaliste, l'objectif était qu'ils soient tout simplement inutiles sans moi (d'où le besoin de les enrichir pour vous les présenter maintenant, pas sûr que ce soit bon pour moi ça :p), c'est à mon avis le seul moyen de se focaliser sur l'expérience du présentateur et donc sur le message à faire passer ;</li>
+<li>scinder en deux sessions débutant/avancé pour laisser le choix au visiteur de n'assister qu'à la conférence qui l'intéresse ;</li>
+<li>trouver un moyen de rendre les confs plus vivantes (et utiliser Keynote).</li>
+</ul>
+
+<p>Alors pari réussi ? Mon retour personnel après chaque conférence ci-dessous. J'essaye de retrouver ce que j'ai dit de tête, ça sera forcément différent des vidéos qui devraient arriver plus tard : moins de stress, davantage de temps pour étoffer et des liens en bonus.</p>
+
+<h2>Pourquoi Django ?</h2>
+
+<p>Je n'ai jamais eu de cours de marketing et je hais les commerciaux donc c'est vraiment une épreuve pour moi de « vendre mon produit ». J'ai surtout voulu aller à l'essentiel pour pouvoir ensuite en débattre pendant les questions/réponses.</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_pourquoi.001.jpg" alt="Pourquoi Django" />
+</p>
+
+<p>Avant de parler de Django, il est bon de rappeler les <a href="http://www.biologeek.com/web-frameworks/definition-et-avantages-d-un-framework-web/">intérêts d'un framework web</a> face à l'approche plus traditionnelle par applications fonctionnelles toutes prêtes. Qu'est-ce qui a pu suscité un tel engouement ?</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_pourquoi.002.jpg" alt="Pourquoi Django" />
+</p>
+
+<p>On connaît tous des projets qui commencent avec un projet tout simple (je prends souvent l'exemple du blog car il est assez parlant). Il existe des trillions de moteurs de blog et il est donc aisé d'en prendre un tout fait :</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_pourquoi.003.jpg" alt="Pourquoi Django" />
+</p>
+
+<p>Mais bien (trop) souvent, un projet évolue en cours de route et l'ajout de fonctionnalités (galerie de photos, paiement en ligne, inclusion de vidéos) aboutit finalement à un cahier des charges ressemblant plutôt à :</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_pourquoi.004.jpg" alt="Pourquoi Django" />
+</p>
+
+<p>Si vous êtes parti d'un simple moteur de blog rafistolé, il est très probable que vous arriviez à un résultat de piètre qualité :</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_pourquoi.005.jpg" alt="Pourquoi Django" />
+</p>
+
+<p>La solution est de partir d'une approche plus bas niveau : la caisse à outil qui va vous permettre de construire vos propres briques fonctionnelles et de réaliser un projet de manière cohérente et évolutive.</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_pourquoi.006.jpg" alt="Pourquoi Django" />
+</p>
+
+<p>De cette façon, vous allez énormément gagner en agilité, la clé de voûte de la qualité (du projet), de la sérénité (du développeur) et de la satisfaction (du client).</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_pourquoi.007.jpg" alt="Pourquoi Django" />
+</p>
+
+<p>Maintenant que vous êtes convaincu du bien fondé des frameworks web, il est temps de passer au plat de résistance : pourquoi Django ?</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_pourquoi.008.jpg" alt="Pourquoi Django" />
+</p>
+
+<p>Django est écrit en Python et vous permet d'écrire du Python, il n'y a pas de fichiers de configuration en xml (ai-je besoin de rappeler que ce format est fait pour les machines ?).</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_pourquoi.009.jpg" alt="Pourquoi Django" />
+</p>
+
+<p>Django est très facile à prendre en main, il suffit de quelques heures (même sans connaître initialement Python) pour avoir une première application qui tourne et en comprendre les principaux concepts.</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_pourquoi.010.jpg" alt="Pourquoi Django" />
+</p>
+
+<p>Face aux deux approches : framework glue vs. réinvention de la roue, Django a choisi la seconde ce qui apporte une cohérence à tous les niveaux (documentation, code, aide, etc) au détriment de sa modularité intrinsèque.</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_pourquoi.011.jpg" alt="Pourquoi Django" />
+</p>
+
+<p>La documentation est un réel atout, surtout lorsqu'on débute. C'est l'une des meilleures documentation technique que je connaisse et elle est en train d'être encore améliorée !</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_pourquoi.012.jpg" alt="Pourquoi Django" />
+</p>
+
+<p>Je suis assez mal placé pour parler de rapidité de développement avec la refonte de ce blog qui a pris... du temps. Néanmoins, pour l'utiliser quotidiennement, je peux affirmer que le développement avec ce framework permet de concrétiser plus rapidement des projets. L'un des atouts est par exemple de prototyper des applications en des temps records, après bien sûr les détails prennent plus de temps, comme partout.</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_pourquoi.013.jpg" alt="Pourquoi Django" />
+</p>
+
+<p>L'interface d'administration auto-générée est vraiment utile et participe à l'« effet Wow !© » initial. Difficile de s'en priver ensuite.</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_pourquoi.014.jpg" alt="Pourquoi Django" />
+</p>
+
+<p>L'échappement des caractères html par défaut peut être un élément important pour une personne débutant en développement web. Ce choix est une réelle sécurité si vous ne maîtrisez pas vraiment toutes les failles possibles d'un code (même s'il serait bon de <a href="http://www.djangobook.com/en/1.0/chapter19/">vous renseigner à ce sujet</a> si c'est le cas !).</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_pourquoi.015.jpg" alt="Pourquoi Django" />
+</p>
+
+<p>Django est simple, autant dans ses concepts que dans leurs mises en application, si vous connaissez Python, vous pouvez même sans peine plonger dans le code de Django et découvrir quelques pépites.</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_pourquoi.016.jpg" alt="Pourquoi Django" />
+</p>
+
+<p>La maturité est souvent un facteur décisif d'un point de vue professionnel, après 5 ans de développement, le framework est devenu stable et à énormément gagné de son ouverture en Open-Source (pour ceux qui se demandent ce qu'une litière pour chat vient faire ici, c'est un jardin zen, j'ai pas trouvé mieux).</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_pourquoi.017.jpg" alt="Pourquoi Django" />
+</p>
+
+<p>Quelques chiffres issus de la présentation de l'année précédente, on voit bien la progression en terme d'utilisateurs et donc de contributeurs potentiels.</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_pourquoi.018.jpg" alt="Pourquoi Django" />
+</p>
+
+<p>Enfin, l'avantage d'avoir des outils à sa disposition est de pouvoir laisser s'exprimer sa créativité, le plus important est ce que l'on fait avec ses outils. Vous pouvez prendre le meilleur des frameworks, ça ne vous assurera pas une application à succès. Ça serait bien trop facile sinon ;-).</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_pourquoi.019.jpg" alt="Pourquoi Django" />
+</p>
+
+<p>Après avoir vanté autant de qualités, voyons pour quels projets cette caisse à outils s'applique.</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_pourquoi.020.jpg" alt="Pourquoi Django" />
+</p>
+
+<p>Il n'y a pas d'outil miracle, notre métier est un éternel compromis et il faut savoir faire avec. L'avantage de Django est qu'il permet de couvrir un très large périmètre d'applications mais si vous voulez construire un <a href="http://stuffthathappens.com/blog/2008/03/31/the-right-tool-for-the-job/">gratte-ciel</a> il va peut-être falloir penser à autre chose.</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_pourquoi.021.jpg" alt="Pourquoi Django" />
+</p>
+
+<p>Cela dit, il y a un très faible pourcentage de projets web qui doivent en arriver là et il sera toujours temps de changer certaines parties ou d'améliorer les performances le moment venu.</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_pourquoi.022.jpg" alt="Pourquoi Django" />
+</p>
+
+<p>On termine avec un peu de teasing...</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_pourquoi.023.jpg" alt="Pourquoi Django" />
+</p>
+
+<p>On ne l'attend plus mais Django 1.0 arrive ! (si si, je vous assure) La première branche importante (<a href="http://jehaisleprintemps.net/blog/fr/2008/04/27/queryset-refactor/">queryset-refactor</a>) a été mergée au trunk.</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_pourquoi.024.jpg" alt="Pourquoi Django" />
+</p>
+
+<p>Et la suivante (newforms-admin) est en cours de finitions actives. Ce n'est plus qu'une question de ... (mettez ce qui vous semble le plus crédible et votez sur whendjangowillreleaseonepointzero.com).</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_pourquoi.025.jpg" alt="Pourquoi Django" />
+</p>
+
+<p>Des fois que le message n'ait pas été assez clair (j'adore les photos de gens qui sautent dans les présentations, je trouve ça kitsch au possible ;-)).</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_pourquoi.026.jpg" alt="Pourquoi Django" />
+</p>
+
+<h3>Bilan personnel</h3>
+
+<p>Difficile d'enchaîner une nuit trop <strike>alcoolisée</strike> courte (il faut croire que c'est une malédiction) et d'insuffler suffisamment de vitalité. Je suis néanmoins assez satisfait car je pense avoir bien fait passer le message qui était tout simple : essayez Django !</p>
+
+<p>L'exemple initial était assez fort pour capter directement l'attention, la liste des avantages était assez claire. Bon par contre je suis conscient qu'il y a du progrès à faire au niveau de la conclusion car je n'ai pas assez insisté à l'oral sur l'intérêt d'avoir une simple caisse à outils pour laisser s'exprimer sa créativité et je voulais insister là-dessus.</p>
+
+<p>Je me suis permis quelques trolls un peu douteux sur Zope 3 (un peu la chance d'avoir assisté à la conf dessus la veille, un peu car on en a parlé une bonne partie de la nuit), je suis pas vraiment sûr que ça avait sa place. Quoi qu'il en soit, les éléments de comparaison cités dans la discussion qui a suivie étaient intéressants.</p>
+
+<h2>Django : performances et qualité</h2>
+
+<p>J'ai eu beaucoup plus de mal à préparer cette présentation car elle était très dépendante du public. Je voulais éviter de ne m'adresser qu'à une poignée de personnes et j'ai donc choisi au final une approche plus généraliste sur les bonnes pratiques web, appliquées à Django.</p>
+
+<p>Un rapide sondage m'a montré que ce choix était pertinent et que me craintes étaient fondées. Moins d'un quart de la salle avait déjà essayé Django, et une poignée sur de gros projets. Adaptation à chaud : il valait mieux passer du temps sur les aspects pas trop pointus... quitte à décevoir ceux qui étaient venus pour l'intitulé de la conf !</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_performances_qualite.027.jpg" alt="Django : qualité et performances" />
+</p>
+
+<p>Un rappel préalable sur le coût de la qualité et des performances s'impose. C'est un investissement dans une logique qui s'inscrit dans la durée, ce n'est pas forcément adapté à tous les projets et ça doit être mis en place d'un commun accord entre les acteurs du projet (les tests sont très difficiles à facturer).</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_performances_qualite.028.jpg" alt="Django : qualité et performances" />
+</p>
+
+<p>Un titre qui claque, je suis sûr qu'en anglais ça rend encore mieux.</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_performances_qualite.029.jpg" alt="Django : qualité et performances" />
+</p>
+
+<p>Il existe de nombreux outils de détection, du simple module logging à ceux permettant de stresser votre application et votre architecture.</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_performances_qualite.030.jpg" alt="Django : qualité et performances" />
+</p>
+
+<p>Avant d'optimiser, il faut bien évaluer la situation, il ne sert à rien d'optimiser un site qui ne rencontre pas de problèmes de performances, privilégiez plutôt l'expérience utilisateur (ergonomie, etc). Si vous n'avez pas le temps d'optimiser, vous pouvez toujours avoir une expansion horizontale dans un premier temps (plus de serveurs) si vous disposez des fonds nécessaires. J'ai oublié de parler de l'évolution vers les clouds pour gérer ce type de problématiques.</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_performances_qualite.031.jpg" alt="Django : qualité et performances" />
+</p>
+
+<p>On entre dans le vif du sujet.</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_performances_qualite.032.jpg" alt="Django : qualité et performances" />
+</p>
+
+<p>Le cache est l'élément le plus simple à mettre en œuvre et il existe différents niveaux avec Django (page, fragment, vue, queryset, etc) qui permettent d'avoir la modularité nécessaire. Attention, il ne faut pas oublier d'avoir des mécanismes d'invalidation du cache ! (pas comme sur ce blog par exemple...)</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_performances_qualite.033.jpg" alt="Django : qualité et performances" />
+</p>
+
+<p>Le cache est bien pratique mais insuffisant parfois. Lorsqu'on arrive sur des gros projets, il est quasi illusoire de vouloir s'en tenir à des données normalisées. Ne serait-ce que pour le nombre d'items, il faut avoir recours à des champs dénormalisés. Django dispose de <a href="http://code.djangoproject.com/wiki/Signals">signals</a> pour gérer ça de façon automatisée.</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_performances_qualite.034.jpg" alt="Django : qualité et performances" />
+</p>
+
+<p>De nombreuses choses peuvent être faites en asynchrone (envoi de mail, préchargements de widget coûteux, etc), AJAX peut ici prendre tout son sens.</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_performances_qualite.035.jpg" alt="Django : qualité et performances" />
+</p>
+
+<p>Il faut bien faire la différence entre ce qui est imputable à Django et ce qui concerne l'architecture de votre projet, un bon admin sys et/ou DBA peut faire des miracles. Il ne faut pas oublier non plus que les <a href="http://performance.survol.fr/">performances css/js</a> jouent un rôle important à ce niveau...</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_performances_qualite.036.jpg" alt="Django : qualité et performances" />
+</p>
+
+<p>Une petite astuce propre à Django, l'utilisation du tag <strong>{% with %}</strong> pour créer des alias dans les templates lorsqu'une méthode coûteuse est évaluée dans une boucle par exemple.</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_performances_qualite.037.jpg" alt="Django : qualité et performances" />
+</p>
+
+<p>Le traitement des performances se fait de manière itérative, essayez de toujours identifier le facteur limitant de la réactivité de votre application.</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_performances_qualite.038.jpg" alt="Django : qualité et performances" />
+</p>
+
+<p>Un résultat est important, que ce soit un échec ou pas (le scientifique reprend le dessus), pensez à documenter vos essais, que ce soit pour votre équipe ou de manière publique (blog, <a href="http://www.djangosnippets.org/">djangosnippets</a>, etc).</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_performances_qualite.039.jpg" alt="Django : qualité et performances" />
+</p>
+
+<p>Un autre titre jemelapètegrave.</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_performances_qualite.040.jpg" alt="Django : qualité et performances" />
+</p>
+
+<p>La pérennité d'une application web est toute relative, l'évolution technologique est telle qu'il est difficile d'être pertinent à plus de 3 ans. Ça veut dire qu'il faut quand même rester évolutif jusque là !</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_performances_qualite.041.jpg" alt="Django : qualité et performances" />
+</p>
+
+<p>Les règles qui s'appliquent ici sont les mêmes que pour un projet Python, il est impératif de tester les différentes fonctionnalités grâce aux unittests et doctests. Django dispose d'<a href="http://www.djangoproject.com/documentation/testing/">un module entier consacré à ça</a>, il est temps de s'en servir. Un client spécifique aux tests permet même de tester les différentes vues et le résultats des appels (GET, POST, etc).</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_performances_qualite.042.jpg" alt="Django : qualité et performances" />
+</p>
+
+<p>En découplant les différentes applications de votre projet (lire à ce sujet l'<a href="http://www.b-list.org/weblog/2007/nov/09/projects/">excellent post de James Bennett</a>), vous allez pouvoir vous constituer (ou <a href="http://code.google.com/hosting/search?q=label:django">récupérer</a>) un bibliothèque d'applications web réutilisables dans plusieurs de vos projets.</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_performances_qualite.043.jpg" alt="Django : qualité et performances" />
+</p>
+
+<p>On ne mentionnera jamais assez à quel point la documentation d'un projet est importante. Normalement les doctests doivent permettre de « raconter une histoire », développez vos talents d'écrivain !</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_performances_qualite.044.jpg" alt="Django : qualité et performances" />
+</p>
+
+<p>Cerise sur le gâteau, Django vous permet de générer automatiquement la documentation à partir du code dans l'interface d'administration, ce qui s'avère très pratique si vous travaillez avec une équipe de plusieurs personnes dont certaines s'occupent exclusivement du html/css/js.</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_performances_qualite.045.jpg" alt="Django : qualité et performances" />
+</p>
+
+<p>Exemple d'itération sur l'implémentation des URL.</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_performances_qualite.046.jpg" alt="Django : qualité et performances" />
+</p>
+
+<p>Utilisation assez naïve avec la construction d'URL à la main, c'est une mauvaise pratique car vous devez modifier les URL à de nombreux endroits si vous décidez de changer votre schéma.</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_performances_qualite.047.jpg" alt="Django : qualité et performances" />
+</p>
+
+<p>La seconde méthode s'appuie sur une méthode du modèle (différente ici du bien connu <strong>get_absolute_url</strong> car on veut accéder au profil et non à l'utilisateur), c'est déjà mieux mais il faut encore modifier l'URL à deux endroits en cas de modification.</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_performances_qualite.048.jpg" alt="Django : qualité et performances" />
+</p>
+
+<p>Enfin la bonne méthode est d'utiliser <a href="http://www.djangoproject.com/documentation/url_dispatch/#naming-url-patterns">les URL nommées</a>, qui permettent de ne dupliquer la création des URL à aucun endroit, si vous modifiez celle dans <strong>urls.py</strong> ça va impacter sur l'ensemble des URL de votre site. Cela est permis grâce au décorateur <strong>permalink</strong>.</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_performances_qualite.049.jpg" alt="Django : qualité et performances" />
+</p>
+
+<p>Ces différentes pratiques vous permettent d'opérer des refactoring important de code tout en étant serein et de vous concentrer sur d'autres fonctionnalités.</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_performances_qualite.050.jpg" alt="Django : qualité et performances" />
+</p>
+
+<p>Je voulais terminer sur un point qui me semble capital pour améliorer la qualité d'une application (pas forcément Django).</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_performances_qualite.051.jpg" alt="Django : qualité et performances" />
+</p>
+
+<p>L'idée m'est venue en consultant la <a href="http://www.cameronmoll.com/archives/001266.html">présentation de Cameron Moll</a> et plus spécifiquement le slide comparant le <em>bon designer</em> au <em>super designer</em>.</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_performances_qualite.052.jpg" alt="Django : qualité et performances" />
+</p>
+
+<p>J'en suis arrivé à la conclusion qu'un <em>bon développeur</em> est <strong>consciencieux</strong>, il connaît ses outils et sait parfaitement obtenir un résultat satisfaisant avec. Qu'est-ce qu'il lui manque alors ?</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_performances_qualite.053.jpg" alt="Django : qualité et performances" />
+</p>
+
+<p>Bien souvent <strong>la curiosité</strong>, celle de fureter pour finalement trouver une solution plus adaptée ou un module qui fait déjà ce qu'il a mis une semaine à coder, celle d'aller à des conférences, de lire des livres, d'essayer de comprendre pourquoi certaines choses ont été faites ainsi. Cette qualité vous permet de vous épanouir quotidiennement dans votre travail.</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_performances_qualite.054.jpg" alt="Django : qualité et performances" />
+</p>
+
+<p>Bon avec tous ces conseils, vous allez forcément faire une appli qui va conquérir le monde, faire chuter l'action Google et sauver la planète.</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_performances_qualite.055.jpg" alt="Django : qualité et performances" />
+</p>
+
+<p>Les crédits, merci ! (complètement illisibles, il faut que je trouve un moyen simple de formater ça)</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/conferences_pycon/django_performances_qualite.056.jpg" alt="Django : qualité et performances" />
+</p>
+
+<h3>Bilan personnel</h3>
+
+<p>Je suis beaucoup moins satisfait de ma seconde prestation, j'ai remis en question chaque concept présenté au fur et à mesure, doutant de l'intérêt pour quelqu'un s'intéressant peu à Django. Du coup j'étais un peu hésitant et je pense que ça s'est ressenti.</p>
+
+<p>Au final, j'ai un peu le sentiment que ceux qui connaissaient pas trop ces problématiques se sont ennuyés et ceux qui y étaient confrontés aussi car je ne suis pas allé assez loin...</p>
+
+<p>Concernant Keynote (ça vaut pour les deux confs) : aucun problème au niveau des images, par contre je n'ai pas pris le temps de configurer l'écran pour voir le slide suivant + le temps sur l'écran et c'était un tort car ça aide beaucoup.</p>
+
+<h2>Conclusion</h2>
+
+<p>Il y a probablement des formats plus appropriés pour aborder les problématiques de performances/qualités comme des tables rondes ou des séances de questions/réponses comme me le suggérait <a href="http://fabien.schwob.org">Fabien</a> par mail. Pour montrer la rapidité de développement de Django et donner envie d'essayer, rien ne vaut un atelier avec un petit projet de mise en bouche. Autant de pistes qu'il faudra explorer lors des journées 2009 !</p>
+
+<h3>Vous y étiez ?</h3>
+
+<p><strong>Votre avis m'intéresse énormément</strong>. J'aimerais vraiment pouvoir progresser à ce niveau et vous êtes le mieux placé pour m'aider. J'ai déjà eu des retours par blog (merci <a href="http://sunfox.org/blog/2008/05/19/pycon/">Sunny</a>), par email et sur irc mais si vous avez un peu de temps, n'hésitez pas, je prends le bon mais aussi et surtout le mauvais. N'ayez pas peur d'y aller trop fort, j'encaisse derrière :-).</p>
+
+<p><strong>[Edit]</strong> : <a href="http://dl.afpy.org/pycon-fr-08/videos/">les vidéos sont en ligne</a> ! Merci l'AFPy.</p>
+
+
+
+<div>
+<p>
+    <a href="http://www.biologeek.com/" title="">
+        <img src="http://media.biologeek.com/css/images/logo.png" alt="Logo biologeek" />
+    </a>
+    <a href="http://www.biologeek.com/conferences,django,python/conferences-django-pour-pycon-fr/"><strong>Conférences Django pour PyCon fr</strong></a> 
+    a été rédigé par <a href="http://david.larlet.fr">David Larlet</a> pour 
+    <a href="http://www.biologeek.com">biologeek.com</a> et a été originellement 
+    posté le 21 Mai 2008. À part exceptions, c'est 
+    ©2008 David Larlet et sous <a href="http://www.biologeek.com/contact/#licence" title="À lire avant toute (re)copie">licence (presque) libre</a> autorisant 
+    la reproduction, la distribution et la modification sous certaines conditions.
+    Veuillez les respecter.
+</p>
+</div><br/><br/>
+<div>
+  <strong>Related</strong>
+  <ul>
+         <li><a href="http://www.biologeek.com/bonnes-pratiques,conferences,django,python,traduction/bonnes-pratiques-et-astuces-python/">[Biologeek] Bonnes pratiques et astuces Python</a></li>
+
+     <li><a href="http://www.biologeek.com/django,informatique,python,web-frameworks,web-semantique/des-vacances-et-des-liens/">[Biologeek] Des vacances et des liens</a></li>
+
+     <li><a href="http://www.biologeek.com/critique,livre,python/envie-de-developper-agilement-en-python-suivez-le-guide/">[Biologeek] Envie de développer agilement en Python ? Suivez le guide !</a></li>
+
+     <li><a href="http://www.biologeek.com/django,python,rest,web-frameworks/une-solution-pour-faciliter-la-conception-d-applications-web-restful-avec-django/">[Biologeek] Une solution pour faciliter la conception d'applications web RESTful avec Django</a></li>
+
+     <li><a href="http://www.biologeek.com/conferences,django,python/presentation-de-django-aux-journees-python-francophones/">[Biologeek] Présentation de Django aux journées Python francophones</a></li>
+
+     <li><a href="http://www.biologeek.com/python,web-frameworks/developpement-web-python-et-frameworks-tour-d-horizon-debut-2007/">[Biologeek] Développement web python et frameworks, tour d'horizon début 2007</a></li>
+
+     <li><a href="http://www.biologeek.com/django,python,web-frameworks/modelisation-d-un-workflow-lineaire-avec-django/">[Biologeek] Modélisation d'un workflow linéaire avec Django</a></li>
+
+     <li><a href="http://www.biologeek.com/bonnes-pratiques,python/benchmarks-map-filter-vs-list-comprehensions/">[Biologeek] Benchmarks map, filter vs. list-comprehensions</a></li>
+
+     <li><a href="http://www.biologeek.com/python,web/analyse-des-donnees-utilisateur-d-aol-suite-et-fin/">[Biologeek] Analyse des données utilisateur d'AOL : suite et fin</a></li>
+
+     <li><a href="http://www.biologeek.com/python,web/les-100-premiers-mots-cles-recherches-par-les-utilisateurs-d-aol/">[Biologeek] Les 100 premiers mots-clés recherchés par les utilisateurs d'AOL</a></li>
+
+     <li><a href="http://www.biologeek.com/critique,livre,python/critique-du-livre-programmation-python/">[Biologeek] Critique du livre Programmation Python</a></li>
+
+     <li><a href="http://www.biologeek.com/bonnes-pratiques,python/principales-nouveautes-dans-python-25/">[Biologeek] Principales nouveautés dans Python 2.5</a></li>
+
+     <li><a href="http://www.biologeek.com/bonnes-pratiques,python/un-template-python-pour-parser-des-arguments/">[Biologeek] Un template python pour parser des arguments</a></li>
+
+     <li><a href="http://www.biologeek.com/python,web/convertisseur-de-syntaxes-wiki-dotclear-a-dokuwiki/">[Biologeek] Convertisseur de syntaxes wiki Dotclear à Dokuwiki</a></li>
+
+     <li><a href="http://www.biologeek.com/bio-informatique,python/parser-un-fichier-pdb-en-python-facilement-et-efficacement/">[Biologeek] ★ Parser un fichier PDB en python facilement et efficacement</a></li>
+
+     <li><a href="http://www.biologeek.com/python,web/votre-aggregateur-manquerait-il-de-fonctionnalites/">[Biologeek] Votre aggrégateur manquerait-il de fonctionnalités ?</a></li>
+
+     <li><a href="http://www.biologeek.com/python/cours-pour-apprendre-python/">[Biologeek] ★ Cours pour apprendre Python</a></li>
+
+     <li><a href="http://www.gawel.org/weblog/2008/06/la-vie-apres-pycon">[Gawel] Il y a de la vie après PyCON !!!</a></li>
+
+     <li><a href="http://www.gawel.org/weblog/2008/06/django-le-wsgi-et-paste">[Gawel] Django, le wsgi et paste: status</a></li>
+
+  </ul>
+</div>
+]]></description>
+    <link><![CDATA[http://www.biologeek.com/conferences,django,python/conferences-django-pour-pycon-fr/]]></link>
+    <pubDate>2008-05-21 00:57:53</pubDate>
+    <category>conferences</category>
+    <category>django</category>
+    <category>python</category>
+  </item>
+  <item>
+    <title><![CDATA[[Biologeek] Bonnes pratiques et astuces Python]]></title>
+    <description><![CDATA[<p>Ça faisait un moment que je n'avais pas parlé des 
+<a href="http://www.biologeek.com/bonnes-pratiques,python/">bonnes pratiques Python</a> mais l'approche de 
+<a href="http://fr.pycon.org/">Pycon fr</a> (où je présenterai Django : 
+<a href="http://fr.pycon.org/programme/pourquoi-django/">le pourquoi</a> et 
+<a href="http://fr.pycon.org/programme/django-au-quotidien-qualite-et-performances/">le comment</a> 
+le 18 mai), l'événement Python incontournable avec 
+<a href="http://fr.pycon.org/programme/">un programme des plus alléchants</a>, m'a bien 
+motivé pour effectuer la traduction de 
+l'<a href="http://python.net/~goodger/projects/pycon/2007/idiomatic/">une des meilleures présentation</a> 
+par <a href="http://python.net/~goodger/">David Goodger</a> que je connaisse qui remet 
+les bonnes pratiques Python à plat, ce qui est toujours bon avant d'aller plus loin.</p>
+
+<h2>La lisibilité est importante</h2>
+
+<blockquote>
+  <p>Les programmes doivent être écrits pour être lus par des gens et 
+    accidentellement exécutés par les machines.</p>
+  
+  <p>-- Abelson &amp; Sussman, <em>Structure and Interpretation of Computer Programs</em></p>
+</blockquote>
+
+<p>Essayez de rendre vos programmes faciles à lire et évidents.</p>
+
+<h2>PEP 8 : Style Guide pour le code Python</h2>
+
+<p>Une lecture immanquable : <a href="http://www.python.org/dev/peps/pep-0008/">http://www.python.org/dev/peps/pep-0008/</a> 
+(PEP = Python Enhancement Proposal)</p>
+
+<p>Un PEP est une document procurant des informations à la communauté Python, ou
+décrivant une nouvelle fonctionnalité de Python et ses processus ou de son
+environnement.</p>
+
+<p>La communauté Python a ses propres standards sur ce à quoi doit ressembler le
+code, codifiés dans le PEP8. Ces standards sont différents de ceux des autres
+communautés, comme C, Java, etc.</p>
+
+<p>L'indentation et les espaces étant si importants en Python, ce Style Guide est
+une standard. Il est important que vous adhériez au guide ! La plupart des
+projets suivent ces conventions.</p>
+
+<h2>Whitespace 1</h2>
+
+<ul>
+<li>4 espaces par niveau d'indentation.</li>
+<li>Pas de tabs.</li>
+<li>Ne <strong>jamais</strong> mixer des tabs et des espaces.</li>
+<li>Un saut de ligne entre les fonctions.</li>
+<li>Deux sauts de ligne entre les classes.</li>
+</ul>
+
+<h2>Whitespace 2</h2>
+
+<ul>
+<li>Ajoutez un espace après ", ", dans les dictionnaires, les listes, les
+tuples, les arguments d'une liste d'arguments et après ":" dans les
+dictionnaires mais pas avant.</li>
+<li>Mettez des espaces autour des assignements et des comparaisons (excepté
+pour les arguments d'une liste).</li>
+<li>Pas d'espace aux ouvertures/fermetures de parenthèses ou juste avant une
+liste d'arguments.</li>
+<li><p>Pas d'espace en ouverture/fermeture de docstrings.</p>
+
+<pre><code>def make_squares(key, value=0):
+    """Return a dictionary and a list..."""
+    d = {key: value}
+    l = [key, value]
+    return d, l
+</code></pre></li>
+</ul>
+
+<h2>Nommage</h2>
+
+<ul>
+<li><code>joined_lower</code> pour les fonctions, méthodes et attributs</li>
+<li><code>joined_lower</code> ou <code>ALL_CAPS</code> pour les constantes</li>
+<li><code>StudlyCaps</code> pour les classes</li>
+<li><code>camelCase</code> <strong>seulement</strong> pour suivre des conventions pré-existantes</li>
+<li>Attributs: <code>interface</code>, <code>_internal</code>, <code>__private</code></li>
+</ul>
+
+<p>Mais essayez d'éviter la forme <code>__privée</code>. Je ne l'utilise jamais.
+Faites moi confiance. Si vous l'utilisez, vous le regretterez plus tard.</p>
+
+<h2>Longues lignes et continuité</h2>
+
+<p>Garder une taille de ligne inférieure à 80 caractères.</p>
+
+<p>Utilisez la continuité implicite des lignes au sein des 
+parenthèses/crochets/accolades :</p>
+
+<pre><code>def __init__(self, first, second, third,
+             fourth, fifth, sixth):
+    output = (first + second + third
+              + fourth + fifth + sixth)
+</code></pre>
+
+<p>Utilisez les backslashs en dernier recours :</p>
+
+<pre><code>VeryLong.left_hand_side \
+    = even_longer.right_hand_side()
+</code></pre>
+
+<p>Les backslashs sont locaux, ils doivent terminer la ligne sur laquelle
+ils sont. Si vous ajoutez un espace après le backslash, ça ne sert à rien.
+Ah aussi, c'est laid.</p>
+
+<h2>Longues chaînes de caractères</h2>
+
+<p>Les chaînes de caractères adjacentes sont concaténées par le parser:</p>
+
+<pre><code>&gt;&gt;&gt; print 'o' 'n' "e"
+one
+</code></pre>
+
+<p>Les espaces entre les chaînes ne sont pas requis, mais aident à la 
+lisibilité. Tous les types de quotes sont utilisable :</p>
+
+<pre><code>&gt;&gt;&gt; print 't' r'\/\/' """o"""
+t\/\/o
+</code></pre>
+
+<p>La chaîne précédée par "r" est une chaîne de type "raw". Les backslashs
+ne sont pas évalués comme étant des caractères d'échappement dans les 
+chaînes de type raw. Elles sont utiles pour les expressions régulières
+et les chemins de fichiers Windows.</p>
+
+<p>Notez que les chaînes de caractères nommées <strong>ne sont pas</strong> concaténées :</p>
+
+<pre><code>&gt;&gt;&gt; a = 'three'
+&gt;&gt;&gt; b = 'four'
+&gt;&gt;&gt; a b
+  File "&lt;stdin&gt;", line 1
+    a b
+      ^
+SyntaxError: invalid syntax
+</code></pre>
+
+<p>Cela vient du fait que la concaténation automatique est une fonctionnalité
+du parser/compiler Python, pas de l'interpréteur. Vous devez utiliser le 
+signe "+" pour concaténer des chaînes de caractères à l'éxecution.</p>
+
+<pre><code>text = ('Long strings can be made up '
+        'of several shorter strings.')
+</code></pre>
+
+<p>Les parenthèses autorisent la continuité implicite des lignes.
+Les chaînes de caractères sur plusieurs lignes utilisent les triple quotes :</p>
+
+<pre><code>"""Triple
+double
+quotes"""
+
+'''\
+Triple
+single
+quotes\
+'''
+</code></pre>
+
+<p>Dans le dernier exemple ci-dessus (simple triple quotes), notez 
+l'utilisation du backslash pour échapper les nouvelles lignes. Cela élimine
+les nouvelles lignes en conservant les quotes joliment alignées à gauche.
+Les backslashs doivent être à la fin de leurs lignes.</p>
+
+<h2>Déclarations</h2>
+
+<p>Bon :</p>
+
+<pre><code>if foo == 'blah':
+    do_something()
+do_one()
+do_two()
+do_three()
+</code></pre>
+
+<p>Mauvais :</p>
+
+<pre><code>if foo == 'blah': do_something()
+do_one(); do_two(); do_three()
+</code></pre>
+
+<p>Les espaces et l'indentation sont de bons indicateurs visuels du flot du
+programme. L'indentation de la seconde ligne du "Bon" ci-dessus montre
+au lecteur que quelque chose va se produire, alors que le manque
+d'indentation dans le "Mauvais" exemple cache le "if".</p>
+
+<p>Les déclarations multiples sur une même ligne sont une torture.
+En Python, <em>la lisibilité compte</em>.</p>
+
+<h2>Docstrings et Commentaires</h2>
+
+<p>Docstrings = <strong>Comment utiliser</strong> le code</p>
+
+<p>Commentaires = <strong>Pourquoi</strong> (rationnel) et <strong>comment le code fonctionne</strong></p>
+
+<p>Les docstrings expliquent <strong>comment</strong> utiliser le code et sont là pour
+<strong>les utilisateurs</strong> de votre code. Quelques usages :</p>
+
+<ul>
+<li>Expliquer le but d'une fonction même si ça vous semble évident car ça ne
+semblera pas forcément évident à une personne plus tard.</li>
+<li>Décrire les paramètres attendus, les valeurs retournées et les exceptions
+levées.</li>
+<li>Si la méthode est fortement couplée à un seul appelant, mentionner
+la fonction appelante (attention au fait que celle-ci puisse changer).</li>
+</ul>
+
+<p>Les commentaires expliquent <strong>pourquoi</strong> et sont pour les mainteneurs de 
+votre code. Examples incluant des notes pour vous-même, comme :</p>
+
+<pre><code># !!! BUG: ...
+
+# !!! FIX: This is a hack
+
+# ??? Why is this here?
+</code></pre>
+
+<p>Les deux types sont de <strong>votre</strong> ressort donc écrivez de bonnes docstrings
+et de bons commentaires !</p>
+
+<p>Les docstrings sont utiles pour un usage interactif (<code>help()</code>) et pour
+les systèmes d'auto-documentation.</p>
+
+<p>Les commentaires et docstrings faux sont pire que tout. Donc conservez les
+à jour ! Lorsque vous effectuez des modifications, assurez vous que les
+commentaires et les docstrings sont cohérents avec le code.</p>
+
+<p>Il y a <a href="http://www.python.org/dev/peps/pep-0257/">un PEP entier consacré aux docstrings, PEP 257, "Docstring
+Conventions"</a>.</p>
+
+<h2>La pratique a raison de la théorie</h2>
+
+<p>Il y a toujours des exceptions. Issu du PEP 8 :</p>
+
+<blockquote>
+  <p>Mais plus important : sachez être pertinents - parfois le style guide ne 
+    s'applique pas. Lorsque vous avez un doute, utilisez votre raison. Étudiez 
+    d'autres possibilités et décidez de ce qui vous semble le mieux. 
+    Et n'hésitez pas à demander !
+  Deux bonnes raisons de ne pas suivre une règle particulière :</p>
+  
+  <p>(1) Lorsque appliquer la règle va rendre le code moins lisible, même pour 
+    quelqu'un qui est habitué à lire du code qui suit les règles.</p>
+  
+  <p>(2) Pour être cohérent avec du code préexistant qui enfreint aussi ces règles 
+    (peut-être pour des raisons historiques) -- même si c'est aussi une opportunité 
+    pour faire un peu de nettoyage (dans un pur style XP).</p>
+</blockquote>
+
+<p>... mais la pratique ne doit pas réduire la théorie à néant !</p>
+
+<p>On plonge maintenant au cœur du tutoriel : les astuces. On va commencer avec 
+les plus faciles et augmenter progressivement le niveau.</p>
+
+<h2>Variables intermédiaires</h2>
+
+<p>Dans les autres langages :</p>
+
+<pre><code>temp = a
+a = b
+b = temp
+</code></pre>
+
+<p>En Python :</p>
+
+<pre><code>b, a = a, b
+</code></pre>
+
+<p>Vous l'avez peut-être déjà rencontré mais savez vous comment ça fonctionne ?</p>
+
+<ul>
+<li>La <strong>virgule</strong> est la syntaxe de construction du tuple.</li>
+<li>Un tuple est créé à droite (tuple packing).</li>
+<li>Un tuple en est la cible à gauche (tuple unpacking).</li>
+</ul>
+
+<p>La partie à droite est <strong>unpackée</strong> dans les noms de tuple de la partie à
+gauche.</p>
+
+<p>D'autres exemples:</p>
+
+<pre><code>&gt;&gt;&gt; l =['David', 'Pythonista', '+1-514-555-1234']
+&gt;&gt;&gt; name, title, phone = l
+&gt;&gt;&gt; name
+'David'
+&gt;&gt;&gt; title
+'Pythonista'
+&gt;&gt;&gt; phone
+'+1-514-555-1234'
+</code></pre>
+
+<p>Utile dans les boucles sur des données structurées (la variable <code>l</code> 
+ci-dessus a été conservée) :</p>
+
+<pre><code>&gt;&gt;&gt; people = [l, ['Guido', 'BDFL', 'unlisted']]
+&gt;&gt;&gt; for (name, title, phone) in people:
+...     print name, phone
+...
+David +1-514-555-1234
+Guido unlisted
+</code></pre>
+
+<p>Chaque item de <code>people</code> est unpacké dans le tuple <code>(name, title, phone)</code>.</p>
+
+<p>Il est aussi possible de faire le chemin inverse, il faut juste s'assurer
+d'avoir la même structure à droite et à gauche :</p>
+
+<pre><code>&gt;&gt;&gt; david, (gname, gtitle, gphone) = people
+&gt;&gt;&gt; gname
+'Guido'
+&gt;&gt;&gt; gtitle
+'BDFL'
+&gt;&gt;&gt; gphone
+'unlisted'
+&gt;&gt;&gt; david
+['David', 'Pythonista', '+1-514-555-1234']
+</code></pre>
+
+<h2>Aller plus loin avec les tuples</h2>
+
+<p>On a vu que la <strong>virgule</strong> était le constructeur du tuple, pas les 
+parenthèses. Par exemple :</p>
+
+<pre><code>&gt;&gt;&gt; 1,
+(1,)
+</code></pre>
+
+<p>L'interpréteur Python montre les parenthèses pour que ce soit plus clair
+et je vous conseille de faire de même :</p>
+
+<pre><code>&gt;&gt;&gt; (1,)
+(1,)
+</code></pre>
+
+<p>Mais n'oubliez pas la virgule !</p>
+
+<pre><code>&gt;&gt;&gt; (1)
+1
+</code></pre>
+
+<p>Dans un tuple contenant un seul élément, la virgule est nécessaire. Dans
+un tuple avec plus de 2 éléments, la virgule finale est optionnelle.
+Pour un tuple vide, une paire de parenthèses suffit :</p>
+
+<pre><code>&gt;&gt;&gt; ()
+()
+
+&gt;&gt;&gt; tuple()
+()
+</code></pre>
+
+<p>Une erreur de typo courante est de laisser une virgule alors que vous ne
+souhaitez pas avoir un tuple. Il est très facile de l'oublier dans votre
+code :</p>
+
+<pre><code>&gt;&gt;&gt; value = 1,
+&gt;&gt;&gt; value
+(1,)
+</code></pre>
+
+<p>Donc si vous vous retrouvez avec un tuple alors que vous ne vous y 
+attendiez pas, cherchez la virgule ! (<em>Note du traducteur</em> : de ma propre
+expérience, il est plus courant d'oublier la virgule pour un tuple ne 
+contenant qu'un seul élément, dans les settings de Django par exemple,
+cherchez plutôt la virgule manquante dans ces cas là).</p>
+
+<h2>Le "_" interactif</h2>
+
+<p>C'est une fonctionnalité très utile que peu de développeurs connaissent.
+(<em>Note du traducteur</em> : bien entendu 
+<a href="http://www.biologeek.com/bonnes-pratiques,python/python-et-underscore/">vous n'en faites pas partie</a> 
+et vous connaissez les dangers associés.)</p>
+
+<p>Dans un interpréteur interactif, que vous évaluiez une expression ou que
+vous appeliez une fonction, le résultat est stocké dans une variable
+temporaire, <code>_</code> (un underscore) :</p>
+
+<pre><code>&gt;&gt;&gt; 1 + 1
+2
+&gt;&gt;&gt; _
+2
+</code></pre>
+
+<p><code>_</code> stocke la dernière valeur <em>affichée</em>.</p>
+
+<p>Lorsqu'un résultat vaut <code>None</code>, rien n'est affiché, donc <code>_</code> ne change
+pas. C'est normal !</p>
+
+<p>Ça ne marche que dans un interpréteur interactif, pas dans un module.</p>
+
+<p>C'est particulièrement utile lorsque vous travaillez sur un problème de
+manière interactive, et que vous souhaitez stocker la valeur du dernier
+résultat :</p>
+
+<pre><code>&gt;&gt;&gt; import math
+&gt;&gt;&gt; math.pi / 3
+1.0471975511965976
+&gt;&gt;&gt; angle = _
+&gt;&gt;&gt; math.cos(angle)
+0.50000000000000011
+&gt;&gt;&gt; _
+0.50000000000000011
+</code></pre>
+
+<h2>Construction de chaînes de caractères</h2>
+
+<p>Commençons avec une liste de chaînes de caractères :</p>
+
+<pre><code>colors = ['red', 'blue', 'green', 'yellow']
+</code></pre>
+
+<p>On veut concaténer ces chaînes ensemble pour en créer une longue.
+Particulièrement lorsque le nombre de sous-chaînes est gros...</p>
+
+<p>Ne faites pas :</p>
+
+<pre><code>result = ''
+for s in colors:
+    result += s
+</code></pre>
+
+<p>C'est très lent.
+Ça utilise énormément de mémoire et de performances. La somme va additionner,
+stocker, et ensuite passer à la suite pour chaque étape intermédiaire.</p>
+
+<p>Faites plutôt ceci :</p>
+
+<pre><code>result = ''.join(colors)
+</code></pre>
+
+<p>La méthode <code>join()</code> fait toute la copie en une seule passe.</p>
+
+<p>Lorsque vous ne traitez qu'une petite centaine de chaînes de caractères,
+ça ne fait aucune différence. Mais prenez l'habitude de construire vos
+chaînes de façon optimale, car avec des milliers ou des boucles, ça <strong>va</strong>
+faire la différence.</p>
+
+<h2>Construire des chaînes, solutions 1</h2>
+
+<p>Voici quelques techniques pour utiliser la méthode <code>join()</code>.</p>
+
+<p>Si vous voulez un espace comme séparateur :</p>
+
+<pre><code>result = ' '.join(colors)
+</code></pre>
+
+<p>ou une virgule et un espace :</p>
+
+<pre><code>result = ', '.join(colors)
+</code></pre>
+
+<p>voici un cas courant d'utilisation :</p>
+
+<pre><code>colors = ['red', 'blue', 'green', 'yellow']
+print 'Choose', ', '.join(colors[:-1]), \
+      'or', colors[-1]
+</code></pre>
+
+<p>Pour faire une phrase grammaticalement correcte, on veut des virgules entre
+chaque valeurs sauf la dernière, où l'on préfère un "ou". La syntaxe de
+découpage d'une liste s'occupe du reste. La "partie jusqu'à -1" (<code>[:-1]</code>) 
+retourne tout sauf la dernière valeur, que l'on peut concaténer avec nos
+virgules.</p>
+
+<p>Bien sûr, ce code ne fonctionnera pas avec les cas particuliers comme une
+liste de taille 0 ou 1. Ce qui retourne :</p>
+
+<pre><code>Choose red, blue, green or yellow
+</code></pre>
+
+<h2>Construire des chaînes, solutions 2</h2>
+
+<p>Vous avez besoin d'appliquer une fonction pour générer les chaînes initiales :</p>
+
+<pre><code>result = ''.join(fn(i) for i in items)
+</code></pre>
+
+<p>Ça utilise une <em>generator expression</em>, dont on parlera plus tard.</p>
+
+<p>Si vous devez modifier les chaînes de manière incrémentale, commencez par
+les stocker dans une liste pour commencer :</p>
+
+<pre><code>items = []
+...
+items.append(item)  # de nombreuses fois
+...
+# une fois la liste complétée
+result = ''.join(fn(i) for i in items)
+</code></pre>
+
+<p>On accumule les parties de la liste afin de pouvoir appliquer le <code>join</code>,
+ce qui est plus rapide.</p>
+
+<h2>Utilisez <code>in</code> lorsque c'est possible (1)</h2>
+
+<p>Bon :</p>
+
+<pre><code>for key in d:
+    print key
+</code></pre>
+
+<ul>
+<li><code>in</code> est généralement plus rapide.</li>
+<li>Ce pattern marche aussi pour des items dans des containers arbitraires 
+(comme les listes, les tuples ou les tests).</li>
+<li><code>in</code> est aussi un opérateur (comme on va le voir).</li>
+</ul>
+
+<p>Mauvais :</p>
+
+<pre><code>for key in d.keys():
+    print key
+</code></pre>
+
+<p>C'est limité aux objects ayant une méthode <code>keys()</code>.</p>
+
+<h2>Utilisez <code>in</code> lorsque c'est possible (2)</h2>
+
+<p>Mais <code>.keys()</code> est <strong>nécessaire</strong> lorsque vous modifiez le dictionnaire :</p>
+
+<pre><code>for key in d.keys():
+    d[str(key)] = d[key]
+</code></pre>
+
+<p><code>d.keys()</code> crée une liste statique des clés du dictionnaire. Sinon, vous 
+allez lever une exception "RuntimeError: dictionary changed size during iteration".</p>
+
+<p>Utilisez <code>key in dict</code>, et non <code>dict.has_key()</code> :</p>
+
+<pre><code># faites ça :
+if key in d:
+    ...do something with d[key]
+
+# mais pas ça :
+if d.has_key(key):
+    ...do something with d[key]
+</code></pre>
+
+<p><code>in</code> est ici utilisé comme un opérateur.</p>
+
+<h2>La méthode <code>get</code> des dictionnaires</h2>
+
+<p>On doit souvent initialiser les entrées d'un dictionnaire avant de les utiliser:</p>
+
+<p>Voici la manière naïve de faire :</p>
+
+<pre><code>navs = {}
+for (portfolio, equity, position) in data:
+    if portfolio not in navs:
+        navs[portfolio] = 0
+    navs[portfolio] += position * prices[equity]
+</code></pre>
+
+<p><code>dict.get(key, default)</code> permet de ne pas avoir à se soucier du test :</p>
+
+<pre><code>navs = {}
+for (portfolio, equity, position) in data:
+    navs[portfolio] = (navs.get(portfolio, 0)
+                       + position * prices[equity])
+</code></pre>
+
+<p>Beaucoup mieux.</p>
+
+<h2>La méthode <code>setdefault</code> des dictionnaires (1)</h2>
+
+<p>Ici on doit initialiser les valeurs d'un dictionnaire mutables. Chaque valeur 
+du dictionnaire sera une liste. Voici la manière naïve :</p>
+
+<pre><code>equities = {}
+for (portfolio, equity) in data:
+    if portfolio in equities:
+        equities[portfolio].append(equity)
+    else:
+        equities[portfolio] = [equity]
+</code></pre>
+
+<p><code>dict.setdefault(key, default)</code> s'occupe de ça de manière beaucoup plus rapide :</p>
+
+<pre><code>equities = {}
+for (portfolio, equity) in data:
+    equities.setdefault(portfolio, []).append(equity)
+</code></pre>
+
+<p><code>dict.setdefault()</code> est équivalent à "get ou set &amp; get".  Ou 
+"set si nécessaire, puis get". C'est particulièrement rapide si votre clé de 
+dictionnaire est coûteuse à générer ou longue à taper.</p>
+
+<p>Le seul problème avec <code>dict.setdefault()</code> c'est que la valeur par défaut est 
+évaluée, qu'elle soit utilisée ou non. Ça ne pose problème que si la clé est 
+coûteuse à calculer.</p>
+
+<p>Si la valeur par défaut <strong>est</strong> coûteuse à calculer, vous devriez plutôt
+utiliser la classe <code>defaultdict</code>.</p>
+
+<h2>La méthode <code>setdefault</code> des dictionnaires (2)</h2>
+
+<p>On va voir qu'il est possible d'utiliser <code>setdefault</code> pour déclarer une valeur par défaut :</p>
+
+<pre><code>navs = {}
+for (portfolio, equity, position) in data:
+    navs.setdefault(portfolio, 0)
+    navs[portfolio] += position * prices[equity]
+</code></pre>
+
+<p>La méthode <code>setdefault</code> d'un dictionnaire retourne la valeur par défaut, mais 
+nous l'ignorons ici. On tire profit d'une conséquence de l'utilisation de 
+<code>setdefault</code>, la valeur n'est initialisée que si elle n'existe pas déjà.</p>
+
+<h2><code>defaultdict</code></h2>
+
+<p>Nouveau avec Python 2.5.</p>
+
+<p><code>defaultdict</code> est nouveau dans Python 2.5, il fait partie du module 
+<code>collections</code>. <code>defaultdict</code> est identique aux dictionnaires classiques, 
+excepté pour deux cas :</p>
+
+<ul>
+<li>il prend un premier argument optionnel : une fonction factory par défaut</li>
+<li>lorsqu'une clé de dictionnaire est rencontrée pour la première fois, la
+fonction factory par défaut est appelée et le résultat initialise la
+valeur du dictionnaire.</li>
+</ul>
+
+<p>Il y a deux manières d'accéder à <code>defaultdict</code> :</p>
+
+<ul>
+<li><p>importer le module <code>collections</code> et l'appeler à travers le module :</p>
+
+<pre><code>import collections
+d = collections.defaultdict(...)
+</code></pre></li>
+<li><p>ou importer <code>defaultdict</code> directement :</p>
+
+<pre><code>from collections import defaultdict
+d = defaultdict(...)
+</code></pre></li>
+</ul>
+
+<p>Voici l'exemple déjà traité, où chaque valeur du dictionnaire fois être 
+initialisé pour être une liste vide, réécrit en utilisant <code>defaultdict</code> :</p>
+
+<pre><code>from collections import defaultdict
+
+equities = defaultdict(list)
+for (portfolio, equity) in data:
+    equities[portfolio].append(equity)
+</code></pre>
+
+<p>Il n'y a plus d'astuce ici. Dans ce cas, la fonction factory par défaut est 
+<code>list</code>, ce qui retourne une liste vide.</p>
+
+<p>C'est la manière d'avoir un dictionnaire avec les valeurs par défaut à 0, 
+utilisez <code>int</code> comme factory :</p>
+
+<pre><code>navs = defaultdict(int)
+for (portfolio, equity, position) in data:
+    navs[portfolio] += position * prices[equity]
+</code></pre>
+
+<p>Il faut faire attention à <code>defaultdict</code> quand même. Vous ne pouvez pas 
+utiliser l'exception <code>KeyError</code> sur un dictionnaire initialisé avec <code>defaultdict</code>. 
+Vous devez utiliser la condition "key in dict" si vous voulez vérifier 
+l'existence d'une clé de manière spécifique.</p>
+
+<h2>Construire et scinder des dictionnaires</h2>
+
+<p>Voila une technique utile pour construire un dictionnaire à partir de deux 
+listes (ou séquences), une liste pour les clés, une liste pour les valeurs :</p>
+
+<pre><code>given = ['John', 'Eric', 'Terry', 'Michael']
+family = ['Cleese', 'Idle', 'Gilliam', 'Palin']
+pythons = dict(zip(given, family))
+&gt;&gt;&gt; pprint.pprint(pythons)
+{'John': 'Cleese',
+ 'Michael': 'Palin',
+ 'Eric': 'Idle',
+ 'Terry': 'Gilliam'}
+</code></pre>
+
+<p>L'inverse est trivial bien sûr :</p>
+
+<pre><code> &gt;&gt;&gt; pythons.keys()
+ ['John', 'Michael', 'Eric', 'Terry']
+ &gt;&gt;&gt; pythons.values()
+ ['Cleese', 'Palin', 'Idle', 'Gilliam']
+</code></pre>
+
+<p>Notez que l'ordre du résultat des .keys() et .values() à est différent des 
+listes utilisées lors de la création du dictionnaire. L'ordre d'entrée est 
+différent de l'ordre de sortie car un dictionnaire n'est pas ordonné. 
+Par contre, l'ordre des clés est consistant avec celui des valeurs, à condition 
+que le dictionnaire n'ait pas été modifié entre temps.</p>
+
+<h2>Tester des valeurs vraies</h2>
+
+<p>Il est élégant et rapide de tirer partie des avantages de Python en ce qui 
+concerne les valeurs booléennes :</p>
+
+<pre><code># faites ça :     # et pas ça :
+if x:             if x == True:
+    pass              pass
+</code></pre>
+
+<p>Test d'une liste :</p>
+
+<pre><code># faites ça :     # et pas ça :
+if items:         if len(items) != 0:
+    pass              pass
+
+                  # et surtout pas ça :
+                  if items != []:
+                      pass
+</code></pre>
+
+<h2>Valeurs vraies</h2>
+
+<p>Les noms <code>True</code> et <code>False</code> sont des instances intrinsèques à Python de type 
+<code>bool</code>, des valeurs booléennes. Comme <code>None</code>, il n'existe qu'une seule 
+instance de chaque.</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>
+                False
+            </th>
+            <th>
+                True
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <code>False</code> (== 0)
+            </td>
+            <td>
+                <code>True</code> (== 1)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <code>""</code> (empty string) 
+            </td>
+            <td>
+                toutes les chaînes à part <code>""</code> (<code>" "</code>, 
+                <code>"nimportequoi"</code>)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <code>0</code>, <code>0.0</code>
+            </td>
+            <td>
+                n'importe quel chiffre à part <code>0</code>
+                (1, 0.1, -1, 3.14)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <code>[]</code>, <code>()</code>, 
+                <code>{}</code>, <code>set()</code>
+            </td>
+            <td>
+                n'importe quel container non vide
+                (<code>[0]</code>, <code>(None,)</code>, <code>['']</code>)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <code>None</code>
+            </td>
+            <td>
+                pratiquement tous les objets qui ne sont
+                explicitement équivalents à False
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<p>Voici par exemple un objet qui est toujours vrai :</p>
+
+<pre><code>&gt;&gt;&gt; class C:
+...  pass
+...
+&gt;&gt;&gt; o = C()
+&gt;&gt;&gt; bool(o)
+True
+&gt;&gt;&gt; bool(C)
+True
+</code></pre>
+
+<p>Pour contrôler la valeur booléenne d'une instance ou d'une classe définie, 
+utilisez les méthodes spéciales <code>__nonzero__</code> ou <code>__len__</code>. Utilisez 
+<code>__len__</code> si votre classe est un container qui a une taille :</p>
+
+<pre><code>class MyContainer(object):
+
+    def __init__(self, data):
+        self.data = data
+
+    def __len__(self):
+        """Return my length."""
+        return len(self.data)
+</code></pre>
+
+<p>Si votre classe n'est pas un container, utilisez <code>__nonzero__</code> :</p>
+
+<pre><code>class MyClass(object):
+
+    def __init__(self, value):
+        self.value = value
+
+    def __nonzero__(self):
+        """Return my truth value (True or False)."""
+        # This could be arbitrarily complex:
+        return bool(self.value)
+</code></pre>
+
+<p>En Python 3.0, <code>__nonzero__</code> a été renommé <code>__bool__</code> afin d'être consistant 
+avec le type <code>bool</code> natif.  Pour être compatible, ajoutez ceci à la définition 
+de votre classe :</p>
+
+<pre><code>__bool__ = __nonzero__
+</code></pre>
+
+<h2>Index &amp; Item (1)</h2>
+
+<p>Voici une manière élégante de vous épargner quelques lignes si vous avez 
+besoin d'une liste de mots :</p>
+
+<pre><code>&gt;&gt;&gt; items = 'zero one two three'.split()
+&gt;&gt;&gt; print items
+['zero', 'one', 'two', 'three']
+</code></pre>
+
+<p>Prenons l'exemple d'un itération entre les items d'une liste, pour laquelle 
+nous voulons à la fois l'item et la position (l'index) de cet item dans la liste :</p>
+
+<pre><code>                  - ou -
+i = 0
+for item in items:      for i in range(len(items)):
+    print i, item               print i, items[i]
+    i += 1
+</code></pre>
+
+<h2>Index &amp; Item (2): <code>enumerate</code></h2>
+
+<p>La fonction <code>enumerate</code> prend une liste et retourne des paires (index, item) :</p>
+
+<pre><code>&gt;&gt;&gt; print list(enumerate(items))
+[(0, 'zero'), (1, 'one'), (2, 'two'), (3, 'three')]
+</code></pre>
+
+<p>Il est nécessaire d'avoir recours à une <code>list</code> pour afficher les résultats 
+car <code>enumerate</code> est une fonction fainéante, générant un item (une paire) à 
+la fois, seulement lorsqu'il est demandé. Une boucle <code>for</code> nécessite un tel
+mécanisme. <code>enumerate</code> est un exemple de <strong>générateur</strong> dont on parlera plus 
+tard des détails. <code>print</code> ne prend pas un résultat à la fois mais doit être 
+en possession de la totalité du message à afficher. On a donc converti 
+automatiquement le générateur en une liste avant d'utiliser print.</p>
+
+<p>Notre boucle devient beaucoup plus simple :</p>
+
+<pre><code>for (index, item) in enumerate(items):
+    print index, item
+
+# comparé à :              # comparé à :
+index = 0               for i in range(len(items)):
+for item in items:              print i, items[i]
+    print index, item
+    index += 1
+</code></pre>
+
+<p>La version avec <code>enumerate</code> est plus courte et plus simple que la version 
+de gauche, et plus facile à lire que les deux autres.</p>
+
+<p>Un exemple montrant que la fonction <code>enumerate</code> retourne un itérateur 
+(un générateur est une sorte d'itérateur) :</p>
+
+<pre><code>&gt;&gt;&gt; enumerate(items)
+&lt;enumerate object at 0x011EA1C0&gt;
+&gt;&gt;&gt; e = enumerate(items)
+&gt;&gt;&gt; e.next()
+(0, 'zero')
+&gt;&gt;&gt; e.next()
+(1, 'one')
+&gt;&gt;&gt; e.next()
+(2, 'two')
+&gt;&gt;&gt; e.next()
+(3, 'three')
+&gt;&gt;&gt; e.next()
+Traceback (most recent call last):
+  File "&lt;stdin&gt;", line 1, in ?
+StopIteration
+</code></pre>
+
+<h2>Les autres langages ont des "variables"</h2>
+
+<p>Dans de nombreux autres langages, assigner une variable revient à mettre une 
+valeur dans une boîte.</p>
+
+<pre><code>int a = 1;
+</code></pre>
+
+<p>
+    <img src="http://media.biologeek.com/images/python_astuces_bonnes_pratiques/a1box.png" alt="Boîte 1 a" />
+</p>
+
+<p>La boîte "a" contient maintenant un integer 1.</p>
+
+<p>Assigner une autre valeur à la même variable remplace le contenu de la boîte :</p>
+
+<pre><code>a = 2;
+</code></pre>
+
+<p>
+    <img src="http://media.biologeek.com/images/python_astuces_bonnes_pratiques/a2box.png" alt="Boîte 2 a" />
+</p>
+
+<p>Maintenant la boîte "a" contient un integer 2.</p>
+
+<p>Assigner une variable à une autre crée une copie de la valeur et la met 
+dans une nouvelle boîte :</p>
+
+<pre><code>int b = a;
+</code></pre>
+
+<p>
+    <img src="http://media.biologeek.com/images/python_astuces_bonnes_pratiques/a2box.png" alt="Boîte 2 a" />
+</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/python_astuces_bonnes_pratiques/b2box.png" alt="Boîte 2 b" />
+</p>
+
+<p>"b" est une seconde boîte, avec une copie de l'entier 2. La boîte "a" en a
+une copie séparée.</p>
+
+<h2>Python a des "noms"</h2>
+
+<p>En Python, un "nom" ou "identifiant" est comme une étiquette attachée à un 
+objet.</p>
+
+<pre><code>a = 1
+</code></pre>
+
+<p>
+    <img src="http://media.biologeek.com/images/python_astuces_bonnes_pratiques/a1tag.png" alt="Tag 1 a" />
+</p>
+
+<p>Ici, un objet integer 1 a une étiquette appelée "a".</p>
+
+<p>Si on réassigne "a", on déplace juste l'étiquette sur un autre objet :</p>
+
+<pre><code>a = 2
+</code></pre>
+
+<p>
+    <img src="http://media.biologeek.com/images/python_astuces_bonnes_pratiques/a2tag.png" alt="Tag 2 a" />
+</p>
+
+<p>
+    <img src="http://media.biologeek.com/images/python_astuces_bonnes_pratiques/1.png" alt="1" />
+</p>
+
+<p>Maintenant le nom "a" est attaché à un objet entier 2.</p>
+
+<p>L'objet entier 1 n'a plus le tag "a". Il peut encore exister mais on n'y a
+plus accès via le nom "a". (Lorsqu'un objet n'a plus aucune référence ou 
+étiquette, il est supprimé de la mémoire.)</p>
+
+<p>Si l'on assigne un nom à un autre, on attache juste une autre étiquette à 
+un objet existant :</p>
+
+<pre><code>b = a
+</code></pre>
+
+<p>
+    <img src="http://media.biologeek.com/images/python_astuces_bonnes_pratiques/ab2tag.png" alt="Tag 2 a b" />
+</p>
+
+<p>Le nom "b" est juste une seconde étiquette attachée au même objet que "a".</p>
+
+<p>Bien que l'on réfère communément aux "variables" en Python (car c'est une
+terminologie commune aux autres langages), on manipule vraiment de "noms" ou
+"identifiants". En Python, les "variables" sont des étiquettes pour des
+valeurs, non des boîtes nommés.</p>
+
+<p>Si vous ne comprenez rien au reste de ce tutoriel, j'espère que vous aurez$
+au moins retenu la façon dont les noms fonctionnent. Une bonne compréhension
+vous permettra d'apprendre rapidement et d'éviter des erreurs comme celle-ci:</p>
+
+<h2>Valeurs de paramètres par défaut</h2>
+
+<p>C'est une erreur courante que les débutants font souvent. Même les 
+développeurs plus expérimentés la font s'ils n'ont pas compris comment
+fonctionnent les noms en Python.</p>
+
+<pre><code>def bad_append(new_item, a_list=[]):
+    a_list.append(new_item)
+    return a_list
+</code></pre>
+
+<p>Le problème ici c'est que la valeur par défaut <code>a_list</code>, une liste vide,
+est évaluée lors de la définition de la fonction. Ainsi à chaque fois que
+vous appelez la fonction vous obtenez la <strong>même</strong> valeur par défaut.
+Essayez plusieurs fois :</p>
+
+<pre><code>&gt;&gt;&gt; print bad_append('one')
+['one']
+
+&gt;&gt;&gt; print bad_append('two')
+['one', 'two']
+</code></pre>
+
+<p>Les listes sont modifiables, vous pouvez modifier leur contenu. La bonne 
+manière d'avoir une liste par défaut (ou dictionnaire, ou set) est de la
+créer au moment du lancement, <strong>au sein de la fonction</strong> :</p>
+
+<pre><code>def good_append(new_item, a_list=None):
+    if a_list is None:
+        a_list = []
+    a_list.append(new_item)
+    return a_list
+</code></pre>
+
+<h2>Formattage des chaînes de caractères avec %</h2>
+
+<p>L'opérateur <code>%</code> fonctionne en Python comme la fonction <code>sprintf</code> de C.</p>
+
+<p>Bien sûr si vous ne connaissez pas C, ça ne vous aide pas. Pour faire simple,
+vous définissez un template ou format et des valeurs qui seront interprétées.</p>
+
+<p>Dans cet exemple, le template contient deux spécifications de conversion
+"%s" signifie "insérer une chaîne de caractère ici" et "%i" signifie 
+"convertir un integer en string et l'insérer ici". "%s" est particulièrement 
+utile car il utilise la fonction standard <code>str()</code> pour convertir un objet
+en une chaîne de caractères.</p>
+
+<p>Les valeurs proposées doivent correspondrent au template, on a deux valeurs
+ici, un tuple.</p>
+
+<pre><code>name = 'David'
+messages = 3
+text = ('Hello %s, you have %i messages'
+        % (name, messages))
+print text
+</code></pre>
+
+<p>Ce qui donne :</p>
+
+<pre><code>Hello David, you have 3 messages
+</code></pre>
+
+<p>Les détails sont dans la <em>Python Library Reference</em>, section 2.3.6.2,
+"String Formatting Operations". Mettez cette page en favoris !</p>
+
+<p>Si vous ne l'avez pas encore fait, allez sur python.org, téléchargez la
+documentation en HTML (dans un .zip ou une archive), et installez la sur
+votre machine. Il n'y a rien de mieux que d'avoir la ressource de référence
+à portée de clavier.</p>
+
+<h2>Formattage des chaînes de caractères avancé</h2>
+
+<p>Pourquoi est-ce qu'il y a autant de personnes qui ne réalisent pas qu'il y
+a d'autres façons de formater les chaînes de caractères qui peuvent s'avérer
+plus puissantes ?</p>
+
+<p>Avec des noms grâce à un dictionnaire :</p>
+
+<pre><code>values = {'name': name, 'messages': messages}
+print ('Hello %(name)s, you have %(messages)i '
+       'messages' % values)
+</code></pre>
+
+<p>Ici on a spécifié les noms des valeurs interprétées, qui constituent les
+clés du dictionnaire.</p>
+
+<p>Vous trouvez qu'il y a de la redondance ? Les noms "name" et "messages"
+sont déjà définis localement. On peut en tirer parti.</p>
+
+<p>En utilisant les variables locales :</p>
+
+<pre><code>print ('Hello %(name)s, you have %(messages)i '
+       'messages' % locals())
+</code></pre>
+
+<p>La fonction <code>locals()</code> retourne un dictionnaire de toutes les variables
+locales disponibles.</p>
+
+<p>C'est très puissant. Grâce à ça, vous pouvez formater toutes les chaînes de 
+caractères que vous voulez sans avoir à vous soucier de la correspondance
+positionnelle avec les valeurs soumises en argument.</p>
+
+<p>Mais le pouvoir peut être dangereux. ("With great power comes great
+responsibility.")  Si vous utilisez <code>locals()</code> avec un template issu d'une
+ressource externe, vous exposez l'intégralité de votre espace de noms local.
+C'est une chose à garder en tête.</p>
+
+<p>Pour examiner votre espace de nom local :</p>
+
+<pre><code>&gt;&gt;&gt; from pprint import pprint
+&gt;&gt;&gt; pprint(locals())
+</code></pre>
+
+<p><code>pprint</code> est un module très utile. Si vous ne le connaissiez pas déjà,
+essayez de jouer avec. Ça rend le debugging des données structurées beaucoup
+plus simple !</p>
+
+<h2>Formattage des chaînes de caractères avancé</h2>
+
+<p>L'espace de nom des attributs d'une instance d'objet est simplement un 
+dictionnaire, <code>self.__dict__</code>.</p>
+
+<p>En utilisant l'espace de nom d'une instance :</p>
+
+<pre><code>print ("We found %(error_count)d errors"
+       % self.__dict__)
+</code></pre>
+
+<p>Equivalent à, mais moins flexible que :</p>
+
+<pre><code>print ("We found %d errors"
+       % self.error_count)
+</code></pre>
+
+<p>Note: Les attributs d'une classe sont dans le <code>__dict__</code> de la classe. 
+Les espaces de noms sont hérités et constituent donc des dictionnaires
+chaînés.</p>
+
+<h2>List Comprehensions</h2>
+
+<p>Les list comprehensions ("listcomps" pour les intimes) sont des raccourcis
+syntaxiques pour ce pattern généralement utilisé.</p>
+
+<p>La manière traditionnelle avec <code>for</code> et <code>if</code> :</p>
+
+<pre><code>new_list = []
+for item in a_list:
+    if condition(item):
+        new_list.append(fn(item))
+</code></pre>
+
+<p>En utilisant une list comprehension :</p>
+
+<pre><code>new_list = [fn(item) for item in a_list
+            if condition(item)]
+</code></pre>
+
+<p>Les listcomps sont claires et concises, directes. Vous pouvez avoir plusieurs
+boucles <code>for</code> et conditions <code>if</code> au sein d'une même listcomp, mais
+au-delà de deux ou trois, ou si les conditions sont complexes, je vous 
+suggère d'utiliser l'habituelle boucle <code>for</code>. En appliquant le Zen de Python, 
+utilisez la méthode la plus lisible.</p>
+
+<p>Par exemple, la liste des carrés de 0 à 9 :</p>
+
+<pre><code>&gt;&gt;&gt; [n ** 2 for n in range(10)]
+[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+</code></pre>
+
+<p>La liste des nombres impairs au sein de la précédente liste :</p>
+
+<pre><code>&gt;&gt;&gt; [n ** 2 for n in range(10) if n % 2]
+[1, 9, 25, 49, 81]
+</code></pre>
+
+<h2>Generator Expressions (1)</h2>
+
+<p>Faisons la somme des carrés des nombres inférieurs à 100 :</p>
+
+<p>Avec une boucle :</p>
+
+<pre><code>total = 0
+for num in range(1, 101):
+    total += num * num
+</code></pre>
+
+<p>On peut aussi utiliser la fonction <code>sum</code> qui fait plus rapidement le 
+travail pour nous en construisant la bonne séquence.</p>
+
+<p>Avec une list comprehension :</p>
+
+<pre><code>total = sum([num * num for num in range(1, 101)])
+</code></pre>
+
+<p>Avec une generator expression :</p>
+
+<pre><code>total = sum(num * num for num in xrange(1, 101))
+</code></pre>
+
+<p>Les generator expressions ("genexps") sont comme les list
+comprehensions, excepté dans leur calcul, les genexps sont fainéantes.
+Les listcomps calculent l'intégralité du résultat en une seule passe, pour
+le stocker dans une liste. Les generator expressions calculent une valeur à
+la fois, lorsqu'elle est nécessaire. C'est particulièrement utile lorsque la
+séquence est très longue lorsque la liste générée n'est qu'une étape
+intermédiaire et non le résultat final.</p>
+
+<p>Dans ce cas, on est uniquement intéressé par la somme, on n'a pas besoin de
+la liste des résultats intermédiaires. On utilise <code>xrange</code> pour la même 
+raison, ça génère les valeurs une par une.</p>
+
+<h2>Generator Expressions (2)</h2>
+
+<p>Par exemple si on doit faire la somme des carrés de plusieurs milliards
+d'entiers, on va arriver à une saturation de la mémoire avec une list
+comprehension, mais les generator expressions ne vont avoir aucun problème.
+Bon ça va prendre un certain temps par contre !</p>
+
+<pre><code>total = sum(num * num
+            for num in xrange(1, 1000000000))
+</code></pre>
+
+<p>La différence de syntaxe est que les listcomps ont des crochets, alors que
+les genexps n'en ont pas. Les generator expressions nécessitent parfois des
+parenthèses par contre, vous devriez donc toujours les utiliser.</p>
+
+<p>En bref :</p>
+
+<ul>
+<li>Utilisez une list comprehension lorsque le résultat escompté est la liste.</li>
+<li>Utilisez une generator expression lorsque la liste n'est qu'un résultat
+intermédiaire.</li>
+</ul>
+
+<p>Voici un récent exemple de ce que j'ai vu au boulot.</p>
+
+<p>On avait besoin d'un dictionnaire qui corresponde aux chiffres des mois (à
+la fois via des chaînes de caractères et via des integers) au code des mois 
+pour un client. Cela peut être fait avec une ligne de code.</p>
+
+<p>Ça fonctionne de la manière suivante :</p>
+
+<ul>
+<li>La fonction de référence <code>dict()</code> prend en argument une liste de paires
+de clés/valeurs (2-tuples).</li>
+<li>On a une liste des codes des mois (chaque code est une simple lettre, et
+une chaîne de caractères est aussi une simple liste de lettres). On parcours
+cette liste pour obtenir à la fois le code du mois et l'index.</li>
+<li>Le nombre des mois commence à 1 mais Python commence l'indexation à 0,
+le nombre des mois correspond dont à index+1.</li>
+<li>On veut avoir la correspondance à la fois avec les nombres et les chaînes
+de caractères. On peut utiliser les fonctions <code>int()</code> et <code>str()</code> pour 
+ça et itérer dessus.</li>
+</ul>
+
+<p>L'exemple en question :</p>
+
+<pre><code> month_codes = dict((fn(i+1), code)
+     for i, code in enumerate('FGHJKMNQUVXZ')
+     for fn in (int, str))
+</code></pre>
+
+<p>Le résultat obtenu pour <code>month_codes</code> :</p>
+
+<pre><code>{ 1:  'F',  2:  'G',  3:  'H',  4:  'J', ...
+ '1': 'F', '2': 'G', '3': 'H', '4': 'J', ...}
+</code></pre>
+
+<h2>Ordonner</h2>
+
+<p>Il est très simple d'ordonner une liste en Python :</p>
+
+<pre><code>a_list.sort()
+</code></pre>
+
+<p>(Notez que la liste est ordonnée sur place, la liste originale est ordonnée
+et la fonction <code>sort</code> <strong>ne retourne pas</strong> une liste ou une copie.)</p>
+
+<p>Mais que faire lorsque vous avec une liste de données à ordonner, mais
+quelle ne s'ordonne pas de manière naturelle ? Par exemple ordonner selon
+la première colonne, puis la quatrième.</p>
+
+<p>On peut utiliser la fonction de référence <code>sort</code> avec une méthode définie
+par nos soins :</p>
+
+<pre><code>def custom_cmp(item1, item2):
+    returm cmp((item1[1], item1[3]),
+               (item2[1], item2[3]))
+
+a_list.sort(custom_cmp)
+</code></pre>
+
+<p>Ça marche, mais c'est extrêmement lent pour les listes énormes.</p>
+
+<h2>Ordonner avec DSU</h2>
+
+<p>DSU = Decorate-Sort-Undecorate</p>
+
+<p>Note: DSU n'est bien souvent plus nécessaire, cf. section suivante.</p>
+
+<p>Au lieu de créer une fonction de comparaison personnalisée, on crée une
+liste intermédiaire qui va pourvoir être ordonnée naturellement :</p>
+
+<pre><code># Decorate:
+to_sort = [(item[1], item[3], item)
+           for item in a_list]
+
+# Sort:
+to_sort.sort()
+
+# Undecorate:
+a_list = [item[-1] for item in to_sort]
+</code></pre>
+
+<p>La première ligne crée une liste contenant des tuples, une copie de la valeur
+à ordonner en premier argument, suivi de la valeur complète de la liste.</p>
+
+<p>La seconde ligne ordonne grâce à la fonction Python, ce qui est très rapide.</p>
+
+<p>La troisième ligne récupère la <strong>dernière</strong> valeur de la liste une fois
+ordonnée. Souvenez-vous, cette dernière valeur correspond à l'item complet.
+On n'utilise plus la partie ayant permis d'ordonner, elle a joué son rôle
+et n'est plus utile.</p>
+
+<p>C'est un compromis espace mémoire + complexité vs. temps. Plus simple et
+rapide mais on est obligé de dupliquer la liste originale.</p>
+
+<h2>Ordonner avec keys</h2>
+
+<p>Python 2.4 a introduit un nouvel argument à la méthode <code>sort</code> des listes,
+"key", qui permet de spécifier une fonction à un argument qui est utilisée
+pour comparer chaque élément d'une liste avec les autres. Par exemple :</p>
+
+<pre><code>def my_key(item):
+    return (item[1], item[3])
+
+to_sort.sort(key=my_key)
+</code></pre>
+
+<p>La fonction <code>my_key</code> va être appelée une fois par item de la liste <code>to_sort</code>.</p>
+
+<p>Vous pouvez utiliser votre propre fonction ou utiliser une fonction existante
+qui ne prend qu'un seul argument :</p>
+
+<ul>
+<li><code>str.lower</code> pour ordonner alphabétiquement sans tenir compte de la casse.</li>
+<li><code>len</code> pour ordonner selon la taille des items (chaînes de caractères ou containers).</li>
+<li><code>int</code> ou <code>float</code> pour ordonner numériquement avec des valeurs qui sont
+des chaînes de caractères comme "2", "123", "35".</li>
+</ul>
+
+<h2>Generators</h2>
+
+<p>On a déjà vu les generator expressions. On peut créer nos propres generators,
+comme des fonctions :</p>
+
+<pre><code>def my_range_generator(stop):
+    value = 0
+    while value &lt; stop:
+        yield value
+        value += 1
+
+for i in my_range_generator(10):
+    do_something(i)
+</code></pre>
+
+<p>Le mot-clé <code>yield</code> transforme une fonction en generator. Lorsque vous
+appelez une fonction generator, au lieu d'exécuter le code directement,
+Python retourne un objet generator, qui est un itérateur. Il a une méthode
+<code>next</code>. Les boucles <code>for</code> appellent la méthode <code>next</code> de l'itérateur,
+jusqu'à ce qu'une exception du type <code>StopIteration</code> soit levée.
+Vous pouvez lever l'exception <code>StopIteration</code> explicitement ou de manière
+implicite comme dans le code ci-dessous.</p>
+
+<p>Les générateurs peuvent simplifier la manière de gérer les 
+séquences/itérateurs, car on n'a pas besoin de créer des listes 
+intermédiaires. Ça ne génère qu'une valeur à la fois.</p>
+
+<p>Voici comment la boucle <code>for</code> fonctionne réellement. Python analyse la
+séquence déclarée avec le mot-clé <code>in</code>. Si c'est un simple container (comme
+une liste, un tuple, un dictionnaire, un set ou un container défini par
+l'utilisateur) Python le converti en itérateur. Si c'est déjà un itérateur,
+Python ne fait rien.</p>
+
+<p>Python appelle ensuite de manière itérative la méthode <code>next</code> de
+l'itérateur, assignant la valeur retournée au compteur de la boucle (<code>i</code> 
+dans notre cas), et exécute le code indenté. C'est répété, encore et encore
+jusqu'à ce que <code>StopIteration</code> soit levée, ou qu'un <code>break</code> soit exécuté.</p>
+
+<p>Une boucle <code>for</code> peut être dotée d'un <code>else</code>, au sein de laquelle le
+code est exécuté si rien ne s'est produit dans la boucle for, mais <strong>non</strong>
+après un <code>break</code>. Cette distinction permet de faire des choses élégantes.
+<code>else</code> est rarement utilisé avec la boucle <code>for</code> mais peut s'avérer
+très puissant lorsque la logique correspond à ce que vous souhaitez faire.</p>
+
+<p>Par exemple, si on doit vérifier qu'une condition est toujours remplie par
+tous les items d'une liste :</p>
+
+<pre><code>for item in sequence:
+    if condition(item):
+        break
+else:
+    raise Exception('Condition not satisfied.')
+</code></pre>
+
+<h2>Exemple de generator</h2>
+
+<p>Filtrer les colonnes vides à partir d'un fichier CSV (ou des items d'une liste) :</p>
+
+<pre><code>def filter_rows(row_iterator):
+    for row in row_iterator:
+        if row:
+            yield row
+
+data_file = open(path, 'rb')
+irows = filter_rows(csv.reader(data_file))
+</code></pre>
+
+<h2>Lire les lignes d'un fichier de données</h2>
+
+<pre><code>datafile = open('datafile')
+for line in datafile:
+    do_something(line)
+</code></pre>
+
+<p>C'est possible car les fichiers sont dotés d'une méthode <code>next</code>, comme
+d'autres itérateurs : les listes, les tuples, les dictionnaires (pour leurs
+clés), les generators.</p>
+
+<p>Il y a un piège ici : étant donnée la façon dont sont mises en cache les
+données, vous ne pouvez pas utiliser à la fois les méthodes <code>.next</code> et
+<code>.read*</code> à moins que vous n'utilisez Python 2.5+.</p>
+
+<h2>EAFP vs. LBYL</h2>
+
+<p>Il est plus facile de demander le pardon que la permission (EAFP) vs. analyser 
+avant d'échouer (LBYL). Généralement EAFP est préféré, mais pas toujours.</p>
+
+<ul>
+<li>Duck typing
+Si ça marche comme un canard, parle comme un canard et ressemble à un
+canard : c'est un canard.</li>
+<li>Exceptions
+Essayez de forcer le type si un objet doit être d'un type particulier.
+Si <code>x</code> doit être une chaîne de caractères pour que votre code
+fonctionne, pourquoi ne pas appeler <code>str(x)</code> au lieu d'essayer quelque`
+chose comme <code>isinstance(x, str)</code>.</li>
+</ul>
+
+<h2>Exemple EAFP <code>try/except</code></h2>
+
+<p>Vous pouvez encapsuler vos exceptions dans un bloc <code>try/except</code> pour
+pour récupérer les erreurs et vous allez probablement arriver à une solution
+qui est beaucoup plus générale que si vous aviez essayer d'anticiper chaque
+cas.</p>
+
+<pre><code>try:
+    return str(x)
+except TypeError:
+    ...
+</code></pre>
+
+<p>Note: Spécifiez toujours l'exception à attraper. N'utilisez jamais 
+<code>except</code> tout seul. Sinon <code>except</code> va cacher d'autres exceptions qui 
+risquent d'être levées rendant votre code très difficile à debugger.</p>
+
+<h2>Importer</h2>
+
+<pre><code>from module import *
+</code></pre>
+
+<p>Vous avez probablement déjà vu cette manière de faires des imports avec une
+"étoile". Vous l'appréciez peut-être. <strong>Ne l'utilisez pas.</strong></p>
+
+<p>Pour paraphraser un exemple très connu :</p>
+
+<blockquote>
+  <p>LUKE: Est-ce que <code>from module import *</code> est meilleur que des imports explicites ? <br />
+  YODA: Non, pas meilleur. Plus rapide, plus simple, plus séduisant. <br />
+  LUKE: Mais comment saurais-je pourquoi les imports explicites sont meilleurs que les formes étoilées ? <br />
+  YODA: Tu sauras lorsque ton code dans 6 mois tu essayeras de lire.</p>
+</blockquote>
+
+<p>Les imports étoilés sont le mauvais côté de la Force en Python.</p>
+
+<p>Les imports de type <code>from module import *</code> polluent votre espace de nom.
+Vous allez avoir des choses que vous n'attendiez pas. Vous pouvez avoir des
+conflits avec les noms que vous avez défini localement. Vous n'allez plus
+savoir d'où viennent certains noms. Bien que ce soit un raccourci pratique,
+ça ne doit pas arriver en production.</p>
+
+<p>Morale : <strong>n'utilisez pas d'imports étoilés !</strong></p>
+
+<p>Il est bien meilleur de référencer les noms à partir de leurs modules :</p>
+
+<pre><code>import module
+module.name
+</code></pre>
+
+<p>importer un module avec un nom plus court si nécessaire (avec <code>alias</code>) :</p>
+
+<pre><code>import long_module_name as mod
+mod.name
+</code></pre>
+
+<p>ou importer juste les noms dont vous avez besoin de manière explicite :</p>
+
+<pre><code>from module import name
+name
+</code></pre>
+
+<p>Notez qu'il est nécessaire d'utiliser "reload()" sur un module lorsque vous
+utilisez le prompt interactif si vous éditez celui-ci.</p>
+
+<h2>Modules et scripts</h2>
+
+<p>Pour faire à la fois un module importable et un script exécutable :</p>
+
+<pre><code>if __name__ == '__main__':
+    # script code here
+</code></pre>
+
+<p>Lorsqu'il est importé, un attribut<code>__name__</code> est setté, correspondant au 
+nom du fichier du module, sans ".py". Le code ci-dessus ne va donc pas être
+lancé lors d'un import. Lorsqu'il est lancé comme un script, l'attribut
+<code>__name__</code> est setté à "<strong>main</strong>" et le script va être exécuté.</p>
+
+<p>Excepté pour certains cas spéciaux, vous ne devriez placer aucun code 
+important au plus haut niveau. Placez votre code dans des fonctions, classes,
+méthodes et protégez le avec <code>if __name__ == '__main__'</code>.</p>
+
+<h2>Structure d'un module</h2>
+
+<pre><code>"""module docstring"""
+
+# imports
+# constants
+# exception classes
+# interface functions
+# classes
+# internal functions &amp; classes
+
+def main(...):
+    ...
+
+if __name__ == '__main__':
+    status = main()
+    sys.exit(status)
+</code></pre>
+
+<p>C'est la façon dont un module devrait être structuré.</p>
+
+<h2>Utilisation de la ligne de commande</h2>
+
+<p>Exemple (<em>Note du traducteur</em> : <a href="http://www.biologeek.com/bonnes-pratiques,python/un-template-python-pour-parser-des-arguments/">j'ai déjà parlé de ça aussi</a>) :</p>
+
+<pre><code>#!/usr/bin/env python
+
+"""
+Module docstring.
+"""
+
+import sys
+import optparse
+
+def process_command_line(argv):
+    """
+    Return a 2-tuple: (settings object, args list).
+    `argv` is a list of arguments, or `None` for ``sys.argv[1:]``.
+    """
+    if argv is None:
+        argv = sys.argv[1:]
+
+    # initialize the parser object:
+    parser = optparse.OptionParser(
+        formatter=optparse.TitledHelpFormatter(width=78),
+        add_help_option=None)
+
+    # define options here:
+    parser.add_option(      # customized description; put --help last
+        '-h', '--help', action='help',
+        help='Show this help message and exit.')
+
+    settings, args = parser.parse_args(argv)
+
+    # check number of arguments, verify values, etc.:
+    if args:
+        parser.error('program takes no command-line arguments; '
+                     '"%s" ignored.' % (args,))
+
+    # further process settings &amp; args if necessary
+
+    return settings, args
+
+def main(argv=None):
+    settings, args = process_command_line(argv)
+    # application code here, like:
+    # run(settings, args)
+    return 0        # success
+
+if __name__ == '__main__':
+    status = main()
+    sys.exit(status)
+</code></pre>
+
+<h2>Packages</h2>
+
+<pre><code>package/
+    __init__.py
+    module1.py
+    subpackage/
+        __init__.py
+        module2.py
+</code></pre>
+
+<ul>
+<li>Utilisés pour organiser un projet.</li>
+<li>Réduisent le nombre d'entrées lors du chargement.</li>
+<li>Réduisent les conflits en cas d'imports.</li>
+</ul>
+
+<p>Exemple :</p>
+
+<pre><code>import package.module1
+from packages.subpackage import module2
+from packages.subpackage.module2 import name
+</code></pre>
+
+<p>En Python 2.5 on a maintenant les imports absolus et relatifs via un import
+du futur :</p>
+
+<pre><code>from __future__ import absolute_import
+</code></pre>
+
+<p>Je n'ai pas encore eu l'occasion de tester ça moi-même, on va donc couper
+court à toute discussion à ce sujet.</p>
+
+<h2>Simple is Better Than Complex</h2>
+
+<blockquote>
+  <p>Débugger est deux fois plus difficile que d'écrire du code en premier jet.
+  De plus, si vous écrivez le code aussi intelligemment que possible, vous
+  êtes, par définition, pas assez intelligent pour le débugger.</p>
+  
+  <p>-- Brian W. Kernighan, co-auteur de <em>The C Programming Language</em>
+     et le "K" dans "AWK"</p>
+</blockquote>
+
+<p>En d'autres termes, gardez vos programmes simples !</p>
+
+<h2>Ne réinventez pas la roue</h2>
+
+<p>Avant d'écrire une seule ligne de code,</p>
+
+<ul>
+<li>Vérifiez que cela n'est pas dans la bibliothèque standard de Python.</li>
+<li>Vérifiez que cela n'est pas dans le <a href="http://cheeseshop.python.org/pypi">Python Package Index</a> (the "Cheese Shop")</li>
+<li>Cherchez sur le web. <em>Google is your friend.</em></li>
+</ul>
+
+<h2>Retour du traducteur</h2>
+
+<p>Pour terminer, et si vous souhaitez aller plus loin, une 
+<a href="http://www.dabeaz.com/generators/">excellente présentation sur les générateurs</a> 
+que je n'aurais malheureusement pas le temps de traduire permet d'envisager la 
+programmation Python d'une manière tout à fait différente. Elle est orientée 
+administration système mais elle peut vraiment être appliquée à de nombreux cas. 
+Et si vous voulez comprendre l'intérêt des décorateurs, 
+<a href="http://avinashv.net/2008/04/python-decorators-syntactic-sugar/">un bon exemple</a> 
+vaut mieux que tous les discours. Mangez du Python, c'est bon pour la santé !</p>
+
+
+
+<div>
+<p>
+    <a href="http://www.biologeek.com/" title="">
+        <img src="http://media.biologeek.com/css/images/logo.png" alt="Logo biologeek" />
+    </a>
+    <a href="http://www.biologeek.com/bonnes-pratiques,conferences,django,python,traduction/bonnes-pratiques-et-astuces-python/"><strong>Bonnes pratiques et astuces Python</strong></a> 
+    a été rédigé par <a href="http://david.larlet.fr">David Larlet</a> pour 
+    <a href="http://www.biologeek.com">biologeek.com</a> et a été originellement 
+    posté le 11 Mai 2008. À part exceptions, c'est 
+    ©2008 David Larlet et sous <a href="http://www.biologeek.com/contact/#licence" title="À lire avant toute (re)copie">licence (presque) libre</a> autorisant 
+    la reproduction, la distribution et la modification sous certaines conditions.
+    Veuillez les respecter.
+</p>
+</div><br/><br/>
+<div>
+  <strong>Related</strong>
+  <ul>
+         <li><a href="http://www.gawel.org/weblog/2008/04/django-monte-en-puissance">[Gawel] django monte en puissance</a></li>
+
+     <li><a href="http://www.biologeek.com/conferences,django,python/conferences-django-pour-pycon-fr/">[Biologeek] ★ Conférences Django pour PyCon fr</a></li>
+
+     <li><a href="http://www.biologeek.com/django,informatique,python,web-frameworks,web-semantique/des-vacances-et-des-liens/">[Biologeek] Des vacances et des liens</a></li>
+
+     <li><a href="http://www.biologeek.com/critique,livre,python/envie-de-developper-agilement-en-python-suivez-le-guide/">[Biologeek] Envie de développer agilement en Python ? Suivez le guide !</a></li>
+
+     <li><a href="http://www.biologeek.com/django,python,rest,web-frameworks/une-solution-pour-faciliter-la-conception-d-applications-web-restful-avec-django/">[Biologeek] Une solution pour faciliter la conception d'applications web RESTful avec Django</a></li>
+
+     <li><a href="http://www.biologeek.com/conferences,django,python/presentation-de-django-aux-journees-python-francophones/">[Biologeek] Présentation de Django aux journées Python francophones</a></li>
+
+     <li><a href="http://www.biologeek.com/python,web-frameworks/developpement-web-python-et-frameworks-tour-d-horizon-debut-2007/">[Biologeek] Développement web python et frameworks, tour d'horizon début 2007</a></li>
+
+     <li><a href="http://www.biologeek.com/django,python,web-frameworks/modelisation-d-un-workflow-lineaire-avec-django/">[Biologeek] Modélisation d'un workflow linéaire avec Django</a></li>
+
+     <li><a href="http://www.biologeek.com/bonnes-pratiques,python/benchmarks-map-filter-vs-list-comprehensions/">[Biologeek] Benchmarks map, filter vs. list-comprehensions</a></li>
+
+     <li><a href="http://www.biologeek.com/python,web/analyse-des-donnees-utilisateur-d-aol-suite-et-fin/">[Biologeek] Analyse des données utilisateur d'AOL : suite et fin</a></li>
+
+     <li><a href="http://www.biologeek.com/python,web/les-100-premiers-mots-cles-recherches-par-les-utilisateurs-d-aol/">[Biologeek] Les 100 premiers mots-clés recherchés par les utilisateurs d'AOL</a></li>
+
+     <li><a href="http://www.biologeek.com/critique,livre,python/critique-du-livre-programmation-python/">[Biologeek] Critique du livre Programmation Python</a></li>
+
+     <li><a href="http://www.biologeek.com/bonnes-pratiques,python/principales-nouveautes-dans-python-25/">[Biologeek] Principales nouveautés dans Python 2.5</a></li>
+
+     <li><a href="http://www.biologeek.com/bonnes-pratiques,python/un-template-python-pour-parser-des-arguments/">[Biologeek] Un template python pour parser des arguments</a></li>
+
+     <li><a href="http://www.biologeek.com/python,web/convertisseur-de-syntaxes-wiki-dotclear-a-dokuwiki/">[Biologeek] Convertisseur de syntaxes wiki Dotclear à Dokuwiki</a></li>
+
+     <li><a href="http://www.biologeek.com/bio-informatique,python/parser-un-fichier-pdb-en-python-facilement-et-efficacement/">[Biologeek] ★ Parser un fichier PDB en python facilement et efficacement</a></li>
+
+     <li><a href="http://www.biologeek.com/python,web/votre-aggregateur-manquerait-il-de-fonctionnalites/">[Biologeek] Votre aggrégateur manquerait-il de fonctionnalités ?</a></li>
+
+     <li><a href="http://www.biologeek.com/python/cours-pour-apprendre-python/">[Biologeek] ★ Cours pour apprendre Python</a></li>
+
+  </ul>
+</div>
+]]></description>
+    <link><![CDATA[http://www.biologeek.com/bonnes-pratiques,conferences,django,python,traduction/bonnes-pratiques-et-astuces-python/]]></link>
+    <pubDate>2008-05-11 18:50:44</pubDate>
+    <category>bonnes-pratiques</category>
+    <category>python</category>
+    <category>conferences</category>
+    <category>django</category>
+    <category>traduction</category>
+  </item>
+  <item>
+    <title><![CDATA[[Haypo] Pycon FR : les Journées Python Francophones édition 2008 (JPF08)]]></title>
+    <description><![CDATA[Comme l'année passée, je participe aux Journées Python Francophones organisées par l'AFPy à Paris (à la Cité des Sciences et de l'Industrie pour être exact). Contrairement aux conférences telle que Blackhat où l'entrée coûte plusieurs milliers d'euros, Pycon FR est entièrement...]]></description>
+    <link><![CDATA[http://www.haypocalc.com/blog/index.php/2008/05/08/147-pycon-fr-journees-python-francophones-2008-jpf08]]></link>
+    <pubDate>2008-05-08 02:31:17</pubDate>
+    <category>Python</category>
+  </item>
+  <item>
+    <title><![CDATA[[Afpy News] PyCon FR - 17-18 mai - Paris]]></title>
+    <description><![CDATA[La deuxième édition des journées Python aura lieu les 17 et 18 mai prochains à la Cité des Sciences de la Villette.]]></description>
+    <link><![CDATA[http://www.afpy.org/Members/tarek/pycon-fr]]></link>
+    <pubDate>2008-05-07 10:00:19</pubDate>
+    <category>A la une</category>
+  </item>
+  <item>
+    <title><![CDATA[[Afpy News] AFPyro d'Avril]]></title>
+    <description><![CDATA[Encore un AFPyro !!!]]></description>
+    <link><![CDATA[http://www.afpy.org/Members/gawel/news/afpyro_avril_2008]]></link>
+    <pubDate>2008-04-21 01:29:55</pubDate>
+    <category>A la une</category>
+  </item>
+  <item>
+    <title><![CDATA[[Afpy News] Sprint Plone 3, 25/26/27 avril]]></title>
+    <description><![CDATA[Sprint Plone 3 les 25, 26 et 27 avril 2008 à Paris]]></description>
+    <link><![CDATA[http://www.afpy.org/Members/tarek/sprint-plone-3]]></link>
+    <pubDate>2008-04-14 02:42:13</pubDate>
+    <category>A la une</category>
+  </item>
+</channel>
+</rss>
+
