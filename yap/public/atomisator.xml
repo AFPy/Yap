@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <channel>
-<title><![CDATA[Planet Afpy]]></title>
+<title><![CDATA[Planet Python Francophone]]></title>
 <description><![CDATA[Le planet de l'Association Python Francophone]]></description>
 <link>http://www.afpy.org/planet/</link>
 <language>en</language>
