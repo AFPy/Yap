@@ -73,8 +73,6 @@ h1 {
 }
 
 #rss {
-    background-color: blue;
-    font-color: white;
     padding: 2px;
     float: right;
 }
@@ -102,5 +100,9 @@ div.feedBody {
   padding: 10px;
   display: none;
   background-color: white;
+}
+
+span.extract {
+ color: #778899;
 }
 

@@ -11,7 +11,11 @@ $(document).ready(function(){
  
  $(button_${id_}).click(
     function() {
-      $(div_${id_}).slideToggle('slow');
+      var current = $(div_${id_});
+      if (!current.is(':visible')) {
+        $("div.feedBody").hide('slow');
+      }
+      current.slideToggle('slow');
     }
   );
 
@@ -26,6 +30,7 @@ $(document).ready(function(){
  <div class="feedTitle clickable" id="${id_}_sh">
    ${entry['title']}  
    <a target="_blank" class="linker" href="${entry['link']}"><img class="noBorder" src="link.png"/></a>
+   <span class="extract">${entry['extract']}</span>
  </div>
  
  <div class="feedBody" id="${id_}">
