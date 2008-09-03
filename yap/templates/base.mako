@@ -14,10 +14,6 @@
      <a name="top"></a>
      <div id="header">
        <div id="rss"><a href="/atomisator.xml"><img src="/rss.png"/></a></div>
-       <a class="noUnderline" href="#">
-        <img class="noBorder" src="atomisator-logo.jpg" alt="Atomisator" title="Atomisator">
-       </a>
-      
       %if c.title:
       <div id="title">
         ${c.title}
@@ -30,7 +26,7 @@
      <div id="footer">
     <div id="rss"><a href="/atomisator.xml"><img src="/rss.png"/></a></div>
 
-        Atomisator | <a href="#top">Top</a> <!--| <a href="/backoffice">Backoffice</a>-->
+        <a href="http://atomisator.ziade.org">Powered by Atomisator</a> | <a href="#top">Top</a> <!--| <a href="/backoffice">Backoffice</a>-->
      </div>
 	</body>
 </html>
