@@ -1,7 +1,7 @@
 from mako import runtime, filters, cache
 UNDEFINED = runtime.UNDEFINED
 _magic_number = 2
-_modified_time = 1220523256.198565
+_modified_time = 1220523805.3977561
 _template_filename=u'/Volumes/MacDev/svn.afpy.org/atomisator.afpy.org/packages/Yap/trunk/yap/templates/base.mako'
 _template_uri=u'/base.mako'
 _template_cache=cache.Cache(__name__, _modified_time)

@@ -90,15 +90,14 @@ div.feedEntry {
 }
 
 div.feedTitle {
-  background-color: #E0FFFF;
-  border-bottom: 1px solid grey; 
-  padding: 2px; 
-  font-size: 90%
+  background-color:#F2F2FF;
+  border: 1px solid #DDDDEE;
+  font-size: 90%;
+  padding: 2px;
 }
 
 div.feedBody {
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #DDDDEE;
   padding: 10px;
   display: none;
   background-color: white;
