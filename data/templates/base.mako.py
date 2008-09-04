@@ -1,7 +1,7 @@
 from mako import runtime, filters, cache
 UNDEFINED = runtime.UNDEFINED
 _magic_number = 2
-_modified_time = 1220475082.966372
+_modified_time = 1220523256.198565
 _template_filename=u'/Volumes/MacDev/svn.afpy.org/atomisator.afpy.org/packages/Yap/trunk/yap/templates/base.mako'
 _template_uri=u'/base.mako'
 _template_cache=cache.Cache(__name__, _modified_time)
@@ -31,7 +31,7 @@ def render_body(context,**pageargs):
         context.write(u'\n        ')
         # SOURCE LINE 10
         context.write(unicode(h.rails.javascript_include_tag('/jquery.js')))
-        context.write(u'\n        <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/atomisator.xml" />\n    </head>\n\t<body>\n     <a name="top"></a>\n     <div id="header">\n       <div id="rss"><a href="/atomisator.xml"><img src="/rss.png"/></a></div>\n')
+        context.write(u'\n        <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/atomisator.xml" />\n    </head>\n\t<body>\n     <a name="top"></a>\n     <div id="header">\n       <div id="rss"><a href="/atomisator.xml"><img src="/rss.png" alt="rss"/></a></div>\n')
         # SOURCE LINE 17
         if c.title:
             # SOURCE LINE 18
@@ -43,7 +43,7 @@ def render_body(context,**pageargs):
         context.write(u'     </div>\n     <div id="content">\n        ')
         # SOURCE LINE 24
         context.write(unicode(self.body()))
-        context.write(u'\n     </div>\n     <div id="footer">\n    <div id="rss"><a href="/atomisator.xml"><img src="/rss.png"/></a></div>\n\n        <a href="http://atomisator.ziade.org">Powered by Atomisator</a> | <a href="#top">Top</a> <!--| <a href="/backoffice">Backoffice</a>-->\n     </div>\n\t</body>\n</html>\n\n')
+        context.write(u'\n     </div>\n     <div id="footer">\n    <div id="rss"><a href="/atomisator.xml"><img src="/rss.png" alt="rss"/></a></div>\n\n        <a href="http://atomisator.ziade.org">Powered by Atomisator</a> | <a href="#top">Top</a> <!--| <a href="/backoffice">Backoffice</a>-->\n     </div>\n\t</body>\n</html>\n\n')
         return ''
     finally:
         context.caller_stack.pop_frame()

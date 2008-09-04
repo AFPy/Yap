@@ -13,7 +13,7 @@
 	<body>
      <a name="top"></a>
      <div id="header">
-       <div id="rss"><a href="/atomisator.xml"><img src="/rss.png"/></a></div>
+       <div id="rss"><a href="/atomisator.xml"><img src="/rss.png" alt="rss"/></a></div>
       %if c.title:
       <div id="title">
         ${c.title}
@@ -24,7 +24,7 @@
         ${self.body()}
      </div>
      <div id="footer">
-    <div id="rss"><a href="/atomisator.xml"><img src="/rss.png"/></a></div>
+    <div id="rss"><a href="/atomisator.xml"><img src="/rss.png" alt="rss"/></a></div>
 
         <a href="http://atomisator.ziade.org">Powered by Atomisator</a> | <a href="#top">Top</a> <!--| <a href="/backoffice">Backoffice</a>-->
      </div>

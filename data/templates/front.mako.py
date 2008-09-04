@@ -1,7 +1,7 @@
 from mako import runtime, filters, cache
 UNDEFINED = runtime.UNDEFINED
 _magic_number = 2
-_modified_time = 1220474899.584681
+_modified_time = 1220523256.17191
 _template_filename='/Volumes/MacDev/svn.afpy.org/atomisator.afpy.org/packages/Yap/trunk/yap/templates/front.mako'
 _template_uri='/front.mako'
 _template_cache=cache.Cache(__name__, _modified_time)
@@ -33,7 +33,7 @@ def render_body(context,**pageargs):
             context.write(u'\n div_')
             # SOURCE LINE 8
             context.write(unicode(id_))
-            context.write(u' = "#')
+            context.write(u' = "#e')
             context.write(unicode(id_))
             context.write(u'";\n $(div_')
             # SOURCE LINE 9
@@ -41,7 +41,7 @@ def render_body(context,**pageargs):
             context.write(u').hide();\n button_')
             # SOURCE LINE 10
             context.write(unicode(id_))
-            context.write(u' = "#')
+            context.write(u' = "#e')
             context.write(unicode(id_))
             context.write(u'_sh";\n \n $(button_')
             # SOURCE LINE 12
@@ -55,7 +55,7 @@ def render_body(context,**pageargs):
         # SOURCE LINE 28
         for id_, entry in enumerate(c.entries): 
             # SOURCE LINE 29
-            context.write(u'<div class="feedEntry">\n <div class="feedTitle clickable" id="')
+            context.write(u'<div class="feedEntry">\n <div class="feedTitle clickable" id="e')
             # SOURCE LINE 30
             context.write(unicode(id_))
             context.write(u'_sh">\n   ')
@@ -64,10 +64,10 @@ def render_body(context,**pageargs):
             context.write(u'  \n   <a target="_blank" class="linker" href="')
             # SOURCE LINE 32
             context.write(unicode(entry['link']))
-            context.write(u'"><img class="noBorder" src="link.png"/></a>\n   <span class="extract">')
+            context.write(u'"><img class="noBorder" src="link.png" alt="link"/></a>\n   <span class="extract">')
             # SOURCE LINE 33
             context.write(unicode(entry['extract']))
-            context.write(u'</span>\n </div>\n \n <div class="feedBody" id="')
+            context.write(u'</span>\n </div>\n \n <div class="feedBody" id="e')
             # SOURCE LINE 36
             context.write(unicode(id_))
             context.write(u'">\n  <strong>Date: ')
