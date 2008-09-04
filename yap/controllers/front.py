@@ -26,7 +26,7 @@ class Html2Txt(SGMLParser):
             self.pieces.append("&")
 
     def output(self):
-        return ' '.join(self.pieces)
+        return ' '.join(self.pieces).replace('<br/>', '')
 
 class FrontController(BaseController):
 

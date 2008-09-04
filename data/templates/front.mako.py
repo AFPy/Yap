@@ -1,7 +1,7 @@
 from mako import runtime, filters, cache
 UNDEFINED = runtime.UNDEFINED
 _magic_number = 2
-_modified_time = 1220524617.562964
+_modified_time = 1220559122.213378
 _template_filename='/Volumes/MacDev/svn.afpy.org/atomisator.afpy.org/packages/Yap/trunk/yap/templates/front.mako'
 _template_uri='/front.mako'
 _template_cache=cache.Cache(__name__, _modified_time)
@@ -26,59 +26,47 @@ def render_body(context,**pageargs):
         __M_locals = dict(pageargs=pageargs)
         c = context.get('c', UNDEFINED)
         # SOURCE LINE 1
-        context.write(u'\n\n<script type="text/javascript">\n$(document).ready(function(){\n\n')
-        # SOURCE LINE 6
-        for id_, entry in enumerate(c.entries):  
-            # SOURCE LINE 7
-            context.write(u'\n div_')
-            # SOURCE LINE 8
-            context.write(unicode(id_))
-            context.write(u' = "#e')
-            context.write(unicode(id_))
-            context.write(u'";\n $(div_')
-            # SOURCE LINE 9
-            context.write(unicode(id_))
-            context.write(u').hide();\n button_')
-            # SOURCE LINE 10
-            context.write(unicode(id_))
-            context.write(u' = "#e')
-            context.write(unicode(id_))
-            context.write(u'_sh";\n \n $(button_')
-            # SOURCE LINE 12
-            context.write(unicode(id_))
-            context.write(u').click(\n    function() {\n      var current = $(div_')
-            # SOURCE LINE 14
-            context.write(unicode(id_))
-            context.write(u');\n      if (!current.is(\':visible\')) {\n        $("div.feedBody").hide(\'slow\');\n      }\n      current.slideToggle(\'slow\');\n    }\n  );\n\n')
-        # SOURCE LINE 23
-        context.write(u' \n });\n\n</script>\n\n')
-        # SOURCE LINE 28
+        context.write(u'\n\n<script type="text/javascript">\n\ncurrentArticle = 0;\nsize = 50;\n\nfunction nextArticle() {\n  if (currentArticle<size) { \n    currentArticle+=1;\n  }\n  showCurrent(); \n}\n\nfunction previousArticle() {\n  if (currentArticle>0) {\n    currentArticle-=1; \n  }\n  showCurrent();\n}\n\nfunction showCurrent() {\n  showArticle(currentArticle);\n}\n\nfunction showArticle(id) {\n  var current = $(\'#e\'+id);\n  if (!current.is(\':visible\')) {\n        $("div.feedBody").hide(\'slow\');\n  }\n  current.slideToggle(\'slow\');\n  /*$(document).scrollTo(\'#e\'+id+\'_sh\', {duration: 1000, margin:true});*/\n  currentArticle = id;\n}\n\n$(document).bind(\'keydown\', \'j\', nextArticle);\n$(document).bind(\'keydown\', \'k\', previousArticle);\n$(document).bind(\'keydown\', \'right\', nextArticle);\n$(document).bind(\'keydown\', \'left\', previousArticle);\n\n$(document).ready(function() {\n\n')
+        # SOURCE LINE 43
         for id_, entry in enumerate(c.entries): 
-            # SOURCE LINE 29
-            context.write(u'<div class="feedEntry">\n <div class="feedDate">')
-            # SOURCE LINE 30
-            context.write(unicode(entry['pubDate']))
-            context.write(u'</div>\n <div class="feedTitle clickable" id="e')
-            # SOURCE LINE 31
+            # SOURCE LINE 44
+            context.write(u' $("#e')
             context.write(unicode(id_))
-            context.write(u'_sh">\n   ')
-            # SOURCE LINE 32
+            context.write(u'").hide(); \n $("#e')
+            # SOURCE LINE 45
+            context.write(unicode(id_))
+            context.write(u'_sh").click(function() {showArticle(')
+            context.write(unicode(id_))
+            context.write(u')});\n')
+        # SOURCE LINE 47
+        context.write(u'\nshowCurrent();\n \n });\n\n</script>\n\n<table id="entries">\n')
+        # SOURCE LINE 55
+        for id_, entry in enumerate(c.entries):
+            # SOURCE LINE 56
+            context.write(u'<tr class="feedEntry"> \n  <td class="feedTitle clickable" id="e')
+            # SOURCE LINE 57
+            context.write(unicode(id_))
+            context.write(u'_sh"> \n    ')
+            # SOURCE LINE 58
             context.write(unicode(entry['title']))
-            context.write(u'  \n   <a target="_blank" class="linker" href="')
-            # SOURCE LINE 33
-            context.write(unicode(entry['link']))
-            context.write(u'"><img class="noBorder" src="link.png" alt="link"/></a>\n   <span class="extract">')
-            # SOURCE LINE 34
+            context.write(u'  \n    <span class="extract">')
+            # SOURCE LINE 59
             context.write(unicode(entry['extract']))
-            context.write(u'</span> </div>\n <div style="clear: top"/> \n <div class="feedBody" id="e')
-            # SOURCE LINE 36
+            context.write(u'</span> \n </td>\n <td class="feedDate">\n   ')
+            # SOURCE LINE 62
+            context.write(unicode(entry['pubDate']))
+            context.write(u'\n </td>\n <td class="feedLink">\n    <a target="_blank" class="linker" \n    href="')
+            # SOURCE LINE 66
+            context.write(unicode(entry['link']))
+            context.write(u'"><img class="noBorder" src="link.png" \n    alt="link"/>\n   </a>\n </td>\n</tr>\n<tr>\n <td class="feedBodyContainer" colspan="3">\n  <div id="e')
+            # SOURCE LINE 73
             context.write(unicode(id_))
-            context.write(u'">\n    ')
-            # SOURCE LINE 37
+            context.write(u'" class="feedBody">\n    ')
+            # SOURCE LINE 74
             context.write(unicode(entry['description']))
-            context.write(u'\n </div>\n</div>\n')
-        # SOURCE LINE 41
-        context.write(u'\n\n')
+            context.write(u'\n  </div>\n </td>\n</tr>\n')
+        # SOURCE LINE 79
+        context.write(u'</table>\n\n')
         return ''
     finally:
         context.caller_stack.pop_frame()

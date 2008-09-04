@@ -84,29 +84,50 @@ h1 {
     color: white;
 }
 
-div.feedEntry {
-  /*padding: 10px;*/
-  /*margin-bottom: 10px;*/
-}
-
-div.feedTitle {
+#entries {
+  width: 100%;
   background-color:#F2F2FF;
   border: 1px solid #DDDDEE;
-  font-size: 90%;
-  padding: 2px;
 }
 
-div.feedDate {
-  float: right;
-  margin-top: 4px;
+td {
+}
+
+td.feedTitle {
+  text-align: left;
+  vertical-align : middle;
+  width: 90%;
+}
+
+tr.feedEntry {
+  font-size: 90%;
+  height: 8px;
+}
+
+td.feedLink {
+  text-align: right;
+  vertical-align : middle;
+  width: 2%;
+}
+
+td.feedDate {
+  text-align: right;
+  vertical-align : middle;
   color: #778899;
+}
+
+td.feedBodyContainer {
+ border-top: 1px solid #DDDDEE;
+
 }
 
 div.feedBody {
   border-bottom: 1px solid #DDDDEE;
-  padding: 10px;
-  display: none;
-  background-color: white;
+  border-left: 1px solid #DDDDEE; 
+  border-right: 1px solid #DDDDEE; 
+  padding: 10px;   
+  background-color: white;    
+  display: None;
 }
 
 span.extract {
