@@ -96,6 +96,12 @@ div.feedTitle {
   padding: 2px;
 }
 
+div.feedDate {
+  float: right;
+  margin-top: 4px;
+  color: #778899;
+}
+
 div.feedBody {
   border-bottom: 1px solid #DDDDEE;
   padding: 10px;

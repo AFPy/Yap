@@ -27,15 +27,14 @@ $(document).ready(function(){
 
 %for id_, entry in enumerate(c.entries): 
 <div class="feedEntry">
+ <div class="feedDate">${entry['pubDate']}</div>
  <div class="feedTitle clickable" id="e${id_}_sh">
    ${entry['title']}  
    <a target="_blank" class="linker" href="${entry['link']}"><img class="noBorder" src="link.png" alt="link"/></a>
-   <span class="extract">${entry['extract']}</span>
- </div>
- 
+   <span class="extract">${entry['extract']}</span> </div>
+ <div style="clear: top"/> 
  <div class="feedBody" id="e${id_}">
-  <strong>Date: ${entry['pubDate']}</strong>
-  ${entry['description']}
+    ${entry['description']}
  </div>
 </div>
 %endfor

@@ -1,7 +1,7 @@
 from mako import runtime, filters, cache
 UNDEFINED = runtime.UNDEFINED
 _magic_number = 2
-_modified_time = 1220523256.17191
+_modified_time = 1220524617.562964
 _template_filename='/Volumes/MacDev/svn.afpy.org/atomisator.afpy.org/packages/Yap/trunk/yap/templates/front.mako'
 _template_uri='/front.mako'
 _template_cache=cache.Cache(__name__, _modified_time)
@@ -55,29 +55,29 @@ def render_body(context,**pageargs):
         # SOURCE LINE 28
         for id_, entry in enumerate(c.entries): 
             # SOURCE LINE 29
-            context.write(u'<div class="feedEntry">\n <div class="feedTitle clickable" id="e')
+            context.write(u'<div class="feedEntry">\n <div class="feedDate">')
             # SOURCE LINE 30
+            context.write(unicode(entry['pubDate']))
+            context.write(u'</div>\n <div class="feedTitle clickable" id="e')
+            # SOURCE LINE 31
             context.write(unicode(id_))
             context.write(u'_sh">\n   ')
-            # SOURCE LINE 31
+            # SOURCE LINE 32
             context.write(unicode(entry['title']))
             context.write(u'  \n   <a target="_blank" class="linker" href="')
-            # SOURCE LINE 32
+            # SOURCE LINE 33
             context.write(unicode(entry['link']))
             context.write(u'"><img class="noBorder" src="link.png" alt="link"/></a>\n   <span class="extract">')
-            # SOURCE LINE 33
+            # SOURCE LINE 34
             context.write(unicode(entry['extract']))
-            context.write(u'</span>\n </div>\n \n <div class="feedBody" id="e')
+            context.write(u'</span> </div>\n <div style="clear: top"/> \n <div class="feedBody" id="e')
             # SOURCE LINE 36
             context.write(unicode(id_))
-            context.write(u'">\n  <strong>Date: ')
+            context.write(u'">\n    ')
             # SOURCE LINE 37
-            context.write(unicode(entry['pubDate']))
-            context.write(u'</strong>\n  ')
-            # SOURCE LINE 38
             context.write(unicode(entry['description']))
             context.write(u'\n </div>\n</div>\n')
-        # SOURCE LINE 42
+        # SOURCE LINE 41
         context.write(u'\n\n')
         return ''
     finally:
