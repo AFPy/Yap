@@ -2,6 +2,7 @@
 # (C) Copyright 2008 Tarek Ziadé <tarek@ziade.org>
 #
 import logging
+import os
 from lxml import etree
 import time
 import datetime
@@ -35,7 +36,7 @@ class FrontController(BaseController):
         parser = AtomisatorConfig(config.get('atomisator.file'))
          
         # to export as configuration
-        xml = parser.file
+        xml = os.path.join(config.get('here'), parser.file)
         doc = etree.XML(open(xml).read())
         items = doc.xpath('/rss/channel/item')
        

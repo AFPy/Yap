@@ -14,7 +14,7 @@ setup(
     author='Tarek Ziadé',
     author_email='tarek@ziade.org',
     url='http://atomisator.ziade.org',
-    install_requires=["Pylons>=0.9.6.2", "lxml", "atomisator.main"],
+    install_requires=["Pylons>=0.9.6.2", "atomisator.main"],
     packages=find_packages(exclude=['ez_setup']),
     include_package_data=True,
     test_suite='nose.collector',
