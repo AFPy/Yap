@@ -6,31 +6,35 @@ currentArticle = 0;
 size = 50;
 
 function nextArticle() {
+  hideArticle(currentArticle);
   if (currentArticle<size) { 
     currentArticle+=1;
   }
-  showCurrent(); 
+  showArticle(currentArticle, false);
 }
 
 function previousArticle() {
+  hideArticle(currentArticle);
   if (currentArticle>0) {
-    currentArticle-=1; 
+    currentArticle-=1;
   }
-  showCurrent();
+  showArticle(currentArticle, false);
 }
 
-function showCurrent() {
-  showArticle(currentArticle);
+function hideArticle(id) {
+  $('#e'+id).hide();
+  $('#e'+id+'_ex').show();
 }
 
-function showArticle(id) {
+function showArticle(id, noscroll) {
   var current = $('#e'+id);
-  if (!current.is(':visible')) {
-        $("div.feedBody").hide('slow');
-  }
   current.slideToggle('slow');
-  /*$(document).scrollTo('#e'+id+'_sh', {duration: 1000, margin:true});*/
-  currentArticle = id;
+  if (!noscroll) {
+    $.scrollTo($('#e'+id+'_sh'), {duration: 750, easing: 'swing', 
+                           margin: true, offset: -10});
+  }
+  $('#e'+id+'_ex').hide();
+
 }
 
 $(document).bind('keydown', 'j', nextArticle);
@@ -42,10 +46,10 @@ $(document).ready(function() {
 
 %for id_, entry in enumerate(c.entries): 
  $("#e${id_}").hide(); 
- $("#e${id_}_sh").click(function() {showArticle(${id_})});
+ $("#e${id_}_sh").click(function() {hideArticle(currentArticle);showArticle(${id_}, false); currentArticle=${id_}});
 %endfor
 
-showCurrent();
+showArticle(currentArticle, true);
  
  });
 
@@ -53,10 +57,10 @@ showCurrent();
 
 <table id="entries">
 %for id_, entry in enumerate(c.entries):
-<tr class="feedEntry"> 
+<tr class="feedEntry" id="e${id_}_fe"> 
   <td class="feedTitle clickable" id="e${id_}_sh"> 
     ${entry['title']}  
-    <span class="extract">${entry['extract']}</span> 
+    <span class="extract" id="e${id_}_ex">${entry['extract']}</span> 
  </td>
  <td class="feedDate">
    ${entry['pubDate']}

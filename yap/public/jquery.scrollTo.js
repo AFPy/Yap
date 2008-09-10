@@ -97,6 +97,7 @@
 					if( t.is || t.style )//DOM/jQuery
 						toff = (t = $(t)).offset();//get the real position of the target 
 			}
+            
 			$.each( settings.axis.split(''), function( i, axis ){
 				var Pos	= axis == 'x' ? 'Left' : 'Top',
 					pos = Pos.toLowerCase(),
@@ -107,7 +108,7 @@
 
 				if( toff ){//jQuery/DOM
 					attr[key] = toff[pos] + ( win ? 0 : act - $elem.offset()[pos] );
-
+                    
 					if( settings.margin ){//if it's a dom element, reduce the margin
 						attr[key] -= parseInt(t.css('margin'+Pos)) || 0;
 						attr[key] -= parseInt(t.css('border'+Pos+'Width')) || 0;

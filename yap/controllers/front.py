@@ -3,6 +3,8 @@
 #
 import logging
 import os
+from os.path import join
+import shutil
 from lxml import etree
 import time
 import datetime
@@ -13,6 +15,9 @@ from yap.lib.base import *
 from atomisator.main.config import AtomisatorConfig
 
 log = logging.getLogger(__name__)
+root = os.path.split(os.path.dirname(__file__))[0]
+PUBLIC_RSS = os.path.realpath(join(root, 'public', 'rss.xml'))
+CONFIG = join(root, 'atomisator.cfg')
 
 class Html2Txt(SGMLParser):
     def reset(self):
@@ -32,11 +37,19 @@ class Html2Txt(SGMLParser):
 class FrontController(BaseController):
 
     def index(self):
+        parser = AtomisatorConfig(CONFIG)
         
-        parser = AtomisatorConfig(config.get('atomisator.file'))
-         
-        # to export as configuration
-        xml = os.path.join(config.get('here'), parser.file)
+        # getting the target xml file
+        xml = os.path.realpath(parser.file)
+        if not os.path.exists(xml):
+            xml = os.path.realpath(join(root, parser.file))
+            if not os.path.exists(xml):
+                raise ValueError('File %s not found' % xml)
+
+        # if not under public, we need to copy it to public/rss.xml
+        if xml != PUBLIC_RSS:
+            shutil.copyfile(xml, PUBLIC_RSS)
+
         doc = etree.XML(open(xml).read())
         items = doc.xpath('/rss/channel/item')
        
@@ -73,8 +86,5 @@ class FrontController(BaseController):
  
         c.entries = items
         c.title = doc.xpath('/rss/channel/title')[0].text
-        # Return a rendered template
-        #   return render('/some/template.mako')
-        # or, Return a response
         return render('/front.mako')
 

@@ -12,12 +12,12 @@
         ${h.rails.javascript_include_tag('/jquery.scrollTo.js')}
         ${h.rails.javascript_include_tag('/jquery.localscroll.js')}
         
-        <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="${h.url_for('/atomisator.xml')}" />
+        <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="${h.url_for('/rss.xml')}" />
     </head>
 	<body>
      <a name="top"></a>
      <div id="header">
-       <div id="rss"><a href="${h.url_for('/atomisator.xml')}"><img src="${h.url_for('/rss.png')}" alt="rss"/></a></div>
+       <div id="rss"><a href="${h.url_for('/rss.xml')}"><img src="${h.url_for('/rss.png')}" alt="rss"/></a></div>
       %if c.title:
       <div id="title">
         ${c.title}
@@ -28,7 +28,7 @@
         ${self.body()}
      </div>
      <div id="footer">
-        <div id="rss"><a href="${h.url_for('/atomisator.xml')}"><img src="${h.url_for('/rss.png')}" alt="rss"/></a></div>
+        <div id="rss"><a href="${h.url_for('/rss.xml')}"><img src="${h.url_for('/rss.png')}" alt="rss"/></a></div>
         <a href="http://atomisator.ziade.org">Powered by Atomisator</a> | <a href="#top">Top</a> <!--| <a href="/backoffice">Backoffice</a>-->
      </div>
 	</body>
