@@ -14,6 +14,8 @@ from sgmllib import SGMLParser
 from yap.lib.base import *
 from atomisator.main.config import AtomisatorConfig
 
+TITLESIZE = 70
+MAXSIZE = 150
 log = logging.getLogger(__name__)
 root = os.path.split(os.path.dirname(__file__))[0]
 PUBLIC_RSS = os.path.realpath(join(root, 'public', 'rss.xml'))
@@ -62,8 +64,8 @@ class FrontController(BaseController):
             if entry.tag == 'pubDate':
                 return entry.tag, _date(entry.text)
             if entry.tag == 'title':
-                if len(entry.text) > 100:
-                    return 'title', entry.text[:100] + '...'
+                if len(entry.text) > TITLESIZE:
+                    return 'title', entry.text[:TITLESIZE] + '...'
                 return 'title', entry.text
             return entry.tag, entry.text 
 
@@ -78,7 +80,9 @@ class FrontController(BaseController):
             parser.feed(html)
             parser.close()
             res = parser.output().strip()
-            size = 160 - len(title)
+            size = MAXSIZE - len(title)
+            if size < 0:
+                return ''
             return res[:size] + '...'            
 
         for i in items:
