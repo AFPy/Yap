@@ -30,6 +30,9 @@ setup(
 
     [paste.app_install]
     main = pylons.util:PylonsInstaller
+
+    [console_scripts]
+    yap_build = yap.run:run
     """,
 )
 
