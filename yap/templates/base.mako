@@ -29,7 +29,7 @@
      </div>
      <div id="footer">
         <div id="rss"><a href="${h.url_for('/rss.xml')}"><img src="${h.url_for('/rss.png')}" alt="rss"/></a></div>
-        <a href="http://atomisator.ziade.org">Powered by Atomisator</a> | <a href="#top">Top</a> <!--| <a href="/backoffice">Backoffice</a>-->
+        <a href="http://atomisator.ziade.org">Powered by Atomisator</a> | <a href="#top">Top</a> | <a href="/backoffice">Backoffice</a>
      </div>
 	</body>
 </html>

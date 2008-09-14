@@ -1,7 +1,4 @@
 <%inherit file="/base.mako" />
-<h1>Atomisator configuration</h1>
-
-
 ${h.form(h.url(action='update'), method='get')}
 <table>
   <tr>
