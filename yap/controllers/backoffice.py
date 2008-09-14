@@ -38,10 +38,52 @@ class BackofficeController(BaseController):
 
     
     def update(self):
-        # need to make AtomisatorConfig writeable
         parser = AtomisatorConfig(CONFIG)
+       
+        # TODO make atomisator cfg file read/writeable by text
+        # to avoid all this crappy parsing
         if request.GET.get('title', parser.title) != parser.title:
             parser.title = request.GET.get('title')
-        parser.write(open(CONFIG, 'w'))
+        
+        if request.GET.get('link', parser.link) != parser.link:
+            parser.link = request.GET.get('link')
+        
+        if request.GET.get('database', parser.database) != parser.database:
+            parser.database = request.GET.get('database')
+
+        current = ['%s %s'.strip() % (p[0], ' '.join(p[1])) 
+                   for p in parser.filters]
+        
+        filters = request.GET.get('filters', '\n'.join(current))
+        filters = [f for f in [s.strip() for s in filters.split('\n')]
+                   if f != '']
+        filters = [(u[0], tuple(u[1:])) for u in [f.split() for f in filters]]
+
+        if filters != parser.filters:
+            parser.filters = filters
+
+        current = ['%s %s'.strip() % (p[0], ' '.join(p[1])) 
+                   for p in parser.enhancers]
+        
+        enhancers = request.GET.get('enhancers', '\n'.join(current))
+        enhancers = [f for f in [s.strip() for s in enhancers.split('\n')]
+                   if f != '']
+        enhancers = [(u[0], tuple(u[1:])) for u in [f.split() for f in enhancers]]
+
+        if enhancers != parser.enhancers:
+            parser.enhancers = enhancers
+
+        current = ['%s %s'.strip() % (p[0], ' '.join(p[1])) 
+                   for p in parser.sources]
+        sources = request.GET.get('sources', '\n'.join(current))
+        sources = [f for f in [s.strip() for s in sources.split('\n')]
+                   if f != '']
+        sources = [(u[0], tuple(u[1:])) for u in [f.split() for f in sources]]
+
+        if sources != parser.sources:
+            parser.sources = sources
+
+
+        parser.write()
         redirect_to(action='index')
 
