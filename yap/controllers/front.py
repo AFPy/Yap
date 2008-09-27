@@ -41,10 +41,14 @@ class FrontController(BaseController):
     def index(self):
         parser = AtomisatorConfig(CONFIG)
         
+        # getting parameters for the rss output
+        rss = dict(parser.outputs)['rss']
+
         # getting the target xml file
-        xml = os.path.realpath(parser.file)
+        rss_file = rss[0]
+        xml = os.path.realpath(rss_file)
         if not os.path.exists(xml):
-            xml = os.path.realpath(join(root, parser.file))
+            xml = os.path.realpath(join(root, rss_file))
             if not os.path.exists(xml):
                 raise ValueError('File %s not found' % xml)
 

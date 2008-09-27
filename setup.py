@@ -20,6 +20,13 @@ setup(
     include_package_data=True,
     test_suite='nose.collector',
     package_data={'yap': ['i18n/*/LC_MESSAGES/*.mo']},
+    licence="Python",
+    classifiers=[
+        "Programming Language :: Python",
+        "Topic :: Software Development :: Libraries :: Python Modules",
+        "License :: OSI Approved :: Python Software Foundation License",
+        ],
+    keywords='afpy atomisator',
     #message_extractors = {'yap': [
     #        ('**.py', 'python', None),
     #        ('templates/**.mako', 'mako', None),
