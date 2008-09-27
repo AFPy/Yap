@@ -8,10 +8,14 @@ except ImportError:
     use_setuptools()
     from setuptools import setup, find_packages
 
+README = open('README.txt').read() + '\n\n'
+CHANGES = open('CHANGES').read() + '\n\n'
+
 setup(
     name='Yap',
     version=version,
     description='Yet Another Planet.',
+    long_description=README+CHANGES,
     author='Tarek Ziadé',
     author_email='tarek@ziade.org',
     url='http://atomisator.ziade.org',
