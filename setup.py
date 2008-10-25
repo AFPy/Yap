@@ -9,6 +9,7 @@ except ImportError:
     from setuptools import setup, find_packages
 
 README = open('README.txt').read() + '\n\n'
+CHANGES = ''
 
 setup(
     name='Yap',
