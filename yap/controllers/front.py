@@ -79,6 +79,11 @@ class FrontController(BaseController):
         
         # building an extract
         def _extract(html, title):
+            if isinstance(html, unicode):
+                try:
+                    html = html.decode('utf8')
+                except:
+                    html = str(type(html))
             parser = Html2Txt()
             parser.reset()
             parser.feed(html)
