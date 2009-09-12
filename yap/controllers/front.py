@@ -60,7 +60,7 @@ class FrontController(BaseController):
         items = doc.xpath('/rss/channel/item')
        
         def _date(value):
-            d = time.strptime(value, '%Y-%m-%d %H:%M:%S')
+            d = time.strptime(value.split('.')[0], '%Y-%m-%d %H:%M:%S')
             d = datetime.datetime(*d[:6])
             return d.strftime('%d/%m/%Y')
 
