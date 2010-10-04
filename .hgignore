@@ -1,0 +1,10 @@
+bin/
+.*pyc$
+.egg-link$
+.egg-info
+.installed.cfg
+afpy.xap.db
+atomisator.db
+parts/
+data/
+yap/public/rss.xml

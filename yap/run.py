@@ -1,8 +1,8 @@
 import sys
-import os
+from os.path import dirname, join
 from atomisator.main.run import atomisator
 
-CONFIG = os.path.join(os.path.dirname(__file__), 'atomisator.cfg')
+CONFIG = join(dirname(dirname(__file__)), 'atomisator.cfg')
 
 def run():
     old = sys.argv

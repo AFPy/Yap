@@ -3,7 +3,7 @@
 #
 import logging
 import os
-from os.path import join
+from os.path import join, dirname
 import shutil
 from lxml import etree
 import time
@@ -19,7 +19,7 @@ MAXSIZE = 150
 log = logging.getLogger(__name__)
 root = os.path.split(os.path.dirname(__file__))[0]
 PUBLIC_RSS = os.path.realpath(join(root, 'public', 'rss.xml'))
-CONFIG = join(root, 'atomisator.cfg')
+CONFIG = join(dirname(root), 'atomisator.cfg')
 
 class Html2Txt(SGMLParser):
     def reset(self):
